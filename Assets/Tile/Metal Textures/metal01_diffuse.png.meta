@@ -1,0 +1,1412 @@
+fileFormatVersion: 2
+guid: 64b63120021ae80429a026750d64b29b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37402
+  packageName: Basic Metal Texture Pack
+  packageVersion: 1.0
+  assetPath: Assets/Basic Metal Texture Pack/Metal Textures/metal01_diffuse.png
+  uploadId: 64598
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: metal01_diffuse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06258f2e442782944856b36b6af9ea4e
+      internalID: -1449170378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3261e8056f9f59f48b10b3544e99ac97
+      internalID: 129981029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00abe3053d4adee4ca808aed771a1772
+      internalID: -142927832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8a5826746dbde4d87fe1d5ac1ffc39
+      internalID: 526442635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51714e71bbd83fe45b22651c9b813db5
+      internalID: 1853713298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db7fef438118fe41b4658878b0b027f
+      internalID: 524228790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc198ad133e4a24b96213a43e2be16b
+      internalID: -1713799189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 895
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe7a7d90d4e5404498eb75bf02725c4
+      internalID: -1639143937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe2655b7daa4ca429b746f53cc470b5
+      internalID: -1736882671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502dc4c00e181bd4a97bcbb5fc2ae75d
+      internalID: -193938172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580da9922fa8e3542b8bd71b8ad62003
+      internalID: -388641847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6673ff7948ef44195c52ed25284f88
+      internalID: -1381738656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461091e2ec091964fbd2a44ba8cc428e
+      internalID: 1488235459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47f77a2b51c8f34394efb052d7fe0be
+      internalID: -1893780724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50f425465b07e642a6ba64cd3a225c2
+      internalID: 463767671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 766
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495ab146343f646448aa0b1d4a515241
+      internalID: 392963767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d325b1d5e28ac0429136460cf2393f1
+      internalID: -1516141002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aa8dc1e0cc0c14db39a30fd7091c09
+      internalID: -627630712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8307d11de2893d841a312c5d3bc2d58e
+      internalID: -314210976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb8dc089ef9e343a1368d2402c76fd
+      internalID: -1261013041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0e5c743ecfaf94ca08802d60d58c41
+      internalID: 1587733105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433a9ddf32d775345be1a9809acc611e
+      internalID: 869660351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f4b0f66c3361244a042577998d4d25
+      internalID: -936104210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 637
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78967e7e47f2024ba838d0e68446a8f
+      internalID: 1777586328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a18a70d25b131b47bacc1126144dea3
+      internalID: -887371313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55942b7af2b4094ca67fb8189f093a0
+      internalID: 459227346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a855361844cd534eadd326ea685f751
+      internalID: 1623068412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0073ab5ff9c8c4a8fe9996bf80bfa7
+      internalID: 2073597984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875e5e23b1c4c4f48ba35d97bf440ef8
+      internalID: 576423400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556204464dffd6b4c9df539e7903121f
+      internalID: 739008686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb725caf7e66d4e9b6dcc85bfd74d6
+      internalID: -959750554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 508
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef1b6de7e5a904f8872104e4fc346b
+      internalID: 1387232258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a55e436d0189940881f0a8acbe91e2
+      internalID: 412949571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517bfb010a9ed6847891e38cd05e3d6b
+      internalID: -982062017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6681006fe26c749b632b71c6f430ad
+      internalID: -1286624735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8b5a05faad009438dc59e6b5ab7d7c
+      internalID: 1191247011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9eab2d2873e22448d92c1e261a5135
+      internalID: -226901738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6c4ad84a64cca4d9560601e96f3ed3
+      internalID: 1660315065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bcfc36be1498241ac91ce841143997
+      internalID: -1505543270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 379
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009bc6094c867e245b3b8db5623bd235
+      internalID: -1743789845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8fc87cc07e88a4ca5aae1cc35e6f34
+      internalID: 258510414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb148ac8fe6b974e9230a322b087bb1
+      internalID: -1341567259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef4494408f2e9549b872ec2cf24f81b
+      internalID: 361775265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff7cd431c60f24d9662675a98690e7
+      internalID: 1847320432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95af9b7cc022bb64489096a8baadbf06
+      internalID: 2006408086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae40437d7eed26b47b583a05ae45c7ac
+      internalID: 827376660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad196f8af40a49b4db8cd0c6d84cc20f
+      internalID: -1822888135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 250
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33726b44e11791d419eb9d9fde2056d2
+      internalID: 1805756409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dbecc195897f34e822825edc4553b0
+      internalID: -19681462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cbdc59417009747ba6b139912464a8
+      internalID: 1749626442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc2e238781de348b8d729fa19697fa
+      internalID: 1763371862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a467dbbd8401c64496192892901b051
+      internalID: 1903218742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a321af7a14a6848bc8400dfe265e87
+      internalID: -214611191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32be304cf79a6874489265e1f2a0d2a9
+      internalID: -1494734973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049f923cbfbad2743a043532a97a6edd
+      internalID: -560582346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal01_diffuse_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 121
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea06ca97d699374caf4f78762bc537e
+      internalID: -111651735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa9eeb2ab4253274d9da85c5eda656d6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      metal01_diffuse_0: -1449170378
+      metal01_diffuse_1: 129981029
+      metal01_diffuse_10: -388641847
+      metal01_diffuse_11: -1381738656
+      metal01_diffuse_12: 1488235459
+      metal01_diffuse_13: -1893780724
+      metal01_diffuse_14: 463767671
+      metal01_diffuse_15: 392963767
+      metal01_diffuse_16: -1516141002
+      metal01_diffuse_17: -627630712
+      metal01_diffuse_18: -314210976
+      metal01_diffuse_19: -1261013041
+      metal01_diffuse_2: -142927832
+      metal01_diffuse_20: 1587733105
+      metal01_diffuse_21: 869660351
+      metal01_diffuse_22: -936104210
+      metal01_diffuse_23: 1777586328
+      metal01_diffuse_24: -887371313
+      metal01_diffuse_25: 459227346
+      metal01_diffuse_26: 1623068412
+      metal01_diffuse_27: 2073597984
+      metal01_diffuse_28: 576423400
+      metal01_diffuse_29: 739008686
+      metal01_diffuse_3: 526442635
+      metal01_diffuse_30: -959750554
+      metal01_diffuse_31: 1387232258
+      metal01_diffuse_32: 412949571
+      metal01_diffuse_33: -982062017
+      metal01_diffuse_34: -1286624735
+      metal01_diffuse_35: 1191247011
+      metal01_diffuse_36: -226901738
+      metal01_diffuse_37: 1660315065
+      metal01_diffuse_38: -1505543270
+      metal01_diffuse_39: -1743789845
+      metal01_diffuse_4: 1853713298
+      metal01_diffuse_40: 258510414
+      metal01_diffuse_41: -1341567259
+      metal01_diffuse_42: 361775265
+      metal01_diffuse_43: 1847320432
+      metal01_diffuse_44: 2006408086
+      metal01_diffuse_45: 827376660
+      metal01_diffuse_46: -1822888135
+      metal01_diffuse_47: 1805756409
+      metal01_diffuse_48: -19681462
+      metal01_diffuse_49: 1749626442
+      metal01_diffuse_5: 524228790
+      metal01_diffuse_50: 1763371862
+      metal01_diffuse_51: 1903218742
+      metal01_diffuse_52: -214611191
+      metal01_diffuse_53: -1494734973
+      metal01_diffuse_54: -560582346
+      metal01_diffuse_55: -111651735
+      metal01_diffuse_6: -1713799189
+      metal01_diffuse_7: -1639143937
+      metal01_diffuse_8: -1736882671
+      metal01_diffuse_9: -193938172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
