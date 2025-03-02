@@ -1480,7 +1480,7 @@ MonoBehaviour:
   keyPrefab: {fileID: 7467059436528458156, guid: 83d0f522701cacc4a9778b0b83e8c2c9, type: 3}
   keySpawnPoint: {fileID: 618782503}
   timer: {fileID: 1582347461}
-  remainingTime: 30
+  remainingTime: 10
   keyNumber: 8
   spin: {fileID: 290598402}
 --- !u!4 &1664692427
