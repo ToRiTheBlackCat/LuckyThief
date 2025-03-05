@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Prop
+  - Building
+  - Wall
+  - Chest
+  - Ground
+  - Stair
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Wall
+  - Ground
+  - Player
+  - Mid
+  - Top
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3193176575
+    locked: 0
+  - name: Mid
+    uniqueID: 473020827
+    locked: 0
+  - name: Player
+    uniqueID: 3891778323
+    locked: 0
+  - name: Enemy
+    uniqueID: 578776789
+    locked: 0
+  - name: Wall
+    uniqueID: 2168735273
+    locked: 0
+  - name: Top
+    uniqueID: 2110132113
+    locked: 0
+  m_RenderingLayers:
+  - Default
