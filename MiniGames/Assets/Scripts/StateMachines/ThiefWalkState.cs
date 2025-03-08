@@ -27,9 +27,14 @@ namespace Assets.Scripts.StateMachines
                 // Change state to Idle
                 _stateMachine.EnterState(_thief.idleState);
             }
+            
+            if (_thief.xAxis != 0)
+            {
+                _thief.SetSprite(_thief.xAxis, _thief.yAxis);
+            }
 
             _thief.SetVelocity(_thief.xAxis, _thief.yAxis);
-            _thief.SetSprite(_thief.xAxis, _thief.yAxis);
+            
         }
 
         public override void Exit()

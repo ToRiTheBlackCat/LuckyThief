@@ -13,7 +13,6 @@ public class PlayerUIScript : MonoBehaviour
 
     private void Start()
     {
-        GameOverScreen = GameObject.FindGameObjectWithTag("GameOver");
         GameOverScreen.SetActive(false);
 
         RetryButton.onClick.AddListener(() =>

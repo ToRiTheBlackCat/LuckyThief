@@ -26,19 +26,19 @@ namespace Assets.Scripts.StateMachines
 
         public virtual void Enter()
         {
-            Debug.Log($"Enter state: {_animBoolName}");
+            //Debug.Log($"Enter state: {_animBoolName}");
             _thief.animator.SetBool(_animBoolName, true);
             triggerCalled = false;
         }
 
         public virtual void Update()
         {
-            Debug.Log($"Running state: {_animBoolName}");
+            //Debug.Log($"Running state: {_animBoolName}");
         }
 
         public virtual void Exit()
         {
-            Debug.Log($"Exit state: {_animBoolName}");
+            //Debug.Log($"Exit state: {_animBoolName}");
             _thief.animator.SetBool(_animBoolName, false);
         }
 

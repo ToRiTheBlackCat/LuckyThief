@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using Assets.Scripts.StateMachines;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -32,6 +33,7 @@ public class ThiefScript : MonoBehaviour
     #region Interact area Settings
     [Header("Interact area Settings")]
     [SerializeField] private LayerMask _interactCheckMask;
+    [SerializeField] private float interactDistance;
     #endregion
 
 
@@ -45,6 +47,8 @@ public class ThiefScript : MonoBehaviour
 
     private void Awake()
     {
+        GameManagerSingleton.Player = this;
+
         stateMachine = new ThiefStateMachine();
 
         idleState = new ThiefIdleState(this, stateMachine, "Idle");
@@ -68,14 +72,13 @@ public class ThiefScript : MonoBehaviour
 
         var animTriggers = GetComponentInChildren<ThiefAnimationTriggers>();
 
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
-   
+
     void Update()
     {
         CameraFollow();
-        SetSprite(Velocity.x, Velocity.y);
     }
 
     private void FixedUpdate()
@@ -99,7 +102,7 @@ public class ThiefScript : MonoBehaviour
         camTransform.position = Vector3.Lerp(camTransform.position, followPosition, followAccel);
     }
 
-    
+
     private void ProcessMovement()
     {
         var forwardPress = Input.GetKey(KeyCode.W);
@@ -131,6 +134,12 @@ public class ThiefScript : MonoBehaviour
             _spriteRenderer.flipX = xVel > 0 ? false : true;
         }
 
+        var interactCheck = GetComponentInChildren<InteractCheckScript>();
+
+        var position = interactCheck.transform.localPosition;
+        position.x = interactDistance * xVel;
+
+        interactCheck.transform.localPosition = position;
         //animator.SetBool(isMovingHash, xVel != 0f || yVel != 0f);
     }
 

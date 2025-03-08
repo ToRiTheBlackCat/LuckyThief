@@ -1,14 +1,17 @@
 ﻿using NUnit.Framework;
+using System;
 using UnityEngine;
 
+[Serializable]
 public enum WeightClass
 {
-    None,
-    Light,
-    Medium,
-    Heavy
+    None = 0,
+    Light = 1,
+    Medium = 2,
+    Heavy = 3
 }
 
+[Serializable]
 public enum ItemType
 {
     Normal,
@@ -21,7 +24,10 @@ public class InventoryItemResource : ScriptableObject
 {
     public string itemName;
     public Sprite sprite;
-    public WeightClass weight { get; private set; }
-    public ItemType type { get; private set; }
+    [SerializeField] private WeightClass weight;
+    [SerializeField] private ItemType type;
+
+    public WeightClass Weight => weight;
+    public ItemType Type => type;
 }
 

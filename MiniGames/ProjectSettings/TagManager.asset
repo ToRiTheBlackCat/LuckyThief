@@ -16,9 +16,9 @@ TagManager:
   - UI
   - CheckArea
   - Wall
-  - 
-  - 
-  - 
+  - Furniture
+  - Interactable
+  - MiniGame
   - 
   - 
   - 
@@ -47,11 +47,20 @@ TagManager:
   - name: Ground
     uniqueID: 1336415905
     locked: 0
+  - name: Wall
+    uniqueID: 2767087279
+    locked: 0
   - name: Environment
     uniqueID: 3782093749
     locked: 0
   - name: Characters
     uniqueID: 3105480415
+    locked: 0
+  - name: Obscure Wall
+    uniqueID: 979887111
+    locked: 0
+  - name: UI
+    uniqueID: 3192595265
     locked: 0
   m_RenderingLayers:
   - Default

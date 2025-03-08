@@ -1,0 +1,1366 @@
+fileFormatVersion: 2
+guid: 71fa43a9b220444458fdaa7ba0a7a8d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7271763527299383784
+    second: PixelOfficeAssets_0
+  - first:
+      213: 3676147891487690484
+    second: PixelOfficeAssets_1
+  - first:
+      213: -6477493617829449613
+    second: PixelOfficeAssets_2
+  - first:
+      213: 4083885089593249691
+    second: PixelOfficeAssets_3
+  - first:
+      213: -1670024694500576332
+    second: PixelOfficeAssets_4
+  - first:
+      213: -2324927289413320140
+    second: PixelOfficeAssets_5
+  - first:
+      213: 8556382469748982914
+    second: PixelOfficeAssets_6
+  - first:
+      213: 5276665719044959393
+    second: PixelOfficeAssets_7
+  - first:
+      213: -1790682264551540933
+    second: PixelOfficeAssets_8
+  - first:
+      213: -8603951370828081914
+    second: PixelOfficeAssets_9
+  - first:
+      213: -2777367087475402831
+    second: PixelOfficeAssets_10
+  - first:
+      213: 1234045625099090367
+    second: PixelOfficeAssets_11
+  - first:
+      213: -195785525709385407
+    second: PixelOfficeAssets_12
+  - first:
+      213: -7851682181384933989
+    second: PixelOfficeAssets_13
+  - first:
+      213: -342301325801493883
+    second: PixelOfficeAssets_14
+  - first:
+      213: 4761254373709036940
+    second: PixelOfficeAssets_15
+  - first:
+      213: -6736183305252478953
+    second: PixelOfficeAssets_16
+  - first:
+      213: -821808532107802635
+    second: PixelOfficeAssets_17
+  - first:
+      213: -5646501864941631083
+    second: PixelOfficeAssets_18
+  - first:
+      213: 4752718965130528658
+    second: PixelOfficeAssets_19
+  - first:
+      213: 6663607382090127383
+    second: PixelOfficeAssets_20
+  - first:
+      213: -965188444248818786
+    second: PixelOfficeAssets_21
+  - first:
+      213: 4485465026094667126
+    second: PixelOfficeAssets_22
+  - first:
+      213: -4576943631702441962
+    second: PixelOfficeAssets_23
+  - first:
+      213: 5132571747697680498
+    second: PixelOfficeAssets_24
+  - first:
+      213: 4563191688391546345
+    second: PixelOfficeAssets_25
+  - first:
+      213: -6577931756215185911
+    second: PixelOfficeAssets_26
+  - first:
+      213: 5419390883246644464
+    second: PixelOfficeAssets_27
+  - first:
+      213: 5000613781093252364
+    second: PixelOfficeAssets_28
+  - first:
+      213: -4435885805887634418
+    second: PixelOfficeAssets_29
+  - first:
+      213: -8066190925033470020
+    second: PixelOfficeAssets_30
+  - first:
+      213: 2692148016969119746
+    second: PixelOfficeAssets_31
+  - first:
+      213: 3467554412643907554
+    second: PixelOfficeAssets_32
+  - first:
+      213: 8337764890687534412
+    second: PixelOfficeAssets_33
+  - first:
+      213: 5104892911730743447
+    second: PixelOfficeAssets_34
+  - first:
+      213: 6120954501006694737
+    second: PixelOfficeAssets_35
+  - first:
+      213: -4930726930409121452
+    second: PixelOfficeAssets_36
+  - first:
+      213: -1255217664399373725
+    second: PixelOfficeAssets_37
+  - first:
+      213: 7144587705238411963
+    second: PixelOfficeAssets_38
+  - first:
+      213: -4503781077620338201
+    second: PixelOfficeAssets_39
+  - first:
+      213: -7179098694952198742
+    second: PixelOfficeAssets_40
+  - first:
+      213: 3119051065560786289
+    second: PixelOfficeAssets_41
+  - first:
+      213: 1164198214596868580
+    second: PixelOfficeAssets_42
+  - first:
+      213: 4863692313126216162
+    second: PixelOfficeAssets_43
+  - first:
+      213: -8458901710768802028
+    second: PixelOfficeAssets_44
+  - first:
+      213: -5607137567527353434
+    second: PixelOfficeAssets_45
+  - first:
+      213: -386728607022801062
+    second: PixelOfficeAssets_46
+  - first:
+      213: -8482251252452995244
+    second: PixelOfficeAssets_47
+  - first:
+      213: 6750547504434444062
+    second: PixelOfficeAssets_48
+  - first:
+      213: 7800556918131655672
+    second: PixelOfficeAssets_49
+  - first:
+      213: 7057848806957298190
+    second: PixelOfficeAssets_50
+  - first:
+      213: -3630164164910445282
+    second: PixelOfficeAssets_51
+  - first:
+      213: 8295066425557332125
+    second: PixelOfficeAssets_52
+  - first:
+      213: -2885904433027117117
+    second: PixelOfficeAssets_53
+  - first:
+      213: 39153548765281415
+    second: PixelOfficeAssets_54
+  - first:
+      213: 2421527390207758791
+    second: PixelOfficeAssets_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelOfficeAssets_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feccedb70d440330800000000000000
+      internalID: 3676147891487690484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 96
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3707a62bfd15b16a0800000000000000
+      internalID: -6477493617829449613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 96
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f48b40adfdca830800000000000000
+      internalID: 4083885089593249691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 96
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3b9267361e2d8e0800000000000000
+      internalID: -1670024694500576332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 96
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43248e1c2f23cbfd0800000000000000
+      internalID: -2324927289413320140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 96
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28484c7c5806eb670800000000000000
+      internalID: 8556382469748982914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 96
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ace726b38b7a3940800000000000000
+      internalID: 5276665719044959393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3730d3c7f73627e0800000000000000
+      internalID: -1790682264551540933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 98
+        width: 81
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6059e0d50df989880800000000000000
+      internalID: -8603951370828081914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 77
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7da2c595fc479d0800000000000000
+      internalID: -2777367087475402831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 69
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9f7a035f5302110800000000000000
+      internalID: 1234045625099090367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 77
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141dde70a1e684df0800000000000000
+      internalID: -195785525709385407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 67
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d6941f7a8390390800000000000000
+      internalID: -7851682181384933989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 69
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ae47df1c6ef3bf0800000000000000
+      internalID: -342301325801493883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 78
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db33e60af531240800000000000000
+      internalID: 4761254373709036940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_16
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 60
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710628449f44482a0800000000000000
+      internalID: -6736183305252478953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_17
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 75
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f744528e795894f0800000000000000
+      internalID: -821808532107802635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_18
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 67
+        width: 19
+        height: 13
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599c294687893a1b0800000000000000
+      internalID: -5646501864941631083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 42
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7181724db93e97c50800000000000000
+      internalID: 6663607382090127383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 42
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bbc374936fa92f0800000000000000
+      internalID: -965188444248818786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 41
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6759fcc1da29f3e30800000000000000
+      internalID: 4485465026094667126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 57
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610c363440e6b70c0800000000000000
+      internalID: -4576943631702441962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 57
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e9bd9fce8a3740800000000000000
+      internalID: 5132571747697680498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 56
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5d79ce9a6b35f30800000000000000
+      internalID: 4563191688391546345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 56
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e480a4bed76b4a0800000000000000
+      internalID: -6577931756215185911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 44
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc18ee8b4b853b40800000000000000
+      internalID: 5419390883246644464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 57
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d7cf05dbfb56540800000000000000
+      internalID: 5000613781093252364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_29
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 57
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04ced3ac519072c0800000000000000
+      internalID: -4435885805887634418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_30
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 57
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb786e617122f0090800000000000000
+      internalID: -8066190925033470020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_33
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 45
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4577222ef0b5b370800000000000000
+      internalID: 8337764890687534412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_34
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798de1c6e0938d640800000000000000
+      internalID: 5104892911730743447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_35
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 43
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15915de30bff1f450800000000000000
+      internalID: 6120954501006694737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 43
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459138c1bf9829bb0800000000000000
+      internalID: -4930726930409121452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 34
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a0ea54f22949ee0800000000000000
+      internalID: -1255217664399373725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_39
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e15052d8fa5f71c0800000000000000
+      internalID: -4503781077620338201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_40
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 22
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad57eff5c7be5c90800000000000000
+      internalID: -7179098694952198742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 32
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1afacc36e4f7340800000000000000
+      internalID: 4863692313126216162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_44
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4177ea316b1fb9a80800000000000000
+      internalID: -8458901710768802028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_45
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 12
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3c8c817127f22b0800000000000000
+      internalID: -5607137567527353434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_49
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3047b1035214c60800000000000000
+      internalID: 7800556918131655672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_50
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02ba19881482f160800000000000000
+      internalID: 7057848806957298190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_51
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d092aece01f9dc0800000000000000
+      internalID: -3630164164910445282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d903d9307fefd1370800000000000000
+      internalID: 8295066425557332125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_53
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 11
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf81b5553533f7d0800000000000000
+      internalID: -2885904433027117117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_54
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cb9d5f1f91b8000800000000000000
+      internalID: 39153548765281415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelOfficeAssets_55
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 8
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c15633e45efa9120800000000000000
+      internalID: 2421527390207758791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ebaded84e3d350846b6e37192432c0fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PixelOfficeAssets_0: -7271763527299383784
+      PixelOfficeAssets_1: 3676147891487690484
+      PixelOfficeAssets_10: -2777367087475402831
+      PixelOfficeAssets_11: 1234045625099090367
+      PixelOfficeAssets_12: -195785525709385407
+      PixelOfficeAssets_13: -7851682181384933989
+      PixelOfficeAssets_14: -342301325801493883
+      PixelOfficeAssets_15: 4761254373709036940
+      PixelOfficeAssets_16: -6736183305252478953
+      PixelOfficeAssets_17: -821808532107802635
+      PixelOfficeAssets_18: -5646501864941631083
+      PixelOfficeAssets_19: 4752718965130528658
+      PixelOfficeAssets_2: -6477493617829449613
+      PixelOfficeAssets_20: 6663607382090127383
+      PixelOfficeAssets_21: -965188444248818786
+      PixelOfficeAssets_22: 4485465026094667126
+      PixelOfficeAssets_23: -4576943631702441962
+      PixelOfficeAssets_24: 5132571747697680498
+      PixelOfficeAssets_25: 4563191688391546345
+      PixelOfficeAssets_26: -6577931756215185911
+      PixelOfficeAssets_27: 5419390883246644464
+      PixelOfficeAssets_28: 5000613781093252364
+      PixelOfficeAssets_29: -4435885805887634418
+      PixelOfficeAssets_3: 4083885089593249691
+      PixelOfficeAssets_30: -8066190925033470020
+      PixelOfficeAssets_31: 2692148016969119746
+      PixelOfficeAssets_32: 3467554412643907554
+      PixelOfficeAssets_33: 8337764890687534412
+      PixelOfficeAssets_34: 5104892911730743447
+      PixelOfficeAssets_35: 6120954501006694737
+      PixelOfficeAssets_36: -4930726930409121452
+      PixelOfficeAssets_37: -1255217664399373725
+      PixelOfficeAssets_38: 7144587705238411963
+      PixelOfficeAssets_39: -4503781077620338201
+      PixelOfficeAssets_4: -1670024694500576332
+      PixelOfficeAssets_40: -7179098694952198742
+      PixelOfficeAssets_41: 3119051065560786289
+      PixelOfficeAssets_42: 1164198214596868580
+      PixelOfficeAssets_43: 4863692313126216162
+      PixelOfficeAssets_44: -8458901710768802028
+      PixelOfficeAssets_45: -5607137567527353434
+      PixelOfficeAssets_46: -386728607022801062
+      PixelOfficeAssets_47: -8482251252452995244
+      PixelOfficeAssets_48: 6750547504434444062
+      PixelOfficeAssets_49: 7800556918131655672
+      PixelOfficeAssets_5: -2324927289413320140
+      PixelOfficeAssets_50: 7057848806957298190
+      PixelOfficeAssets_51: -3630164164910445282
+      PixelOfficeAssets_52: 8295066425557332125
+      PixelOfficeAssets_53: -2885904433027117117
+      PixelOfficeAssets_54: 39153548765281415
+      PixelOfficeAssets_55: 2421527390207758791
+      PixelOfficeAssets_6: 8556382469748982914
+      PixelOfficeAssets_7: 5276665719044959393
+      PixelOfficeAssets_8: -1790682264551540933
+      PixelOfficeAssets_9: -8603951370828081914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

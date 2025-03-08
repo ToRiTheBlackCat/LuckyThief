@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,7 +20,11 @@ public class NoiseController : MonoBehaviour
     public UnityEvent<float> onNoiseChange;
     public UnityEvent onThreshold;
 
-    
+    private void Awake()
+    {
+        GameManagerSingleton.NoiseController = this;
+    }
+
     void Update()
     {
         if (isDegrading && currentNoise > 0f)
@@ -35,6 +40,10 @@ public class NoiseController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="amount"></param>
     public void AddNoise(float amount)
     {
         currentNoise = Mathf.Clamp(currentNoise + amount, 0, noiseThreshold);
