@@ -349,7 +349,7 @@ MonoBehaviour:
   OnInteractEnter:
     m_PersistentCalls:
       m_Calls: []
-  checkRadius: 0.75
+  checkRadius: 0.72
   interactableMask:
     serializedVersion: 2
     m_Bits: 512
@@ -463,7 +463,7 @@ MonoBehaviour:
   _interactCheckMask:
     serializedVersion: 2
     m_Bits: 0
-  interactDistance: 1.08
+  interactDistance: 0.7
   followAccel: 0.03
   maxFollowDistance: 3
 --- !u!114 &8787697781029113644
