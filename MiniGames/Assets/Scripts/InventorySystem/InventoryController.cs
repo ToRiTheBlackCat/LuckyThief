@@ -1,5 +1,6 @@
 using Assets.Scripts.InventorySystem;
 using Assets.Scripts.StateMachines;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditorInternal.Profiling.Memory.Experimental;
@@ -59,44 +60,45 @@ public class InventoryController : MonoBehaviour
     {
         ItemWorld.inventoryInstance = this;
 
-        toolBelt = new List<Item>()
-        {
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 2,
-            },
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 0,
-            },
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 0,
-            },
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 0,
-            },
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 0,
-            },
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 0,
-            },
-            new Item()
-            {
-                resource = _meatResource,
-                amount = 2,
-            }
-        };
+        toolBelt = new List<Item>();
+        //toolBelt = new List<Item>()
+        //{
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 2,
+        //    },
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 0,
+        //    },
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 0,
+        //    },
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 0,
+        //    },
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 0,
+        //    },
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 0,
+        //    },
+        //    new Item()
+        //    {
+        //        resource = _meatResource,
+        //        amount = 2,
+        //    }
+        //};
     }
 
     void Start()
@@ -175,16 +177,15 @@ public class InventoryController : MonoBehaviour
             {
                 toolBelt.Add(newItem);
             }
-
-            inventoryUI.SetInventory(this);
         }
         else
         {
             newItem.amount = 1;
             toolBelt.Add(newItem);
-            inventoryUI.SetInventory(this);
         }
 
+        toolBeltIndex = Math.Clamp(toolBeltIndex, 0, MaxToolIndex);
+        inventoryUI.SetInventory(this);
         return true;
     }
 
