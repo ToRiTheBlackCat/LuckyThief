@@ -65,7 +65,7 @@ public class GameController : MonoBehaviour
         audioController.PlayFailSound();
         StartCoroutine(DisapearSpinAnimation());
 
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
         Debug.Log("Game Over");
         interactableController.CloseShootingKeyGame();
     }
