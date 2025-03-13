@@ -31,11 +31,11 @@ public class InteractCheckScript : MonoBehaviour
                 var interactable = currentGameObj.GetComponent<InteractableScript>();
                 interactable.SetHighLight(true);
             }
-            else
-            {
-                var interactable = currentGameObj.GetComponent<InteractableScript>();
-                interactable.SetHighLight(true);
-            }
+            //else
+            //{
+            //    var interactable = currentGameObj.GetComponent<InteractableScript>();
+            //    interactable.SetHighLight(true);
+            //}
         }
         else
         {
@@ -53,30 +53,5 @@ public class InteractCheckScript : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(transform.position, checkRadius);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //OnInteractEnter.Invoke(collision);
-
-        var interact = collision.gameObject.GetComponent<InteractableScript>();
-
-        if (interact != null)
-        {
-            interact.SetHighLight(true);
-            Debug.Log("Interactable collided");
-            OnInteractEnter?.Invoke(collision.gameObject);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        var interact = collision.gameObject.GetComponent<InteractableScript>();
-
-        if (interact != null)
-        {
-            interact.SetHighLight(false);
-            Debug.Log("Interactable exited");
-        }
     }
 }

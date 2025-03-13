@@ -17,9 +17,8 @@ public class PlayerUIScript : MonoBehaviour
 
         RetryButton.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene("Assets/Scenes/TestLevel.unity");
+            SceneManager.LoadScene("Assets/Scenes/House3.unity");
             Time.timeScale = 1f;
-            Cursor.lockState = CursorLockMode.Locked;
         });
     }
 
@@ -32,8 +31,7 @@ public class PlayerUIScript : MonoBehaviour
     {
         GameOverScreen.SetActive(true);
 
-        Time.timeScale = 0f;
-        Cursor.lockState = CursorLockMode.Confined;
+        //Time.timeScale = 0f;
     }
 
 

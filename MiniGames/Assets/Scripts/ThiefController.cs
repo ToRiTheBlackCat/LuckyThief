@@ -8,10 +8,10 @@ public class ThiefScript : MonoBehaviour
     #region Components
     public Rigidbody2D rBody;
     [SerializeField] private Camera _camera;
-    private SpriteRenderer _spriteRenderer;
+    [SerializeField] private SpriteRenderer _spriteRenderer;
+    [SerializeField] private SpriteRenderer _shadowRenderer;
     public Animator animator;
-    [SerializeField] private ThrowableScript _throwable;
-    [SerializeField] private NoiseController NoiseController;
+    [SerializeField] private NoiseController _noiseController;
     [SerializeField] private PlayerUIScript PlayerUI;
 
     private InteractCheckScript _interactCheck;
@@ -47,8 +47,13 @@ public class ThiefScript : MonoBehaviour
 
     private void Awake()
     {
-        GameManagerSingleton.Player = this;
+        rBody = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
+        _noiseController = GetComponent<NoiseController>();
+        _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
+        _noiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
 
+        #region Init StateMachine
         stateMachine = new ThiefStateMachine();
 
         idleState = new ThiefIdleState(this, stateMachine, "Idle");
@@ -56,16 +61,14 @@ public class ThiefScript : MonoBehaviour
         throwState = new ThiefThrowState(this, stateMachine, "Throw");
 
         stateMachine.Initialize(idleState);
+        #endregion
+
+        _interactCheck = GetComponentInChildren<InteractCheckScript>();
     }
 
     void Start()
     {
-        rBody = GetComponent<Rigidbody2D>();
-        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        animator = GetComponentInChildren<Animator>();
-        NoiseController = GetComponent<NoiseController>();
-        NoiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
-        NoiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
+        GameManagerSingleton.Player = this;
 
         //_interactCheck = GetComponentInChildren<InteractCheckScript>();
         //_interactCheck.OnInteractEnter.AddListener(x => OnInteractCheckCollisionEnter(x));
@@ -131,16 +134,14 @@ public class ThiefScript : MonoBehaviour
     {
         if (xVel != 0)
         {
-            _spriteRenderer.flipX = xVel > 0 ? false : true;
+            var flip = xVel > 0 ? false : true;
+            _spriteRenderer.flipX = flip;
+            _shadowRenderer.flipX = flip;
+
+            var position = _interactCheck.transform.localPosition;
+            position.x = interactDistance * Mathf.Sign(xVel);
+            _interactCheck.transform.localPosition = position;
         }
-
-        var interactCheck = GetComponentInChildren<InteractCheckScript>();
-
-        var position = interactCheck.transform.localPosition;
-        position.x = interactDistance * xVel;
-
-        interactCheck.transform.localPosition = position;
-        //animator.SetBool(isMovingHash, xVel != 0f || yVel != 0f);
     }
 
     public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();

@@ -50,14 +50,16 @@ MonoBehaviour:
   _throwablePrefab: {fileID: 7417756636488693911, guid: bc3ef98727974c94aa7fc3408a755c1c, type: 3}
   _meatResource: {fileID: 11400000, guid: 369e6cbed6266cc4ab6d7326609b61b5, type: 2}
   inventoryUI: {fileID: 0}
-  toolBeltIndex: 0
-  maxThrowDistance: 6
+  throwDistanceMax: 10
   throwAngle: 45
   whatIsObstacle:
     serializedVersion: 2
     m_Bits: 384
   isThrowing: 0
   ToolIndexChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  ItemChanged:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1262724154702692193
@@ -453,8 +455,7 @@ MonoBehaviour:
   rBody: {fileID: 0}
   _camera: {fileID: 0}
   animator: {fileID: 0}
-  _throwable: {fileID: 0}
-  NoiseController: {fileID: 0}
+  _noiseController: {fileID: 0}
   PlayerUI: {fileID: 0}
   xAxis: 0
   yAxis: 0

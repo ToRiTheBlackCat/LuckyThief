@@ -1,4 +1,6 @@
 using NUnit.Framework.Interfaces;
+using System;
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,8 +14,12 @@ public class UI_Inventory : MonoBehaviour
     private Transform itemSlotContainer;
     private Transform itemSlotTemplate;
     private Toggle toggle;
+    private Transform weightCounter;
+    private Image warningImage;
 
     private Color itemSelectedColor;
+    private Color warnColorDefault;
+    private Color warnColorFade;
     private bool isColapsed = false;
 
     private void Awake()
@@ -39,12 +45,58 @@ public class UI_Inventory : MonoBehaviour
 
             DisplayItems();
         });
+
+        weightCounter = transform.Find("WeightCounter");
+        warningImage = transform.Find("ImageWarn").GetComponent<Image>();
+        warnColorDefault = warningImage.color;
+        warnColorFade = new Color(0, 0, 0, 0);
     }
+
 
     public void SetInventory(InventoryController controller)
     {
         inventoryController = controller;
+        inventoryController.ToolIndexChanged.RemoveAllListeners();
+        inventoryController.ToolIndexChanged.AddListener(index => DisplaySelected(index));
         DisplayItems();
+        DisplayWeight();
+    }
+
+    private Coroutine blinkCoroutine;
+    private void DisplayWeight()
+    {
+        if (blinkCoroutine != null)
+        {
+            StopCoroutine(blinkCoroutine);
+        }
+        warningImage.enabled = false;
+
+        #region Set weightCounter
+
+        var weightSlider = weightCounter.GetComponent<Slider>();
+        weightSlider.value = inventoryController.WeightRatio;
+
+        var fillSprite = weightSlider.transform
+            .Find("Fill Area").Find("Fill")
+            .GetComponent<Image>();
+
+        var color = Color.white;
+        if (weightSlider.value <= .5f)
+        {
+            color = Color.green;
+        }
+        else if (weightSlider.value <= .8f)
+        {
+            color = Color.yellow;
+        }
+        else
+        {
+            color = Color.red;
+            blinkCoroutine = StartCoroutine(Blink());
+        }
+
+        fillSprite.color = color;
+        #endregion
     }
 
     private void DisplayItems()
@@ -59,15 +111,18 @@ public class UI_Inventory : MonoBehaviour
         if (isColapsed)
         {
             var itemData = inventoryController.CurrentItem;
-            RectTransform itemSlot = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
-            itemSlot.gameObject.SetActive(true);
-            itemSlot.anchoredPosition = Vector2.zero;
+            if (itemData != null)
+            {
+                RectTransform itemSlot = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
+                itemSlot.gameObject.SetActive(true);
+                itemSlot.anchoredPosition = Vector2.zero;
 
-            Image icon = itemSlot.Find("Icon").GetComponent<Image>();
-            icon.sprite = itemData.resource.sprite;
+                Image icon = itemSlot.Find("Icon").GetComponent<Image>();
+                icon.sprite = itemData.resource.sprite;
 
-            TextMeshProUGUI textAmount = itemSlot.Find("TextAmount").GetComponent<TextMeshProUGUI>();
-            textAmount.text = itemData.amount > 1 ? $"{itemData.amount}" : "";
+                TextMeshProUGUI textAmount = itemSlot.Find("TextAmount").GetComponent<TextMeshProUGUI>();
+                textAmount.text = itemData.amount > 1 ? $"{itemData.amount}" : "";
+            }
 
             return;
         }
@@ -91,8 +146,10 @@ public class UI_Inventory : MonoBehaviour
 
                 if (remove)
                 {
-                    Destroy(clickHandler.gameObject);
+                    //Destroy(clickHandler.gameObject);
                     Debug.Log($"Inventort: {removeAmount} {itemData.Name} Removed. ");
+
+                    ItemWorld.SpawnItemIntoWorld(inventoryController.transform.position, itemData);
                 }
                 else
                 {
@@ -100,7 +157,7 @@ public class UI_Inventory : MonoBehaviour
                 }
             });
 
-            if (inventoryController.toolBeltIndex == i)
+            if (inventoryController.ToolIndexCurrent == i)
             {
                 Image backGround = itemSlot.Find("Background").GetComponent<Image>();
                 backGround.color = itemSelectedColor;
@@ -118,6 +175,43 @@ public class UI_Inventory : MonoBehaviour
                 x = 0;
                 y++;
             }
+        }
+    }
+
+    private void DisplaySelected(int selectIndex)
+    {
+        selectIndex++;
+
+        for (int index = 1; index < itemSlotContainer.childCount; index++)
+        {
+            var itemSlot = itemSlotContainer.GetChild(index);
+            Image backGround = itemSlot.Find("Background").GetComponent<Image>();
+
+            if (selectIndex == index)
+            {
+                backGround.color = itemSelectedColor;
+            }
+            else
+            {
+                backGround.color = Color.white;
+            }
+        }
+    }
+
+
+    IEnumerator Blink()
+    {
+        warningImage.enabled = true;
+        var blinkCounter = 0;
+
+        while (blinkCounter <= 5)
+        {
+            warningImage.color = warnColorFade;
+            yield return new WaitForSeconds(.15f);
+            warningImage.color = warnColorDefault;
+            yield return new WaitForSeconds(.15f);
+
+            blinkCounter++;
         }
     }
 }

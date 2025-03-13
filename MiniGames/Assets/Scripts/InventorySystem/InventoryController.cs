@@ -26,8 +26,7 @@ public class InventoryController : MonoBehaviour
 
     [Header("Toolbelt Info")]
     [SerializeField] private List<Item> toolBelt;
-    private int maxItemCount = 7;
-    public int toolBeltIndex;
+    [SerializeField] public int ItemCountMax { get; private set; } = 7;
     public int TotalWeight
     {
         get
@@ -40,21 +39,23 @@ public class InventoryController : MonoBehaviour
             return totalWeight;
         }
     }
-    private int maxTotalWeight = 7;
-    public int MaxToolIndex => toolBelt.Count() - 1;
-    public Item CurrentItem => toolBelt.ElementAt(toolBeltIndex);
+    public int TotalWeightMax { get; private set; } = 7;
+    public float WeightRatio => TotalWeight * 1f / TotalWeightMax;
+    public int ToolIndexCurrent { get; private set; }
+    public int ToolIndexMax => toolBelt.Count() - 1;
+    public Item? CurrentItem => toolBelt.Count > 0 ? toolBelt.ElementAt(ToolIndexCurrent) : null;
     public List<Item> Items => toolBelt;
 
     [Header("Throw Settings")]
-    [SerializeField]
-    private float maxThrowDistance;
+    [SerializeField] private float throwDistanceMax;
     [SerializeField] private float throwAngle;
     private const float throwGravity = 9.8f;
     [SerializeField] private LayerMask whatIsObstacle;
     public bool isThrowing;
 
     // Events
-    public UnityEvent ToolIndexChanged;
+    public UnityEvent<int> ToolIndexChanged;
+    public UnityEvent ItemChanged;
 
     private void Awake()
     {
@@ -115,50 +116,97 @@ public class InventoryController : MonoBehaviour
 
         if (Input.GetAxis("Mouse ScrollWheel") != 0f)
         {
-            toolBeltIndex = (int)Mathf.Repeat(
-                    toolBeltIndex + (Input.GetAxis("Mouse ScrollWheel") > 0f ? 1 : -1),
-                    MaxToolIndex + 1
+            ToolIndexCurrent = (int)Mathf.Repeat(
+                    ToolIndexCurrent + (Input.GetAxis("Mouse ScrollWheel") > 0f ? 1 : -1),
+                    ToolIndexMax + 1
                 );
 
-            ToolIndexChanged?.Invoke();
-            inventoryUI.SetInventory(this);
+            ToolIndexChanged.Invoke(ToolIndexCurrent);
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            //ProcessCurrentItem();
-            isThrowing = true;
+            ProcessRightClick();
         }
 
-        if (Input.GetKeyUp(KeyCode.Mouse1) && isThrowing)
+        if (Input.GetKeyUp(KeyCode.Mouse1))
         {
-            isThrowing = false;
+            ProcessRightClick();
         }
 
         if (isThrowing)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0) && (thief.stateMachine.currentState is ThiefMovementState))
+            if (Input.GetKey(KeyCode.Mouse0) && (thief.stateMachine.currentState is ThiefMovementState))
             {
-                var newThrow = Instantiate(_throwablePrefab, GameObject.FindWithTag("ExternalItem").transform, false);
-                newThrow.tag = _meatResource.itemName;
-                ThrowableScript throwScript = newThrow.GetComponent<ThrowableScript>();
-                throwScript.objectSprite = _meatResource.sprite;
-                throwScript.LaunchProjectile(transform.position, throwPoint.position, throwAngle);
-                //_throwable.LaunchProjectile(transform.position, throwPoint.position, throwAngle);
-
-                thief.stateMachine.EnterState(thief.throwState);
-                thief.SetSprite(throwPoint.localPosition.x, 0f);
+                ThrowItem();
             }
         }
     }
 
+    // Handles what to do when pressing use button
+    private void ProcessRightClick()
+    {
+        if (CurrentItem == null)
+        {
+            Debug.Log("Toolbelt is empty");
+            return;
+        }
+
+        switch (CurrentItem.resource.Type)
+        {
+            case ItemType.Normal:
+
+                break;
+            case ItemType.Throwable:
+                isThrowing = true;
+                break;
+            case ItemType.Consumable:
+
+                break;
+            default:
+                return;
+        }
+    }
+
+    private void ThrowItem()
+    {
+        if (CurrentItem!.type != ItemType.Throwable)
+        {
+            return;
+        }
+
+        var resource = CurrentItem!.resource;
+        Item removeItem = new Item()
+        {
+            resource = CurrentItem!.resource,
+            amount = 1,
+        };
+
+        int removeAmount = 0;
+        var removal = RemoveItem(removeItem, out removeAmount);
+
+        if (removal && removeAmount > 0)
+        {
+            var newThrow = Instantiate(_throwablePrefab, GameObject.FindWithTag("ExternalItem").transform, false);
+            newThrow.tag = _meatResource.itemName;
+            ThrowableScript throwScript = newThrow.GetComponent<ThrowableScript>();
+            throwScript.objectSprite = _meatResource.sprite;
+            throwScript.LaunchProjectile(transform.position, throwPoint.position, throwAngle);
+
+            thief.stateMachine.EnterState(thief.throwState);
+            thief.SetSprite(throwPoint.localPosition.x, 0f); 
+        }
+    }
+
+    #region Toolbelt function
     public bool AddItem(Item newItem)
     {
-        if ((toolBelt.Count == maxItemCount && !newItem.IsStackable()) || (TotalWeight + (int)newItem.weight) > maxTotalWeight)
+        if ((toolBelt.Count == ItemCountMax && !newItem.IsStackable()) || (TotalWeight + (int)newItem.weight) > TotalWeightMax)
         {
             Debug.LogError($"Inventory: Can't add new Item. \n" +
-                $"Count: ({toolBelt.Count}/{maxItemCount}) \n" +
-                $"Weight: ({TotalWeight}/{maxTotalWeight})");
+                $"Count: ({toolBelt.Count}/{ItemCountMax}) \n" +
+                $"Weight: ({TotalWeight}/{TotalWeightMax})");
+            inventoryUI.SetInventory(this);
             return false;
         }
 
@@ -184,7 +232,7 @@ public class InventoryController : MonoBehaviour
             toolBelt.Add(newItem);
         }
 
-        toolBeltIndex = Math.Clamp(toolBeltIndex, 0, MaxToolIndex);
+        ToolIndexCurrent = Math.Clamp(ToolIndexCurrent, 0, ToolIndexMax);
         inventoryUI.SetInventory(this);
         return true;
     }
@@ -196,33 +244,40 @@ public class InventoryController : MonoBehaviour
                     item.Name == removeItem.Name
                 );
 
+        amount = 0;
         if (existingType != null)
         {
-            amount = existingType.amount;
-            toolBelt.Remove(existingType);
-            toolBeltIndex = Mathf.Clamp(toolBeltIndex, 0, MaxToolIndex);
-            inventoryUI.SetInventory(this);
+            var removeAmount = removeItem.amount;
+            if (existingType.amount > removeAmount)
+            {
+                existingType.amount -= removeAmount;
+                amount = removeAmount;
+            }
+            else
+            {
+                amount = existingType.amount;
+                toolBelt.Remove(existingType);
+            }
 
-            if (amount > 0)
-                ItemWorld.SpawnItemIntoWorld(transform.position, existingType);
+            ToolIndexCurrent = Mathf.Clamp(ToolIndexCurrent, 0, ToolIndexMax);
+            inventoryUI.SetInventory(this);
 
             return true;
         }
 
-        amount = 0;
         Debug.LogError("Couldn't find item to delete");
         return false;
     }
+    #endregion
 
     private void ProcessThrowDirection()
     {
-        var mouseX = Input.GetAxisRaw("Mouse X");
-        var mouseY = Input.GetAxisRaw("Mouse Y");
 
-        var mouseMoveDir = new Vector3(mouseX, mouseY, 0);
+        var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0;
 
-        throwPoint.position += mouseMoveDir;
-        throwPoint.localPosition = Vector3.ClampMagnitude(throwPoint.localPosition, maxThrowDistance);
+        var clampedVec = Vector3.ClampMagnitude(mousePos - transform.position, throwDistanceMax);
+        throwPoint.position = transform.position + clampedVec;
 
         var throwObstacle = Physics2D.Raycast(transform.position,
             throwPoint.localPosition,
@@ -237,6 +292,9 @@ public class InventoryController : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Gizmos.DrawWireSphere(mousePos, .1f);
+
         Gizmos.DrawSphere(throwPoint.position, .1f);
 
         // Render throw trajectory
@@ -282,25 +340,6 @@ public class InventoryController : MonoBehaviour
 
     }
 
-    // Handles what to do when pressing use button
-    private void ProcessCurrentItem()
-    {
-        var item = CurrentItem;
 
-        switch (CurrentItem.resource.Type)
-        {
-            case ItemType.Normal:
-
-                break;
-            case ItemType.Throwable:
-                isThrowing = true;
-                break;
-            case ItemType.Consumable:
-
-                break;
-            default:
-                return;
-        }
-    }
 }
 

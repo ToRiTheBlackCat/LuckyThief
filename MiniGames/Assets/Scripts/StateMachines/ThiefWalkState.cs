@@ -28,11 +28,7 @@ namespace Assets.Scripts.StateMachines
                 _stateMachine.EnterState(_thief.idleState);
             }
             
-            if (_thief.xAxis != 0)
-            {
-                _thief.SetSprite(_thief.xAxis, _thief.yAxis);
-            }
-
+            _thief.SetSprite(_thief.xAxis, _thief.yAxis);
             _thief.SetVelocity(_thief.xAxis, _thief.yAxis);
             
         }

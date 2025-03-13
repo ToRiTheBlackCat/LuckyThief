@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: f99f8df92ac130b439a711d5991fe5ba
+guid: 4977a7882eaf23f428000ae5393a45b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6666593190643391358
-    second: TheifThrowing_0
+      213: -2905761214448091395
+    second: led_sprite_0
   - first:
-      213: 4330133449136299100
-    second: TheifThrowing_1
+      213: -1827262540298201557
+    second: led_sprite_1
   - first:
-      213: -6164732874511502739
-    second: TheifThrowing_2
-  - first:
-      213: 2787258009056546260
-    second: TheifThrowing_3
-  - first:
-      213: 1209138670579256766
-    second: TheifThrowing_4
-  - first:
-      213: 8647780363245726638
-    second: TheifThrowing_5
+      213: 253978268139736521
+    second: led_sprite_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 65
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,133 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TheifThrowing_0
+      name: led_sprite_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+        x: 10
+        y: 10
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7b565e8f2f748c50800000000000000
-      internalID: 6666593190643391358
+      spriteID: dfeb6b22299aca7d0800000000000000
+      internalID: -2905761214448091395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_1
+      name: led_sprite_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+        x: 58
+        y: 10
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5c5ec11e69b71c30800000000000000
-      internalID: 4330133449136299100
+      spriteID: b26d52e966244a6e0800000000000000
+      internalID: -1827262540298201557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_2
+      name: led_sprite_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+        x: 106
+        y: 10
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d62b19fdc18727aa0800000000000000
-      internalID: -6164732874511502739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TheifThrowing_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.65, y: 0.219}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4dd8d2744645ea620800000000000000
-      internalID: 2787258009056546260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TheifThrowing_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.65, y: 0.219}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebd8010f639b7c010800000000000000
-      internalID: 1209138670579256766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TheifThrowing_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.65, y: 0.219}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eab2cd62c66130870800000000000000
-      internalID: 8647780363245726638
+      spriteID: 9cd4325a3ef468300800000000000000
+      internalID: 253978268139736521
       vertices: []
       indices: 
       edges: []
@@ -263,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: daa5b4f4e23e2ea43873e29b9bd23f3f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TheifThrowing_0: 6666593190643391358
-      TheifThrowing_1: 4330133449136299100
-      TheifThrowing_2: -6164732874511502739
-      TheifThrowing_3: 2787258009056546260
-      TheifThrowing_4: 1209138670579256766
-      TheifThrowing_5: 8647780363245726638
+      led_sprite_0: -2905761214448091395
+      led_sprite_1: -1827262540298201557
+      led_sprite_2: 253978268139736521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

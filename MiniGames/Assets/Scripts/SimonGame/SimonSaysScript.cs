@@ -64,10 +64,10 @@ public class SimonSaysScript : MonoBehaviour
         {
             ExitGame();
         }
-        //if (Input.GetKeyDown(KeyCode.S))
-        //{
-        //    StartGame();
-        //}
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            StartGame();
+        }
     }
 
     /// <summary>
@@ -110,7 +110,7 @@ public class SimonSaysScript : MonoBehaviour
             currentAttempts++;
 
             // penalize when out of attemps
-            if (currentAttempts == maxAttempts)
+            if (currentAttempts >= maxAttempts)
             {
                 GameManagerSingleton.NoiseController.AddNoise(failPenalty);
                 allowInput = false;
