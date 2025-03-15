@@ -225,6 +225,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1209,7 +1222,51 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dogs-Remastered-01_0: -100883010821268466
+      Dogs-Remastered-01_1: -8716193587081969106
+      Dogs-Remastered-01_10: 7287592073232339111
+      Dogs-Remastered-01_11: 7126797149091625703
+      Dogs-Remastered-01_12: 3218072917536841183
+      Dogs-Remastered-01_13: -3072814912247371308
+      Dogs-Remastered-01_14: -6612638010368708192
+      Dogs-Remastered-01_15: -4791943765974299846
+      Dogs-Remastered-01_16: 5710257538136669856
+      Dogs-Remastered-01_17: -73631486639924110
+      Dogs-Remastered-01_18: -7427104181922263360
+      Dogs-Remastered-01_19: -8393959622095735690
+      Dogs-Remastered-01_2: -921673767606029336
+      Dogs-Remastered-01_20: -869566223136555583
+      Dogs-Remastered-01_21: -4543128022156090572
+      Dogs-Remastered-01_22: -8229654921631799174
+      Dogs-Remastered-01_23: 1990426525069749238
+      Dogs-Remastered-01_24: -5499184412926356581
+      Dogs-Remastered-01_25: -1193447138808969481
+      Dogs-Remastered-01_26: -3597142504997314644
+      Dogs-Remastered-01_27: -1318828243779681298
+      Dogs-Remastered-01_28: 6346472583591329766
+      Dogs-Remastered-01_29: -4251665332256929323
+      Dogs-Remastered-01_3: 9050494483618924087
+      Dogs-Remastered-01_30: 1369946215780002243
+      Dogs-Remastered-01_31: 1036735638042898443
+      Dogs-Remastered-01_32: 1988543798289978682
+      Dogs-Remastered-01_33: -6324721001369076566
+      Dogs-Remastered-01_34: -4419914080038825213
+      Dogs-Remastered-01_35: -2313010147348387482
+      Dogs-Remastered-01_36: -6708879407714101090
+      Dogs-Remastered-01_37: 5957589558845477058
+      Dogs-Remastered-01_38: 8494605780195248563
+      Dogs-Remastered-01_39: 2291745029889650036
+      Dogs-Remastered-01_4: -1895802448844253187
+      Dogs-Remastered-01_40: 7124346153468787715
+      Dogs-Remastered-01_41: -2366319322216856318
+      Dogs-Remastered-01_42: -3925001498973289459
+      Dogs-Remastered-01_43: 8931046436281088878
+      Dogs-Remastered-01_5: 4522890139633019406
+      Dogs-Remastered-01_6: 3877004334409624743
+      Dogs-Remastered-01_7: 1077139626061686378
+      Dogs-Remastered-01_8: -5398757420003522148
+      Dogs-Remastered-01_9: -1486780063988289935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
