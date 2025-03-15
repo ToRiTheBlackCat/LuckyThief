@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[SelectionBase]
 public class InteractableScript : MonoBehaviour
 {
     public UnityEvent InteractEvent;

@@ -12,6 +12,7 @@ public enum Difficulty
     Level3
 }
 
+[SelectionBase]
 public class SimonSaysScript : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer _mainModel;
@@ -21,6 +22,7 @@ public class SimonSaysScript : MonoBehaviour
     [SerializeField] private SpriteRenderer _downSprite;
     [SerializeField] private TextMeshPro _timeText;
     [SerializeField] private AudioSource clickSound;
+    [SerializeField] private Transform _ledResultCounter;
 
     [Header("Game Info")]
     [SerializeField] private LayerMask inputLayerMask;
@@ -30,11 +32,11 @@ public class SimonSaysScript : MonoBehaviour
 
     [Header("Game settings")]
     [SerializeField] private int passwordLength;
-    [SerializeField] private float timeGap;
-    [SerializeField] private float countDownTime;
+    [SerializeField] private float timeGap; // Time gap between each password indication
+    [SerializeField] private float countDownTime; // Time to solve minigame
     [HideInInspector] public bool allowInput = true;
     [SerializeField] private bool isSuccess;
-    [SerializeField] private float failPenalty;
+    [SerializeField] private float failPenalty; // Noise penalty for failing game
     [SerializeField] private int currentAttempts;
     [SerializeField] private int maxAttempts;
     public Difficulty difficulty;
@@ -49,15 +51,20 @@ public class SimonSaysScript : MonoBehaviour
     // Events
     public UnityEvent<float> onFail;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void Awake()
+    {
+        GameManagerSingleton.SimonGame = this;
+
+        _ledResultCounter = transform.Find("LedResultCounter");
+    }
+
     void Start()
     {
         ExitGame();
-        GameManagerSingleton.SimonGame = this;
+
         Camera.main.eventMask = inputLayerMask;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
@@ -71,7 +78,7 @@ public class SimonSaysScript : MonoBehaviour
     }
 
     /// <summary>
-    /// Handles the input
+    /// Handles the password input
     /// </summary>
     /// <param name="btnName">Name of the input</param>
     public void OnButtonPressed(string btnName)
@@ -83,21 +90,20 @@ public class SimonSaysScript : MonoBehaviour
         // Return if the password hasn't been generated setup
         if (!passwordArray.Any())
         {
-            Debug.LogError($"{nameof(passwordArray)} hasn't been generated");
+            Debug.LogWarning($"{nameof(passwordArray)} hasn't been generated");
             return;
         }
 
         if (btnName == passwordArray[passwordIndex])
         {
             // The input is correct
-            ShowResultSprite(true);
+            ShowResult(true);
             passwordIndex++;
 
             // Successfully inputed the password
             if (passwordIndex == passwordArray.Length)
             {
-                ShowResultSprite(true, true);
-                allowInput = false;
+                ShowResult(true, true);
                 print("Unlocked");
                 ExitGame(1f);
             }
@@ -105,15 +111,14 @@ public class SimonSaysScript : MonoBehaviour
         else
         {
             // The input is wrong
-            ShowResultSprite(false);
-            passwordIndex = 0;
             currentAttempts++;
+            passwordIndex = 0;
+            ShowResult(false);
 
             // penalize when out of attemps
             if (currentAttempts >= maxAttempts)
             {
-                GameManagerSingleton.NoiseController.AddNoise(failPenalty);
-                allowInput = false;
+                GameManagerSingleton.NoiseController?.AddNoise(failPenalty);
                 ExitGame(1f);
             }
         }
@@ -157,7 +162,7 @@ public class SimonSaysScript : MonoBehaviour
         {
             // Stop user input
             allowInput = false;
-            yield return new WaitForSeconds(1.25f);
+            yield return new WaitForSeconds(1.75f);
 
             foreach (var pass in passwordArray)
             {
@@ -214,8 +219,23 @@ public class SimonSaysScript : MonoBehaviour
     /// </summary>
     /// <param name="result">False: Wrong sprite. True: Correct sprite</param>
     /// <param name="persist">If the sprite stay enabled after flashing</param>
-    private void ShowResultSprite(bool result, bool persist = false)
+    private void ShowResult(bool result, bool persist = false)
     {
+        var loopCount = result ? 3 : currentAttempts;
+        for (int i = 0; i < 3; i++)
+        {
+            var ledResult = _ledResultCounter.GetChild(i).GetComponent<ResultLed>();
+
+            if (i < loopCount)
+            {
+                ledResult.SetResult(result);
+            }
+            else
+            {
+                ledResult.TurnOff();
+            }
+        }
+
         if (ShowResultCoroutine != null)
         {
             StopCoroutine(ShowResultCoroutine);
@@ -225,15 +245,20 @@ public class SimonSaysScript : MonoBehaviour
 
         IEnumerator StartShowResult()
         {
-            _successSprite.enabled = result;
-            _incorrectSprite.enabled = !result;
-            yield return new WaitForSeconds(.3f);
-            _successSprite.enabled = false;
-            _incorrectSprite.enabled = false;
-            yield return new WaitForSeconds(.3f);
-            _successSprite.enabled = result;
-            _incorrectSprite.enabled = !result;
-            yield return new WaitForSeconds(.3f);
+            var blinkCounter = 0;
+
+            while (blinkCounter < 2)
+            {
+                _successSprite.enabled = result;
+                _incorrectSprite.enabled = !result;
+                yield return new WaitForSeconds(.3f);
+
+                _successSprite.enabled = false;
+                _incorrectSprite.enabled = false;
+                blinkCounter++;
+                yield return new WaitForSeconds(.3f);
+            }
+
             _successSprite.enabled = result && persist ? true : false;
             _incorrectSprite.enabled = !result && persist ? true : false;
         }
@@ -257,22 +282,21 @@ public class SimonSaysScript : MonoBehaviour
 
             while (time > 0f)
             {
-                _timeText.text = $"{Mathf.Ceil(time)}";
-                time -= Time.deltaTime;
-
                 yield return new WaitForSeconds(Time.deltaTime);
+
+                time -= Time.deltaTime;
+                _timeText.text = $"{Mathf.Ceil(time)}";
             }
 
             // If is not successful after time runs out Exit (& penalize)
             yield return new WaitUntil(() => time <= 0f && !isSuccess);
             _timeText.text = "0";
-            ShowResultSprite(false, true);
+            ShowResult(false, true);
             allowInput = false;
             GameManagerSingleton.NoiseController?.AddNoise(failPenalty);
 
             // Wait 1.8 seconds then exit
-            yield return new WaitForSeconds(1.8f);
-            ExitGame();
+            ExitGame(1.8f);
         }
     }
 
@@ -287,14 +311,21 @@ public class SimonSaysScript : MonoBehaviour
         currentAttempts = 0;
         allowInput = true;
 
-        _timeText.enabled = true;
+
         var sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
         foreach (var item in sprites)
         {
             item.enabled = true;
         }
 
+        foreach (var ledResult in _ledResultCounter.GetComponentsInChildren<ResultLed>())
+        {
+            ledResult.TurnOff();
+        }
+
         _timeText.text = $"{countDownTime}";
+        _timeText.enabled = true;
+
         CreatePassword();
         StartFlash();
     }
@@ -313,9 +344,9 @@ public class SimonSaysScript : MonoBehaviour
 
         IEnumerator StartExitGame()
         {
+            allowInput = false;
             yield return new WaitForSeconds(delay);
 
-            allowInput = false;
             _timeText.enabled = false;
             var sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
             foreach (var item in sprites)

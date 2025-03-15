@@ -182,19 +182,35 @@ public class UI_Inventory : MonoBehaviour
     {
         selectIndex++;
 
-        for (int index = 1; index < itemSlotContainer.childCount; index++)
+        if (!isColapsed)
         {
-            var itemSlot = itemSlotContainer.GetChild(index);
+            for (int index = 1; index < itemSlotContainer.childCount; index++)
+            {
+                var itemSlot = itemSlotContainer.GetChild(index);
+                Image backGround = itemSlot.Find("Background").GetComponent<Image>();
+
+                if (selectIndex == index)
+                {
+                    backGround.color = itemSelectedColor;
+                }
+                else
+                {
+                    backGround.color = Color.white;
+                }
+            }
+        }
+        else
+        {
+            var itemSlot = itemSlotContainer.GetChild(1);
+            var itemData = inventoryController.CurrentItem;
+
             Image backGround = itemSlot.Find("Background").GetComponent<Image>();
 
-            if (selectIndex == index)
-            {
-                backGround.color = itemSelectedColor;
-            }
-            else
-            {
-                backGround.color = Color.white;
-            }
+            Image icon = itemSlot.Find("Icon").GetComponent<Image>();
+            icon.sprite = itemData.resource.sprite;
+
+            TextMeshProUGUI textAmount = itemSlot.Find("TextAmount").GetComponent<TextMeshProUGUI>();
+            textAmount.text = itemData.amount > 1 ? $"{itemData.amount}" : "";
         }
     }
 
