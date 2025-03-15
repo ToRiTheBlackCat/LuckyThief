@@ -11,6 +11,7 @@ TagManager:
   - Chest
   - Ground
   - Stair
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
@@ -54,14 +55,20 @@ TagManager:
   - name: Mid
     uniqueID: 473020827
     locked: 0
+  - name: Wall
+    uniqueID: 2168735273
+    locked: 0
   - name: Player
     uniqueID: 3891778323
     locked: 0
+  - name: PlayerBullet
+    uniqueID: 3325631795
+    locked: 0
+  - name: Gun
+    uniqueID: 3050719795
+    locked: 0
   - name: Enemy
     uniqueID: 578776789
-    locked: 0
-  - name: Wall
-    uniqueID: 2168735273
     locked: 0
   - name: Top
     uniqueID: 2110132113

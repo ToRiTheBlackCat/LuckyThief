@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class Main : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     static public Main Instance;
+    public InteractiveController interactiveController;
     public int switchCount;
     public GameObject winText;
     private int onCount = 0;
+    public UnityEvent onFinish;
 
     private void Awake()
     {
@@ -25,14 +28,20 @@ public class Main : MonoBehaviour
     private void CompleteMinigame()
     {
         winText.SetActive(true); // Hiển thị văn bản chiến thắng
-        GameManager.Instance.SetMinigameCompleted(true);
+        Chest currentChest = GameManager.Instance.GetCurrentChest();
+        if (currentChest != null)
+        {
+            currentChest.OpenChest();
+        }
+        interactiveController.CloseWireGame();
         Invoke("ReturnToMainLevel", 1f); // Chuyển scene sau 1 giây (có thể điều chỉnh)
     }
 
     private void ReturnToMainLevel()
     {
         // Xóa scene minigame và kích hoạt lại MainLevel
-        SceneManager.UnloadSceneAsync("Wire");
-        GameManager.Instance.SetMainLevelActive(true);
+        //SceneManager.UnloadSceneAsync("Wire");
+        //SceneManager.LoadSceneAsync("MainLevel");
+        //GameManager.Instance.SetMainLevelActive(true);
     }
 }

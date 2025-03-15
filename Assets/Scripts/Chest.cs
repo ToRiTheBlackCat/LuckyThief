@@ -1,69 +1,67 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Chest : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public InteractiveController interactiveController;
+    public static Chest Instance;
     private Animator animator;
     private bool isOpened = false;
-    private bool playerNearby = false;
+    private bool isMinigameCompleted = false;
+    private bool isCollision = false;
+
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        if (playerNearby && !isOpened && Input.GetKeyDown(KeyCode.E))
+        if (collision.collider.CompareTag("Player"))
         {
-            if (GameManager.Instance.IsMinigameCompleted())
-            {
-                OpenChest();
-            }
-            else
-            {
-                SceneManager.LoadSceneAsync("Wire", LoadSceneMode.Additive);
-                GameManager.Instance.SetMainLevelActive(false);
-                OpenChest();
-            }
+            isCollision = true;
         }
     }
+
+    //private void OnCollisionExit(Collision collision)
+    //{
+    //    if (collision.collider.CompareTag("Player"))
+    //    {
+    //        isCollision = false;
+    //    }
+    //}
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Player"))
+        if (isCollision == true && Input.GetKeyDown(KeyCode.E))
         {
-            playerNearby = true;
-            if (PlayerPrefs.GetInt("WireMinigameCompleted", 0) == 1)
-            {
-                Debug.Log("Nhấn E để mở rương");
-            }
-            else
-            {
-                Debug.Log("Nhấn E để chơi minigame Wire và mở rương");
-            }
+            interactiveController.PlayWireGame();
+            //GameManager.Instance.SetMainLevelActive(false);
+            Debug.Log("Ïmpact");
+            GameManager.Instance.SetCurrentChest(this);
+        }
+        else
+        {
+            Debug.Log("Not impact");
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Player"))
-        {
-            playerNearby = false;
-        }
-    }
     public void OpenChest()
     {
+        Debug.Log("Chest open");
         isOpened = true;
         animator.SetBool("isOpened", isOpened);
         GiveReward();
-        Destroy(gameObject,1f);
+        Destroy(gameObject, 1f);
     }
 
     void GiveReward()
     {
         Debug.Log("Bạn đã nhận được phần thưởng!");
-        // Thêm logic nhận phần thưởng (vàng, vật phẩm, v.v.)
+    }
+    public void SetMinigameCompleted(bool value)
+    {
+        isMinigameCompleted = value;
     }
 }

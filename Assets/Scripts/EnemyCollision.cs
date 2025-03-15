@@ -15,18 +15,18 @@ public class EnemyCollision : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Prop"))
-        {
-            Debug.Log("Enemy gặp chướng ngại vật, quay lại!");
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.collider.CompareTag("Prop"))
+    //    {
+    //        Debug.Log("Enemy gặp chướng ngại vật, quay lại!");
 
-            // Đổi hướng di chuyển
-            ////movingRight = !movingRight;
-            //if (enemyScript != null)
-            //{
-            //    enemyScript.Flip();
-            //}
-        }
-    }
+    //        // Đổi hướng di chuyển
+    //        ////movingRight = !movingRight;
+    //        //if (enemyScript != null)
+    //        //{
+    //        //    enemyScript.Flip();
+    //        //}
+    //    }
+    //}
 }

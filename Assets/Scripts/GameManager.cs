@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     [SerializeField] private GameObject gameOverUI;
     private bool isGameOver = false;
-    private bool isMinigameCompleted = false;
+    private Chest currentChest;
     private GameObject[] mainLevelObjects;
     private void Awake()
     {
@@ -27,12 +27,6 @@ public class GameManager : MonoBehaviour
         mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void GameOver()
     {
         isGameOver = true;
@@ -44,7 +38,6 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = false;
         Time.timeScale = 1;
-        isMinigameCompleted = false;
         SceneManager.LoadScene("MainLevel");
     }
 
@@ -52,25 +45,14 @@ public class GameManager : MonoBehaviour
     {
         return isGameOver;
     }
-    public bool IsMinigameCompleted()
+    public void SetCurrentChest(Chest chest)
     {
-        return isMinigameCompleted;
-    }
-    public void SetMinigameCompleted(bool value)
-    {
-        isMinigameCompleted = value;
+        currentChest = chest;
     }
 
-    public void SetMainLevelActive(bool active)
+    // Lấy rương hiện tại (dùng trong minigame)
+    public Chest GetCurrentChest()
     {
-        if (mainLevelObjects == null)
-        {
-            mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
-        }
-
-        foreach (GameObject obj in mainLevelObjects)
-        {
-            obj.SetActive(active); // Bật/tắt tất cả object trong MainLevel
-        }
+        return currentChest;
     }
 }

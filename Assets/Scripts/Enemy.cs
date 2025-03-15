@@ -1,117 +1,77 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
-    [SerializeField] private float speed = 20f;
-    [SerializeField] private float chaseSpeed = 25f; // Tốc độ khi phát hiện player
-    [SerializeField] private float distance = 10f;
-    [SerializeField] private float detectionRange = 15f; // Phạm vi phát hiện player
-    private Rigidbody2D rb;
-    private Animator animator;
-    private Transform player;
-    private Vector3 startPos;
-    private bool movingRight = true;
-    private bool isChasing = false;
-
-    void Start()
+    [SerializeField] protected float speed = 10f;
+    [SerializeField] protected float maxHP = 50f;
+    protected float currentHP;
+    [SerializeField] private Image HPBar;
+    private SpriteRenderer spriteRenderer;
+    protected Player player;
+    [SerializeField] protected float enterDamage = 10f;
+    [SerializeField] protected float stayDamage = 2f;
+    protected virtual void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        startPos = transform.position;
-        player = GameObject.FindGameObjectWithTag("Player")?.transform; // Lấy Player theo tag
+        player = FindAnyObjectByType<Player>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        currentHP = maxHP;
+        UpdateHpBar();
     }
 
-    void Update()
+    protected virtual void Update()
     {
-        if (player != null && Vector2.Distance(transform.position, player.position) < detectionRange)
-        {
-            StartChasing();
-        }
-        else
-        {
-            StopChasing();
-        }
+        MoveTowardsPlayer();
+    }
 
-        if (isChasing)
+    protected void MoveTowardsPlayer()
+    {
+        if (player != null)
         {
-            ChasePlayer();
-        }
-        else
-        {
-            Patrol();
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            FlipEnemy();
         }
     }
 
-    private void StartChasing()
+    protected void FlipEnemy()
     {
-        isChasing = true;
-        animator.SetBool("isAlert", isChasing);
-    }
-
-    private void StopChasing()
-    {
-        isChasing = false;
-        animator.SetBool("isRunning", true);
-        animator.SetBool("isAlert", isChasing);
-    }
-
-    private void ChasePlayer()
-    {
-        animator.SetBool("isRunning", true);
-        Vector2 direction = (player.position - transform.position).normalized;
-        transform.Translate(direction * chaseSpeed * Time.deltaTime);
-
-        // Xác định hướng quay theo trục X
-        if ((direction.x > 0 && !movingRight) || (direction.x < 0 && movingRight))
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        Console.WriteLine(direction);
+        if (player != null)
         {
-            movingRight = !movingRight;
-            Flip();
-        }
-    }
-
-    private void Patrol()
-    {
-        float leftBound = startPos.x - distance;
-        float rightBound = startPos.x + distance;
-
-        animator.SetBool("isRunning", true);
-
-        if (movingRight)
-        {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
-            if (transform.position.x >= rightBound)
+            if (direction.x > 0)  
             {
-                movingRight = false;
-                Flip();
+                spriteRenderer.flipX = false;  
             }
-        }
-        else
-        {
-            transform.Translate(Vector2.left * speed * Time.deltaTime);
-            if (transform.position.x <= leftBound)
+            else  
             {
-                movingRight = true;
-                Flip();
+                spriteRenderer.flipX = true;   
             }
         }
     }
 
-    private void Flip()
+    public virtual void TakeDamage(float damage)
     {
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        currentHP -= damage;
+        currentHP = Mathf.Max(currentHP, 0);
+        UpdateHpBar();
+        if (currentHP <= 0)
+        {
+            Die();
+        }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    public virtual void Die()
     {
-        if (other.CompareTag("Prop"))
-        {
-            Debug.Log("Enemy gặp chướng ngại vật, quay lại!");
+        Destroy(gameObject);
+    }
 
-            // Đổi hướng di chuyển
-            movingRight = !movingRight;
-            Flip();
+    protected void UpdateHpBar()
+    {
+        if(HPBar != null)
+        {
+            HPBar.fillAmount = currentHP / maxHP;
         }
     }
 }
