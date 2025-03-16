@@ -3,15 +3,14 @@ using Assets.Scripts.StateMachines;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[SelectionBase]
 public class ThiefScript : MonoBehaviour
 {
     #region Components
-    public Rigidbody2D _rBody;
+    public Rigidbody2D rBody;
     [SerializeField] private Camera _camera;
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private SpriteRenderer _shadowRenderer;
-    [field: SerializeField]public Animator Animator { get; private set; }
+    public Animator animator;
     [SerializeField] private NoiseController _noiseController;
     [SerializeField] private PlayerUIScript PlayerUI;
 
@@ -48,8 +47,8 @@ public class ThiefScript : MonoBehaviour
 
     private void Awake()
     {
-        _rBody = GetComponent<Rigidbody2D>();
-        Animator = GetComponentInChildren<Animator>();
+        rBody = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
         _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
         _noiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
@@ -128,7 +127,7 @@ public class ThiefScript : MonoBehaviour
     public void SetVelocity(float xAxis, float yAxis)
     {
         var direction = new Vector2(xAxis, yAxis);
-        _rBody.linearVelocity = direction.normalized * Speed * Time.deltaTime;
+        rBody.linearVelocity = direction.normalized * Speed * Time.deltaTime;
     }
 
     public void SetSprite(float xVel, float yVel)

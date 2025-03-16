@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[SelectionBase]
 public class ThrowableScript : MonoBehaviour
 {
     public Sprite objectSprite;

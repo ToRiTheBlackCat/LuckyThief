@@ -6,15 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SimonTest.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/MapLevel4.unity
-    guid: 3718a5f5e11a00d4c8a2734b02efe263
-  - enabled: 1
-    path: Assets/Scenes/ShootingKeyGame.unity
-    guid: 09ec2f9fe84209d41a0c6a5538db2e85
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 53fc6eb170501f94e8970d093d870401, type: 2}
   m_UseUCBPForAssetBundles: 0
