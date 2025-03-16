@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] private GameObject keyPrefab; 
-    [SerializeField] private Transform keySpawnPoint; 
-    
+    [SerializeField] private GameObject keyPrefab;
+    [SerializeField] private Transform keySpawnPoint;
+
     [SerializeField] TextMeshProUGUI timer;
     [SerializeField] float remainingTime;
 

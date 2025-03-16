@@ -234,7 +234,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: -925045903
+  m_SortingLayerID: -1102372031
   m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &287553761
@@ -295,8 +295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -132, y: -33}
-  m_SizeDelta: {x: 221.12988, y: 33.43982}
+  m_AnchoredPosition: {x: -246, y: -68.815}
+  m_SizeDelta: {x: 416.44, y: 54.427}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &390543080
 MonoBehaviour:
@@ -959,8 +959,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -925045903
-  m_SortingLayer: 5
+  m_SortingLayerID: -1102372031
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: -4748922324940669282, guid: 55ab01606952dd749a438692141fad7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1007,8 +1007,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 61.999023, y: -34.5}
-  m_SizeDelta: {x: 87.63489, y: 36.44}
+  m_AnchoredPosition: {x: 106, y: -83}
+  m_SizeDelta: {x: 104.29, y: 50.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968249482
 MonoBehaviour:
@@ -1057,8 +1057,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1218,8 +1218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152.48999, y: -34.399994}
-  m_SizeDelta: {x: 93.34808, y: 33.440002}
+  m_AnchoredPosition: {x: 233.07, y: -82.18298}
+  m_SizeDelta: {x: 149.85, y: 52.005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142129308
 MonoBehaviour:
@@ -1268,8 +1268,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1472,8 +1472,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -925045903
-  m_SortingLayer: 5
+  m_SortingLayerID: -1102372031
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0.00390625, z: 0}
@@ -4039,8 +4039,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -925045903
-  m_SortingLayer: 5
+  m_SortingLayerID: -1102372031
+  m_SortingLayer: 6
   m_SortingOrder: 2
   m_Sprite: {fileID: 1383259260767454768, guid: 892d613d672742045be1de68a27858f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4127,8 +4127,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -925045903
-  m_SortingLayer: 5
+  m_SortingLayerID: -1102372031
+  m_SortingLayer: 6
   m_SortingOrder: 3
   m_Sprite: {fileID: 1570086266590163468, guid: b273757c63e96a144afaaa9e331fe16a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4175,8 +4175,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -321.05, y: -35.899994}
-  m_SizeDelta: {x: 156.96167, y: 36.440002}
+  m_AnchoredPosition: {x: -529, y: -70.84302}
+  m_SizeDelta: {x: 216.96, y: 50.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2060449405
 MonoBehaviour:
@@ -4225,8 +4225,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
