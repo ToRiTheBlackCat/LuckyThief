@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
@@ -21,7 +20,7 @@ public class SimonLeverScript : MonoBehaviour
     private bool canFlip = true;
 
     //Events
-    //public UnityEvent<string> OnLeverFlipped;
+    public UnityEvent<string> OnLeverFlipped;
 
     // Coroutines
     private Coroutine RotateLeverCoroutine;
@@ -34,6 +33,7 @@ public class SimonLeverScript : MonoBehaviour
     void Start()
     {
         _simon = GetComponentInParent<SimonSaysScript>();
+        OnLeverFlipped.AddListener(_simon.OnButtonPressed);
 
         LeverDown = gameObject.name + "Down";
         LeverUp = gameObject.name + "Up";
@@ -103,7 +103,7 @@ public class SimonLeverScript : MonoBehaviour
     /// <param name="direction"></param>
     /// <param name="duration"></param>
     /// <param name="returnDuration"></param>
-    public void RotateLever(Vector2 direction, float duration = 1f /*, float returnDuration = 0.15f*/)
+    public void RotateLever(Vector2 direction, float duration = 1f, float returnDuration = 0.15f)
     {
 
         if (Mathf.Abs(direction.y) == 0 || !canFlip)
@@ -123,18 +123,18 @@ public class SimonLeverScript : MonoBehaviour
         RotateLeverCoroutine = StartCoroutine(StartRotate());
 
         canFlip = false;
-        _simon.OnButtonPressed(direction.y > 0 ? LeverUp : LeverDown);
+        OnLeverFlipped.Invoke(direction.y > 0 ? LeverUp : LeverDown);
 
         IEnumerator StartRotate()
 
         {
             var timer = 0f;
-            while (timer < duration / 2)
+            while (timer < duration)
             {
-                var t = timer / (duration / 2);
+                var t = timer / duration;
 
                 var desiredEuler = defaultGbRotation.eulerAngles;
-                desiredEuler.z += 45f * Math.Sign(direction.y);
+                desiredEuler.z += 45f * direction.normalized.y;
 
                 var desiredRotation = Quaternion.Euler(desiredEuler);
 
@@ -146,9 +146,9 @@ public class SimonLeverScript : MonoBehaviour
 
             canFlip = true;
             var returnTimer = 0f;
-            while (returnTimer < duration / 2)
+            while (returnTimer < returnDuration)
             {
-                var t = returnTimer / (duration / 2);
+                var t = returnTimer / returnDuration;
 
                 _pivot.transform.rotation = Quaternion.Lerp(_pivot.transform.rotation, defaultGbRotation, t);
                 returnTimer += Time.deltaTime;

@@ -3,15 +3,16 @@ using UnityEngine.Events;
 
 public class ThiefAnimationTriggers : MonoBehaviour
 {
-    private ThiefScript _thief;
-
-    private void Awake()
+    public ThiefScript thief
     {
-        _thief = GetComponentInParent<ThiefScript>();
+        get
+        {
+            return GetComponentInParent<ThiefScript>();
+        }
     }
 
     public void ThrowTrigger()
     {
-        _thief.AnimationTrigger();
+        thief.AnimationTrigger();
     }
 }

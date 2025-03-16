@@ -120,7 +120,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.49500012, z: 0}
-  m_LocalScale: {x: 2.3552938, y: 1, z: 1}
+  m_LocalScale: {x: 2.6942277, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4173560312922266376}
@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
+  m_SpriteSortPoint: 0
 --- !u!1 &4804814298990002574
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 822007342508079067, guid: 6891cb2b5e6b11e4d894b3f4a76503ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.83076924, y: 0.9846154}
@@ -452,10 +452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af5386632f9861742af7d5d375605ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rBody: {fileID: 8119331534173665891}
+  rBody: {fileID: 0}
   _camera: {fileID: 0}
-  _spriteRenderer: {fileID: 2507030985388332268}
-  _shadowRenderer: {fileID: 6710044421671427692}
   animator: {fileID: 0}
   _noiseController: {fileID: 0}
   PlayerUI: {fileID: 0}
@@ -525,7 +523,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.38927388}
+  m_Offset: {x: 0.003355503, y: -0.38927388}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -535,7 +533,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.9899441, y: 0.35030985}
+  m_Size: {x: 1.5981569, y: 0.35030985}
   m_EdgeRadius: 0
 --- !u!50 &8119331534173665891
 Rigidbody2D:

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.InventorySystem
 {
-    [Serializable]
     public class Item
     {
         public InventoryItemResource resource;

@@ -4,9 +4,6 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Key
-  - Spin
-  - Item
   - ExternalItem
   - PlayerUI
   - GameOver
@@ -55,9 +52,6 @@ TagManager:
     locked: 0
   - name: Environment
     uniqueID: 3782093749
-    locked: 0
-  - name: Characters
-    uniqueID: 3105480415
     locked: 0
   - name: Obscure Wall
     uniqueID: 979887111
