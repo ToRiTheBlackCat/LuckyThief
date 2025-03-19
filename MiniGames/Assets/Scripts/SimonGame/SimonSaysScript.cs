@@ -1,7 +1,9 @@
 using Assets.Scripts;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -20,7 +22,8 @@ public class SimonSaysScript : MonoBehaviour
     [SerializeField] private SpriteRenderer _upSprite;
     [SerializeField] private SpriteRenderer _downSprite;
     [SerializeField] private TextMeshPro _timeText;
-    [SerializeField] private AudioSource clickSound;
+    [SerializeField] private AudioSource _clickSound;
+    [SerializeReference] private List<ResultLed> _resultLeds;
 
     [Header("Game Info")]
     [SerializeField] private LayerMask inputLayerMask;
@@ -49,11 +52,14 @@ public class SimonSaysScript : MonoBehaviour
     // Events
     public UnityEvent<float> onFail;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void Awake()
+    {
+        GameManagerSingleton.SimonGame = this;
+    }
+
     void Start()
     {
         ExitGame();
-        GameManagerSingleton.SimonGame = this;
         Camera.main.eventMask = inputLayerMask;
     }
 
@@ -77,8 +83,8 @@ public class SimonSaysScript : MonoBehaviour
     public void OnButtonPressed(string btnName)
     {
         print($"The {btnName.ToUpper()} button was pressed.");
-        clickSound.Stop();
-        clickSound.Play();
+        _clickSound.Stop();
+        _clickSound.Play();
 
         // Return if the password hasn't been generated setup
         if (!passwordArray.Any())
@@ -90,8 +96,8 @@ public class SimonSaysScript : MonoBehaviour
         if (btnName == passwordArray[passwordIndex])
         {
             // The input is correct
-            ShowResultSprite(true);
             passwordIndex++;
+            ShowResultSprite(true);
 
             // Successfully inputed the password
             if (passwordIndex == passwordArray.Length)
@@ -105,9 +111,9 @@ public class SimonSaysScript : MonoBehaviour
         else
         {
             // The input is wrong
-            ShowResultSprite(false);
             passwordIndex = 0;
             currentAttempts++;
+            ShowResultSprite(false);
 
             // penalize when out of attemps
             if (currentAttempts >= maxAttempts)
@@ -162,8 +168,8 @@ public class SimonSaysScript : MonoBehaviour
             foreach (var pass in passwordArray)
             {
                 var button = transform.Find(pass);
-                clickSound.Stop();
-                clickSound.Play();
+                _clickSound.Stop();
+                _clickSound.Play();
                 if (button != null)
                 {
                     // Blink if is button input
@@ -221,10 +227,31 @@ public class SimonSaysScript : MonoBehaviour
             StopCoroutine(ShowResultCoroutine);
         }
 
+        var ledCount = result ? _resultLeds.Count : currentAttempts;
+        // Led indicators
+        for (int i = 0; i < _resultLeds.Count; i++)
+        {
+            var led = _resultLeds[i];
+            if (i < ledCount)
+            {
+                led.SetResult(result);
+            }
+            else
+            {
+                led.TurnOff();
+            }
+        }
+
         ShowResultCoroutine = StartCoroutine(StartShowResult());
 
         IEnumerator StartShowResult()
         {
+            yield return new WaitForSeconds(.2f);
+            foreach (var led in _resultLeds)
+            {
+                led.TurnOff();
+            }
+
             _successSprite.enabled = result;
             _incorrectSprite.enabled = !result;
             yield return new WaitForSeconds(.3f);
@@ -282,16 +309,13 @@ public class SimonSaysScript : MonoBehaviour
     /// </summary>
     public void StartGame()
     {
-        gameObject.SetActive(true);
         StopAllCoroutines();
-        currentAttempts = 0;
         allowInput = true;
-
-        _timeText.enabled = true;
-        var sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
-        foreach (var item in sprites)
+        gameObject.SetActive(true);
+        currentAttempts = 0;
+        foreach (var led in _resultLeds)
         {
-            item.enabled = true;
+            led.TurnOff();
         }
 
         _timeText.text = $"{countDownTime}";
@@ -316,12 +340,6 @@ public class SimonSaysScript : MonoBehaviour
             yield return new WaitForSeconds(delay);
 
             allowInput = false;
-            _timeText.enabled = false;
-            var sprites = gameObject.GetComponentsInChildren<SpriteRenderer>();
-            foreach (var item in sprites)
-            {
-                item.enabled = false;
-            }
             gameObject.SetActive(false);
         }
     }

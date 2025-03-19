@@ -53,10 +53,9 @@ public class SimonLeverScript : MonoBehaviour
             var mousePos = new Vector2(convertedMouse.x, convertedMouse.y);
             mouseDir = mousePos - prevMousePos;
 
-
             prevMousePos = mousePos;
 
-            RotateLever(mouseDir);
+            RotateLever(mouseDir, .8f);
         }
     }
     #region MouseInputs
@@ -103,7 +102,7 @@ public class SimonLeverScript : MonoBehaviour
     /// <param name="direction"></param>
     /// <param name="duration"></param>
     /// <param name="returnDuration"></param>
-    public void RotateLever(Vector2 direction, float duration = 1f, float returnDuration = 0.15f)
+    public void RotateLever(Vector2 direction, float duration = 1f)
     {
 
         if (Mathf.Abs(direction.y) == 0 || !canFlip)
@@ -126,11 +125,13 @@ public class SimonLeverScript : MonoBehaviour
         OnLeverFlipped.Invoke(direction.y > 0 ? LeverUp : LeverDown);
 
         IEnumerator StartRotate()
-
         {
+            duration = duration / 2;
+
             var timer = 0f;
             while (timer < duration)
             {
+                yield return new WaitForSeconds(Time.deltaTime);
                 var t = timer / duration;
 
                 var desiredEuler = defaultGbRotation.eulerAngles;
@@ -139,20 +140,19 @@ public class SimonLeverScript : MonoBehaviour
                 var desiredRotation = Quaternion.Euler(desiredEuler);
 
                 _pivot.transform.rotation = Quaternion.Lerp(_pivot.transform.rotation, desiredRotation, t);
-
                 timer += Time.deltaTime;
-                yield return null;
             }
 
             canFlip = true;
             var returnTimer = 0f;
-            while (returnTimer < returnDuration)
+            while (returnTimer < duration)
             {
-                var t = returnTimer / returnDuration;
+                yield return new WaitForSeconds(Time.deltaTime);
+                var t = returnTimer / duration;
 
                 _pivot.transform.rotation = Quaternion.Lerp(_pivot.transform.rotation, defaultGbRotation, t);
                 returnTimer += Time.deltaTime;
-                yield return null;
+                
             }
         }
     }
