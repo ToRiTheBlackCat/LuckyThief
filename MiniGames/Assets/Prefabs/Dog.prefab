@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4915355120890663420}
+  - component: {fileID: 1371207561981942204}
   - component: {fileID: 1035440467995644780}
   - component: {fileID: 5980326599464010441}
-  - component: {fileID: 1371207561981942204}
   - component: {fileID: 2019303630663635383}
   - component: {fileID: 2334093607705603788}
   m_Layer: 6
@@ -37,6 +37,23 @@ Transform:
   - {fileID: 4672656314043671024}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371207561981942204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626682440972694757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d9614af030d71409e6de4575b830aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogAnimator: {fileID: 5980326599464010441}
+  player: {fileID: 0}
+  speed: 7
+  maxDistance: 18
+  minDistance: 4
 --- !u!212 &1035440467995644780
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -79,7 +96,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1578441855
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -100883010821268466, guid: 9f447cbad6c663940badfd893f7f490a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -114,23 +131,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1371207561981942204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626682440972694757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3d9614af030d71409e6de4575b830aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dogAnimator: {fileID: 5980326599464010441}
-  player: {fileID: 0}
-  speed: 7
-  maxDistance: 18
-  minDistance: 4
 --- !u!50 &2019303630663635383
 Rigidbody2D:
   serializedVersion: 5
