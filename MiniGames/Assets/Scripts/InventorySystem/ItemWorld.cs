@@ -48,8 +48,8 @@ public class ItemWorld : InteractableScript
 
             if (addItem)
             {
-                var thief = inventoryInstance._thief;
-                thief.stateMachine.EnterState(thief.takeState);
+                //var thief = inventoryInstance._thief;
+                //thief.stateMachine.EnterState(thief.takeState);
 
                 Debug.Log($"Inventory: Added {amount} {Resource.name} to Inventory.");
                 Destroy(gameObject);

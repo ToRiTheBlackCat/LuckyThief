@@ -15,7 +15,10 @@ namespace Assets.Scripts.StateMachines
 
         public override void Enter()
         {
-            base.Enter();
+            //base.Enter();
+            triggerCalled = false;
+            _thief._animator.SetTrigger(_animBoolName);
+
             _thief.SetVelocity(0, 0);
         }
 
@@ -31,7 +34,14 @@ namespace Assets.Scripts.StateMachines
 
         public override void Exit()
         {
-            base.Exit();
+            //base.Exit();
+        }
+
+        public override void AnimationFinishTrigger()
+        {
+            base.AnimationFinishTrigger();
+
+            _thief.InteractCheck.currentGameObj.GetComponent<ItemWorld>().onHandleInteract();
         }
     }
 }

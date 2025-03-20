@@ -17,6 +17,7 @@ public class ThiefScript : MonoBehaviour
 
     private InteractCheckScript _interactCheck;
     public InteractCheckScript InteractCheck { get => _interactCheck; }
+    public InventoryController Inventory { get => _inventory; }
     #endregion
 
     #region Animation Info
@@ -70,7 +71,6 @@ public class ThiefScript : MonoBehaviour
 
         stateMachine.Initialize(idleState);
         #endregion
-
         _interactCheck = GetComponentInChildren<InteractCheckScript>();
         _inventory = GetComponentInChildren<InventoryController>();
         _inventory._thief = this;

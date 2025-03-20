@@ -3,6 +3,7 @@ using Assets.Scripts.StateMachines;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -195,7 +196,7 @@ public class InventoryController : MonoBehaviour
     #region Toolbelt function
     public bool AddItem(Item newItem)
     {
-        if ((toolBelt.Count == ItemCountMax && !newItem.IsStackable()) || (TotalWeight + (int)newItem.weight) > TotalWeightMax)
+        if (CanAddItem(newItem))
         {
             Debug.LogError($"Inventory: Can't add new Item. \n" +
                 $"Count: ({toolBelt.Count}/{ItemCountMax}) \n" +
@@ -229,6 +230,10 @@ public class InventoryController : MonoBehaviour
         ToolIndexCurrent = Math.Clamp(ToolIndexCurrent, 0, ToolIndexMax);
         _inventoryUI.SetInventory(this);
         return true;
+    }
+    public bool CanAddItem(Item newItem)
+    {
+        return (toolBelt.Count == ItemCountMax && !newItem.IsStackable()) || (TotalWeight + (int)newItem.weight) > TotalWeightMax;
     }
 
     public bool RemoveItem(Item removeItem, out int amount)
