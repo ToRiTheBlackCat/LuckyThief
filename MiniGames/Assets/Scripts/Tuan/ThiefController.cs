@@ -14,7 +14,6 @@ public class ThiefScript : MonoBehaviour
     [SerializeField] private NoiseController _noiseController;
     [SerializeField] private InventoryController _inventory;
     [SerializeField] private PlayerUIScript PlayerUI;
-    public GameObject currentInteractable;
 
     private InteractCheckScript _interactCheck;
     public InteractCheckScript InteractCheck { get => _interactCheck; }
@@ -86,12 +85,12 @@ public class ThiefScript : MonoBehaviour
     void Update()
     {
         CameraFollow();
+        stateMachine.currentState.Update();
     }
 
     private void FixedUpdate()
     {
         ProcessMovement();
-        stateMachine.currentState.Update();
     }
 
     private void CameraFollow()
@@ -124,6 +123,7 @@ public class ThiefScript : MonoBehaviour
         xAxis = direction.x;
         yAxis = direction.y;
 
+        _rBody.linearVelocity = Velocity * Time.fixedDeltaTime;
     }
 
     public void SetVelocity(float xAxis, float yAxis)
@@ -134,8 +134,8 @@ public class ThiefScript : MonoBehaviour
            speedPenalty = (Mathf.Clamp(_inventory.WeightRatio, 0, 75f) - .5f) * Speed;
 
 
-        _rBody.linearVelocity = direction.normalized * (Speed - speedPenalty) * Time.fixedDeltaTime;
-        Velocity = _rBody.linearVelocity / Time.fixedDeltaTime;
+        //_rBody.linearVelocity = direction.normalized * (Speed - speedPenalty) * Time.fixedDeltaTime;
+        Velocity = direction.normalized * (Speed - speedPenalty);
     }
 
     public void SetSprite(float xVel, float yVel)

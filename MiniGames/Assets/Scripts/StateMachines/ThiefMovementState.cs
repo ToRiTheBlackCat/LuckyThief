@@ -15,14 +15,12 @@ namespace Assets.Scripts.StateMachines
 
         public override void Update()
         {
-            //base.Update();
-            _thief.currentInteractable = _thief.InteractCheck.currentGameObj;
+            base.Update();
+
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log($"Running state: Movement");
-
-                //var interactable = _thief.InteractCheck.currentGameObj?.GetComponent<InteractableScript>();
-                //interactable?.onHandleInteract();
+                var interactable = _thief.InteractCheck.currentGameObj?.GetComponent<InteractableScript>();
+                interactable?.onHandleInteract();
             }
         }
     }
