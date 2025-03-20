@@ -57,7 +57,7 @@ public class ThiefScript : MonoBehaviour
         _animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
         _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
-        //_noiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
+        _noiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
 
 
         #region Init StateMachine
