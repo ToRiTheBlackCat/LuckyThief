@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Data 1
   m_EditorClassIdentifier: 
   itemName: Case
-  sprite: {fileID: 0}
+  sprite: {fileID: -1489309018, guid: a3880efd57328c142b973f0df7f5c6f4, type: 3}
   weight: 3
   type: 0
