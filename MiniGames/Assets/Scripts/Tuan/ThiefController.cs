@@ -6,15 +6,17 @@ using UnityEngine.InputSystem;
 public class ThiefScript : MonoBehaviour
 {
     #region Components
-    public Rigidbody2D rBody;
+    public Rigidbody2D _rBody;
     [SerializeField] private Camera _camera;
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private SpriteRenderer _shadowRenderer;
-    public Animator animator;
+    public Animator _animator { get; private set; }
     [SerializeField] private NoiseController _noiseController;
+    [SerializeField] private InventoryController _inventory;
     [SerializeField] private PlayerUIScript PlayerUI;
 
     private InteractCheckScript _interactCheck;
+    public InteractCheckScript InteractCheck { get => _interactCheck; }
     #endregion
 
     #region Animation Info
@@ -22,11 +24,10 @@ public class ThiefScript : MonoBehaviour
     private int throwHash = Animator.StringToHash("throw");
     #endregion
 
-    [Header("Input info")]
+    [Header("Movement info")]
     public float xAxis;
     public float yAxis;
-
-    [Header("Movement info")]
+    [Space]
     public float Speed = 10;
     public Vector2 Velocity;
 
@@ -40,18 +41,24 @@ public class ThiefScript : MonoBehaviour
     #region States
     public ThiefStateMachine stateMachine;
 
-    public ThiefIdleState idleState;
-    public ThiefWalkState walkState;
-    public ThiefThrowState throwState;
+    public ThiefIdleState idleState {get; private set;}
+    public ThiefWalkState walkState { get; private set; }
+    public ThiefThrowState throwState { get; private set; }
+    public ThiefTakeState takeState { get; private set; }
     #endregion
+
+    [Header("Camera Settings")]
+    public float followAccel = 0.03f;
+    public float maxFollowDistance = 3;
 
     private void Awake()
     {
-        rBody = GetComponent<Rigidbody2D>();
-        animator = GetComponentInChildren<Animator>();
+        _rBody = GetComponent<Rigidbody2D>();
+        _animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
         _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
         //_noiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
+
 
         #region Init StateMachine
         stateMachine = new ThiefStateMachine();
@@ -59,39 +66,33 @@ public class ThiefScript : MonoBehaviour
         idleState = new ThiefIdleState(this, stateMachine, "Idle");
         walkState = new ThiefWalkState(this, stateMachine, "Walk");
         throwState = new ThiefThrowState(this, stateMachine, "Throw");
+        takeState = new ThiefTakeState(this, stateMachine, "TakeItem");
 
         stateMachine.Initialize(idleState);
         #endregion
 
         _interactCheck = GetComponentInChildren<InteractCheckScript>();
+        _inventory = GetComponentInChildren<InventoryController>();
+        _inventory._thief = this;
     }
 
     void Start()
     {
         GameManagerSingleton.Player = this;
-
-        //_interactCheck = GetComponentInChildren<InteractCheckScript>();
-        //_interactCheck.OnInteractEnter.AddListener(x => OnInteractCheckCollisionEnter(x));
-
-        var animTriggers = GetComponentInChildren<ThiefAnimationTriggers>();
-
-        //Cursor.lockState = CursorLockMode.Locked;
     }
 
 
     void Update()
     {
         CameraFollow();
+        stateMachine.currentState.Update();
     }
 
     private void FixedUpdate()
     {
         ProcessMovement();
-        stateMachine.currentState.Update();
     }
 
-    public float followAccel = 0.03f;
-    public float maxFollowDistance = 3;
     private void CameraFollow()
     {
         if (_camera == null)
@@ -122,12 +123,19 @@ public class ThiefScript : MonoBehaviour
         xAxis = direction.x;
         yAxis = direction.y;
 
+        _rBody.linearVelocity = Velocity * Time.fixedDeltaTime;
     }
 
     public void SetVelocity(float xAxis, float yAxis)
     {
         var direction = new Vector2(xAxis, yAxis);
-        rBody.linearVelocity = direction.normalized * Speed * Time.deltaTime;
+        var speedPenalty = 0f;
+        if (_inventory.WeightRatio >= .5f)
+           speedPenalty = (Mathf.Clamp(_inventory.WeightRatio, 0, 75f) - .5f) * Speed;
+
+
+        //_rBody.linearVelocity = direction.normalized * (Speed - speedPenalty) * Time.fixedDeltaTime;
+        Velocity = direction.normalized * (Speed - speedPenalty);
     }
 
     public void SetSprite(float xVel, float yVel)

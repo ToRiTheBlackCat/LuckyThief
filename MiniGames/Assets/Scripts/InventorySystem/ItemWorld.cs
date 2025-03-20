@@ -1,6 +1,11 @@
 using Assets.Scripts.InventorySystem;
+using Mono.Cecil;
+using System;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
+[ExecuteInEditMode]
 public class ItemWorld : InteractableScript
 {
     public static GameObject itemWorldPrf { get; private set; }
@@ -9,9 +14,31 @@ public class ItemWorld : InteractableScript
     public static InventoryController inventoryInstance;
     [SerializeField] private SpriteRenderer model;
     [SerializeField] private SpriteRenderer highlight;
-    [SerializeField] private InventoryItemResource resource;
+    [SerializeField] private InventoryItemResource _resource;
+    public InventoryItemResource Resource
+    {
+        get => _resource;
+        set
+        {
+            if (value == null)
+                return;
+
+            _resource = value;
+
+            model = transform.Find("Model").GetComponent<SpriteRenderer>();
+            highlight = transform.Find("Highlight").GetComponent<SpriteRenderer>();
+            model.sprite = _resource.sprite;
+            highlight.sprite = _resource.sprite;
+            gameObject.name= _resource.name;
+        }
+    }
 
     [SerializeField] private int amount;
+
+    private void OnValidate()
+    {
+        Resource = _resource;
+    }
 
     public override void onHandleInteract()
     {
@@ -21,7 +48,10 @@ public class ItemWorld : InteractableScript
 
             if (addItem)
             {
-                Debug.Log($"Inventory: Added {amount} {resource.name} to Inventory.");
+                var thief = inventoryInstance._thief;
+                thief.stateMachine.EnterState(thief.takeState);
+
+                Debug.Log($"Inventory: Added {amount} {Resource.name} to Inventory.");
                 Destroy(gameObject);
             }
         }
@@ -40,20 +70,17 @@ public class ItemWorld : InteractableScript
 
     private void Start()
     {
-        highlight.enabled = false;
+        if (!Application.isPlaying)
+            return;
 
-        SetItem(new Item()
-        {
-            amount = amount,
-            resource = resource,
-        });
+        highlight.enabled = false;
     }
 
     public void SetItem(Item newItem)
     {
-        resource = newItem.resource;
-        model.sprite = resource.sprite;
-        highlight.sprite = resource.sprite;
+        _resource = newItem.resource;
+        model.sprite = Resource.sprite;
+        highlight.sprite = Resource.sprite;
         amount = newItem.amount;
     }
 
@@ -61,7 +88,7 @@ public class ItemWorld : InteractableScript
     {
         return new Item()
         {
-            resource = this.resource,
+            resource = this.Resource,
             amount = this.amount,
         };
     }
@@ -78,7 +105,7 @@ public class ItemWorld : InteractableScript
         transform.position = postion;
 
         ItemWorld itemWorld = transform.GetComponent<ItemWorld>();
-        itemWorld.resource = spawnItem.resource;
+        itemWorld.Resource = spawnItem.resource;
         itemWorld.amount = spawnItem.amount;
     }
 }

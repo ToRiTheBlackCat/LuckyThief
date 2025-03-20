@@ -180,6 +180,8 @@ public class UI_Inventory : MonoBehaviour
 
     private void DisplaySelected(int selectIndex)
     {
+        if (isColapsed)
+            return;
         selectIndex++;
 
         for (int index = 1; index < itemSlotContainer.childCount; index++)

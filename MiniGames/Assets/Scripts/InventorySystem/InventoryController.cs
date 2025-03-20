@@ -10,21 +10,17 @@ using UnityEngine.Events;
 public class InventoryController : MonoBehaviour
 {
     #region Components
-    public Transform throwPoint;
-    public ThrowableScript _throwable;
-    public ThiefScript thief
-    {
-        get => GetComponentInParent<ThiefScript>();
-    }
+    private Transform throwPoint;
+    private UI_Inventory _inventoryUI = null!;
+    [HideInInspector] public ThiefScript _thief = null!;
     #endregion
 
-    [SerializeField] private GameObject _throwablePrefab;
     [SerializeField] private InventoryItemResource _meatResource;
-    [SerializeField] private UI_Inventory inventoryUI;
+    [SerializeField] private GameObject _throwablePrefab;
 
 
     [Header("Toolbelt Info")]
-    [SerializeField] private List<Item> toolBelt;
+    [SerializeReference] private List<Item> toolBelt;
     [SerializeField] public int ItemCountMax { get; private set; } = 7;
     public int TotalWeight
     {
@@ -43,24 +39,28 @@ public class InventoryController : MonoBehaviour
     public int ToolIndexCurrent { get; private set; }
     public int ToolIndexMax => toolBelt.Count() - 1;
     public Item? CurrentItem => toolBelt.Count > 0 ? toolBelt.ElementAt(ToolIndexCurrent) : null;
-    public List<Item> Items => toolBelt;
+    public List<Item> Items => toolBelt.ToList();
 
     [Header("Throw Settings")]
     [SerializeField] private float throwDistanceMax;
     [SerializeField] private float throwAngle;
     private const float throwGravity = 9.8f;
     [SerializeField] private LayerMask whatIsObstacle;
-    public bool isThrowing;
+    private bool _isThrowing;
 
     // Events
-    public UnityEvent<int> ToolIndexChanged;
-    public UnityEvent ItemChanged;
+    public UnityEvent<int> ToolIndexChanged = null!;
+    public UnityEvent ItemChanged = null!;
 
     private void Awake()
     {
         ItemWorld.inventoryInstance = this;
 
+        throwPoint = transform.GetChild(0);
+        _inventoryUI = GameObject.Find("UI_Inventory").GetComponent<UI_Inventory>();
+
         toolBelt = new List<Item>();
+        #region Init temp Items
         //toolBelt = new List<Item>()
         //{
         //    new Item()
@@ -98,14 +98,8 @@ public class InventoryController : MonoBehaviour
         //        resource = _meatResource,
         //        amount = 2,
         //    }
-        //};
-    }
-
-    void Start()
-    {
-        throwPoint = transform.GetChild(0);
-
-        inventoryUI.SetInventory(this);
+        //}; 
+        #endregion
     }
 
     // Update is called once per frame
@@ -130,12 +124,12 @@ public class InventoryController : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Mouse1))
         {
-            ProcessRightClick();
+            _isThrowing = false;
         }
 
-        if (isThrowing)
+        if (_isThrowing)
         {
-            if (Input.GetKey(KeyCode.Mouse0) && (thief.stateMachine.currentState is ThiefMovementState))
+            if (Input.GetKeyDown(KeyCode.Mouse0) && (_thief.stateMachine.currentState is ThiefMovementState))
             {
                 ThrowItem();
             }
@@ -157,7 +151,7 @@ public class InventoryController : MonoBehaviour
 
                 break;
             case ItemType.Throwable:
-                isThrowing = true;
+                _isThrowing = true;
                 break;
             case ItemType.Consumable:
 
@@ -192,8 +186,9 @@ public class InventoryController : MonoBehaviour
             throwScript.objectSprite = _meatResource.sprite;
             throwScript.LaunchProjectile(transform.position, throwPoint.position, throwAngle);
 
-            thief.stateMachine.EnterState(thief.throwState);
-            thief.SetSprite(throwPoint.localPosition.x, 0f); 
+            _thief.stateMachine.EnterState(_thief.throwState);
+            _thief.SetSprite(throwPoint.localPosition.x, 0f);
+            _isThrowing = false;
         }
     }
 
@@ -205,7 +200,7 @@ public class InventoryController : MonoBehaviour
             Debug.LogError($"Inventory: Can't add new Item. \n" +
                 $"Count: ({toolBelt.Count}/{ItemCountMax}) \n" +
                 $"Weight: ({TotalWeight}/{TotalWeightMax})");
-            inventoryUI.SetInventory(this);
+            _inventoryUI.SetInventory(this);
             return false;
         }
 
@@ -232,7 +227,7 @@ public class InventoryController : MonoBehaviour
         }
 
         ToolIndexCurrent = Math.Clamp(ToolIndexCurrent, 0, ToolIndexMax);
-        inventoryUI.SetInventory(this);
+        _inventoryUI.SetInventory(this);
         return true;
     }
 
@@ -259,7 +254,7 @@ public class InventoryController : MonoBehaviour
             }
 
             ToolIndexCurrent = Mathf.Clamp(ToolIndexCurrent, 0, ToolIndexMax);
-            inventoryUI.SetInventory(this);
+            _inventoryUI.SetInventory(this);
 
             return true;
         }
@@ -291,13 +286,16 @@ public class InventoryController : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        if (throwPoint == null)
+            return;
+
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Gizmos.DrawWireSphere(mousePos, .1f);
 
         Gizmos.DrawSphere(throwPoint.position, .1f);
 
         // Render throw trajectory
-        if (isThrowing)
+        if (_isThrowing)
         {
             Gizmos.DrawLine(transform.position, throwPoint.position);
 
