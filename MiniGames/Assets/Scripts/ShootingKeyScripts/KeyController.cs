@@ -17,7 +17,8 @@ public class KeyController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        isShooting = false;
+        isAttached = false;
     }
 
     // Update is called once per frame
