@@ -45,17 +45,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f4a7405346ee64cba3635e6f9da1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throwPoint: {fileID: 4206834189321200095}
-  _throwable: {fileID: 0}
-  _throwablePrefab: {fileID: 7417756636488693911, guid: bc3ef98727974c94aa7fc3408a755c1c, type: 3}
+  _thief: {fileID: 0}
   _meatResource: {fileID: 11400000, guid: 369e6cbed6266cc4ab6d7326609b61b5, type: 2}
-  inventoryUI: {fileID: 0}
+  _throwablePrefab: {fileID: 7417756636488693911, guid: bc3ef98727974c94aa7fc3408a755c1c, type: 3}
   throwDistanceMax: 10
   throwAngle: 45
   whatIsObstacle:
     serializedVersion: 2
     m_Bits: 384
-  isThrowing: 0
   ToolIndexChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -166,9 +163,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -512873547
-  m_SortingLayer: 3
-  m_SortingOrder: -1
+  m_SortingLayerID: 1336415905
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2472637416616827165, guid: 854a2ba8cba92614a8de535941fcd1c5, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.41960785}
   m_FlipX: 0
@@ -452,12 +449,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af5386632f9861742af7d5d375605ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rBody: {fileID: 8119331534173665891}
+  _rBody: {fileID: 0}
   _camera: {fileID: 0}
   _spriteRenderer: {fileID: 2507030985388332268}
   _shadowRenderer: {fileID: 6710044421671427692}
-  animator: {fileID: 0}
   _noiseController: {fileID: 0}
+  _inventory: {fileID: 0}
   PlayerUI: {fileID: 0}
   xAxis: 0
   yAxis: 0

@@ -42,7 +42,7 @@ namespace Assets.Scripts.StateMachines
             _thief._animator.SetBool(_animBoolName, false);
         }
 
-        public void AnimationFinishTrigger()
+        public virtual void AnimationFinishTrigger()
         {
             triggerCalled = true;
         }

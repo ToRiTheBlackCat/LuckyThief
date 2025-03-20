@@ -20,7 +20,17 @@ namespace Assets.Scripts.StateMachines
             if (Input.GetKeyDown(KeyCode.E))
             {
                 var interactable = _thief.InteractCheck.currentGameObj?.GetComponent<InteractableScript>();
-                interactable?.onHandleInteract();
+                if (interactable is ItemWorld item)
+                {
+                    if (!_thief.Inventory.CanAddItem(item.GetItem()))
+                    {
+                        _stateMachine.EnterState(_thief.takeState);
+                    }
+                }
+                else
+                {
+                    interactable?.onHandleInteract();
+                }
             }
         }
     }

@@ -58,8 +58,8 @@ public class SimonLeverScript : MonoBehaviour
             RotateLever(mouseDir, .8f);
         }
     }
-    #region MouseInputs
 
+    #region MouseInputs
     private void OnMouseEnter()
     {
         if (_simon.allowInput)
@@ -67,7 +67,6 @@ public class SimonLeverScript : MonoBehaviour
             mouseHover = true;
         }
     }
-
 
     private void OnMouseExit()
     {
@@ -102,9 +101,8 @@ public class SimonLeverScript : MonoBehaviour
     /// <param name="direction"></param>
     /// <param name="duration"></param>
     /// <param name="returnDuration"></param>
-    public void RotateLever(Vector2 direction, float duration = 1f)
+    private void RotateLever(Vector2 direction, float duration = 1f)
     {
-
         if (Mathf.Abs(direction.y) == 0 || !canFlip)
         {
             return;

@@ -246,12 +246,6 @@ public class SimonSaysScript : MonoBehaviour
 
         IEnumerator StartShowResult()
         {
-            yield return new WaitForSeconds(.2f);
-            foreach (var led in _resultLeds)
-            {
-                led.TurnOff();
-            }
-
             _successSprite.enabled = result;
             _incorrectSprite.enabled = !result;
             yield return new WaitForSeconds(.3f);
@@ -337,9 +331,8 @@ public class SimonSaysScript : MonoBehaviour
 
         IEnumerator StartExitGame()
         {
-            yield return new WaitForSeconds(delay);
-
             allowInput = false;
+            yield return new WaitForSeconds(delay);
             gameObject.SetActive(false);
         }
     }

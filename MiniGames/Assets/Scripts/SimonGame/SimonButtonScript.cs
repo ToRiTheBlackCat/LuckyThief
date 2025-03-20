@@ -33,13 +33,6 @@ public class SimonButtonScript : MonoBehaviour
         defaultScale = transform.localScale;
     }
 
-    
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void OnMouseEnter()
     {
         if (mouseHover || !_simonGame.allowInput)
@@ -64,7 +57,7 @@ public class SimonButtonScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!mouseHover || !_simonGame.allowInput)
+        if (!_simonGame.allowInput)
         {
             return;
         }
