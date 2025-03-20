@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 31c6b2d84ba66d04c855c708cd7c9245
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5944308901946072585
+    second: Thief_take_stuff_0
+  - first:
+      213: 3378240292913240909
+    second: Thief_take_stuff_1
+  - first:
+      213: -8374146006193781173
+    second: Thief_take_stuff_2
+  - first:
+      213: 7723089637897835503
+    second: Thief_take_stuff_3
+  - first:
+      213: 7092183827203981000
+    second: Thief_take_stuff_4
+  - first:
+      213: 8846395026193394010
+    second: Thief_take_stuff_5
+  - first:
+      213: -8993628566572542965
+    second: Thief_take_stuff_6
+  - first:
+      213: 542485291719778332
+    second: Thief_take_stuff_7
+  - first:
+      213: -6218273916542260190
+    second: Thief_take_stuff_8
+  - first:
+      213: -680430195232641415
+    second: Thief_take_stuff_9
+  - first:
+      213: -7984760621874102101
+    second: Thief_take_stuff_10
+  - first:
+      213: -816963774459913347
+    second: Thief_take_stuff_11
+  - first:
+      213: -1843807242232712105
+    second: Thief_take_stuff_12
+  - first:
+      213: -6046364541602591421
+    second: Thief_take_stuff_13
+  - first:
+      213: 400245568986556706
+    second: Thief_take_stuff_14
+  - first:
+      213: -2792324450907675674
+    second: Thief_take_stuff_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 65
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thief_take_stuff_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 15
+        width: 54
+        height: 66
+      alignment: 9
+      pivot: {x: 0.6296296, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1ef484c82918da0800000000000000
+      internalID: -5944308901946072585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 15
+        width: 51
+        height: 66
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b5101d5abe1ee20800000000000000
+      internalID: 3378240292913240909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 55
+        height: 66
+      alignment: 9
+      pivot: {x: 0.6909091, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b464093539e09cb80800000000000000
+      internalID: -8374146006193781173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 15
+        width: 63
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4603175, y: 0.21917808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe396636b1ded2b60800000000000000
+      internalID: 7723089637897835503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_4
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 15
+        width: 49
+        height: 66
+      alignment: 9
+      pivot: {x: 0.3877551, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce73466d9f7c6260800000000000000
+      internalID: 7092183827203981000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_5
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 15
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a592a07f765b4ca70800000000000000
+      internalID: 8846395026193394010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 15
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0453af0876303380800000000000000
+      internalID: -8993628566572542965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_7
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 15
+        width: 42
+        height: 66
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10e4d4af7b478700800000000000000
+      internalID: 542485291719778332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_8
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 15
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ceb6891d044b9a0800000000000000
+      internalID: -6218273916542260190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_9
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 15
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e65bea750ae86f0800000000000000
+      internalID: -680430195232641415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_10
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 15
+        width: 42
+        height: 66
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0caacf48e603190800000000000000
+      internalID: -7984760621874102101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 15
+        width: 63
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4603175, y: 0.21917808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7543d64051b7966e0800000000000000
+      internalID: -1843807242232712105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 15
+        width: 55
+        height: 66
+      alignment: 9
+      pivot: {x: 0.6909091, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d82430c7ff61ca0800000000000000
+      internalID: -6046364541602591421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_13
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 15
+        width: 51
+        height: 66
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2292e527935fd8500800000000000000
+      internalID: 400245568986556706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thief_take_stuff_14
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 15
+        width: 54
+        height: 66
+      alignment: 9
+      pivot: {x: 0.6296296, y: 0.24242425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3a20ec4bbaf39d0800000000000000
+      internalID: -2792324450907675674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1bacba2113bfabf4688f55f365851a0b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thief_take_stuff_0: -5944308901946072585
+      Thief_take_stuff_1: 3378240292913240909
+      Thief_take_stuff_10: -7984760621874102101
+      Thief_take_stuff_11: -1843807242232712105
+      Thief_take_stuff_12: -6046364541602591421
+      Thief_take_stuff_13: 400245568986556706
+      Thief_take_stuff_14: -2792324450907675674
+      Thief_take_stuff_2: -8374146006193781173
+      Thief_take_stuff_3: 7723089637897835503
+      Thief_take_stuff_4: 7092183827203981000
+      Thief_take_stuff_5: 8846395026193394010
+      Thief_take_stuff_6: -8993628566572542965
+      Thief_take_stuff_7: 542485291719778332
+      Thief_take_stuff_8: -6218273916542260190
+      Thief_take_stuff_9: -680430195232641415
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

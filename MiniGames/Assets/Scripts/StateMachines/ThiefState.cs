@@ -27,7 +27,7 @@ namespace Assets.Scripts.StateMachines
         public virtual void Enter()
         {
             //Debug.Log($"Enter state: {_animBoolName}");
-            _thief.animator.SetBool(_animBoolName, true);
+            _thief._animator.SetBool(_animBoolName, true);
             triggerCalled = false;
         }
 
@@ -39,7 +39,7 @@ namespace Assets.Scripts.StateMachines
         public virtual void Exit()
         {
             //Debug.Log($"Exit state: {_animBoolName}");
-            _thief.animator.SetBool(_animBoolName, false);
+            _thief._animator.SetBool(_animBoolName, false);
         }
 
         public void AnimationFinishTrigger()

@@ -12,5 +12,18 @@ namespace Assets.Scripts.StateMachines
         public ThiefMovementState(ThiefScript thief, ThiefStateMachine stateMachine, string animBoolName) : base(thief, stateMachine, animBoolName)
         {
         }
+
+        public override void Update()
+        {
+            //base.Update();
+            _thief.currentInteractable = _thief.InteractCheck.currentGameObj;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log($"Running state: Movement");
+
+                //var interactable = _thief.InteractCheck.currentGameObj?.GetComponent<InteractableScript>();
+                //interactable?.onHandleInteract();
+            }
+        }
     }
 }
