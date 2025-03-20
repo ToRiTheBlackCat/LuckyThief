@@ -7,7 +7,7 @@ public class InteractCheckScript : MonoBehaviour
 
     [SerializeField] private float checkRadius;
     [SerializeField] private LayerMask interactableMask;
-    private GameObject currentGameObj = null;
+    public GameObject currentGameObj { get; private set; } = null;
 
     private void FixedUpdate()
     {
@@ -31,11 +31,6 @@ public class InteractCheckScript : MonoBehaviour
                 var interactable = currentGameObj.GetComponent<InteractableScript>();
                 interactable.SetHighLight(true);
             }
-            //else
-            //{
-            //    var interactable = currentGameObj.GetComponent<InteractableScript>();
-            //    interactable.SetHighLight(true);
-            //}
         }
         else
         {
@@ -48,6 +43,10 @@ public class InteractCheckScript : MonoBehaviour
 
             currentGameObj = null;
         }
+    }
+
+    private void Update()
+    {
     }
 
     private void OnDrawGizmos()

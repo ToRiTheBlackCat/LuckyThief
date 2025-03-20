@@ -14,7 +14,8 @@ namespace Assets.Scripts.StateMachines
 
         public override void Enter()
         {
-            base.Enter();
+            //base.Enter();
+            triggerCalled = false;
         }
 
         public override void Update()
@@ -29,7 +30,7 @@ namespace Assets.Scripts.StateMachines
 
         public override void Exit()
         {
-            base.Exit();
+            //base.Exit();
         }
     }
 }

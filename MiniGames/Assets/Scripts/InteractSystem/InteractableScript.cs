@@ -39,11 +39,11 @@ public class InteractableScript : MonoBehaviour
         interactable = false;
     }
 
-    private void Update()
+    protected virtual void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            onHandleInteract();
-        }
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    onHandleInteract();
+        //}
     }
 }
