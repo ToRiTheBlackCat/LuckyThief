@@ -42,7 +42,7 @@ public class ItemWorld : InteractableScript
 
     public override void onHandleInteract()
     {
-        if (interactable)
+        if (isInteractable)
         {
             var addItem = inventoryInstance.AddItem(GetItem());
 

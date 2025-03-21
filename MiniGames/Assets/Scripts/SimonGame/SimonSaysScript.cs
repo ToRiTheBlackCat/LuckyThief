@@ -24,6 +24,7 @@ public class SimonSaysScript : MonoBehaviour
     [SerializeField] private TextMeshPro _timeText;
     [SerializeField] private AudioSource _clickSound;
     [SerializeReference] private List<ResultLed> _resultLeds;
+    private InteractableScript _attachedInteractable;
 
     [Header("Game Info")]
     [SerializeField] private LayerMask inputLayerMask;
@@ -72,7 +73,7 @@ public class SimonSaysScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            StartGame();
+            StartGame(null);
         }
     }
 
@@ -105,6 +106,9 @@ public class SimonSaysScript : MonoBehaviour
                 ShowResultSprite(true, true);
                 allowInput = false;
                 print("Unlocked");
+
+                _attachedInteractable?.OnAttachedMinigameSuccess();
+                _attachedInteractable = null;
                 ExitGame(1f);
             }
         }
@@ -301,8 +305,10 @@ public class SimonSaysScript : MonoBehaviour
     /// Function to start the mini-game
     /// ** Will be called by a parent Canvas class **
     /// </summary>
-    public void StartGame()
+    public void StartGame(InteractableScript attachedInteractable)
     {
+        _attachedInteractable = attachedInteractable;
+
         StopAllCoroutines();
         allowInput = true;
         gameObject.SetActive(true);
