@@ -59,7 +59,7 @@ public class PlayerUIScript : MonoBehaviour
                 levelString = "House3";
                 break;
             case LevelNames.Level4:
-                levelString = "";
+                levelString = "MapLevel4";
                 break;
             case LevelNames.Level5:
                 levelString = "";
