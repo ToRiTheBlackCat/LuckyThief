@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Theif : MonoBehaviour
@@ -13,6 +15,10 @@ public class Theif : MonoBehaviour
     private Animator animator;
     public bool isCrouching = false;
     public bool isRunning = false;
+    private bool isNearItem = false;
+    public TextMeshProUGUI interactable;
+    public InteractableController interactableController;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,13 +28,14 @@ public class Theif : MonoBehaviour
         animator = GetComponent<Animator>();
         rb.freezeRotation = true;
         rb.gravityScale = 0;
+        interactable.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        moveInput.x = Input.GetAxis("Horizontal");
-        moveInput.y = Input.GetAxis("Vertical");
+        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.y = Input.GetAxisRaw("Vertical");
 
         if (Input.GetKey(KeyCode.LeftControl))
         {
@@ -52,6 +59,10 @@ public class Theif : MonoBehaviour
         }
         bool isMoving = moveInput.x != 0 || moveInput.y != 0;
         animator.SetBool("IsMoving", isMoving);
+        if (isNearItem && Input.GetKeyDown(KeyCode.F))
+        {
+            interactableController.LoadSafeGame();
+        }
     }
 
     // FixedUpdate is called at a fixed interval and is independent of frame rate
@@ -64,5 +75,25 @@ public class Theif : MonoBehaviour
         Vector2 moveDirection = new Vector2(moveInput.x, moveInput.y).normalized;
         Vector2 newPosition = rb.position + moveDirection * currentSpeed * Time.fixedDeltaTime;
         rb.MovePosition(newPosition);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Minigames"))
+        {
+            Debug.Log("Item found!");
+            isNearItem = true;
+            if (interactable != null) interactable.gameObject.SetActive(true);            
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Minigames"))
+        {
+            Debug.Log("Item not found!");
+            isNearItem = false;
+            if (interactable != null) interactable.gameObject.SetActive(false);
+        }
     }
 }

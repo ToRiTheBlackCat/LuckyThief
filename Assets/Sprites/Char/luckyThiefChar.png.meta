@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      luckyThiefChar_0: -8069944261177706758
+      luckyThiefChar_1: -2232697502489198296
+      luckyThiefChar_2: -4106723784881723579
+      luckyThiefChar_3: 2617623345800514201
+      luckyThiefChar_4: -6096528299750519359
+      luckyThiefChar_5: -6892120692224471169
+      luckyThiefChar_6: 7153381555539064569
+      luckyThiefChar_7: 1970380137827435619
+      luckyThiefChar_8: -8872255605042790336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

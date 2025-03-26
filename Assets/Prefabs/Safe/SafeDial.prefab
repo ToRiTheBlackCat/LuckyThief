@@ -149,10 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec1a651d5d6bcd44790b0dfc4bb1052d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combination: 000000000000000000000000
   SafeClickFast: {fileID: 8300000, guid: fc4a8868266da764d859621b009d756d, type: 3}
   SafeClick: {fileID: 8300000, guid: 5a6d3f8969846f249aa84117546d4db6, type: 3}
   SafePassDisplay: {fileID: 0}
+  SafeUnlockedText: {fileID: 0}
 --- !u!82 &6347965407709292829
 AudioSource:
   m_ObjectHideFlags: 0

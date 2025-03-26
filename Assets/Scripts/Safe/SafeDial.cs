@@ -1,5 +1,7 @@
-﻿using TMPro;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SafeDial : MonoBehaviour
 {
@@ -7,7 +9,7 @@ public class SafeDial : MonoBehaviour
     private const float DEGREE_PER_NUMBER = 3.6f;
     private const float ANGLE_TOLERANCE = 7.2f; // 2 numbers tolerance
 
-    public int[] Combination { get; set; } = new int[3];
+    public int[] combination { get; set; } = new int[3];
     private int combinationIndex = 0;
     private bool isUnlocked = false;
     private bool waitingForReverse = false;
@@ -37,6 +39,10 @@ public class SafeDial : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            return;
+        }
         if (isUnlocked) return;
 
         float rotation = GetRotationInput();
@@ -68,12 +74,12 @@ public class SafeDial : MonoBehaviour
 
     private void InitializeCombination()
     {
-        Combination = new int[] { Random.Range(0, 99), Random.Range(0, 99), Random.Range(0, 99) };
+        combination = new int[] { Random.Range(1, 99), Random.Range(0, 99), Random.Range(0, 99) };
     }
 
     private void DisplayCombination()
     {
-        SafePassDisplay.text = $"{Combination[0]} {Combination[1]} {Combination[2]}";
+        SafePassDisplay.text = $"{combination[0]} {combination[1]} {combination[2]}";
     }
 
     private float GetRotationInput()
@@ -113,26 +119,25 @@ public class SafeDial : MonoBehaviour
 
     private void CheckCombination(float dialAngle, float rotationDirection)
     {
-        if (combinationIndex >= Combination.Length) return;
+        if (combinationIndex > 2) return;
 
         int currentDialNumber = GetDialNumberFromAngle(dialAngle);
-        int targetNumber = Combination[combinationIndex];
+        int targetNumber = combination[combinationIndex];
 
         // Debug: Display the target number and current dial number
         Debug.Log($"Target Number: {targetNumber}, Current Dial Number: {currentDialNumber}");
 
         if (Mathf.Abs(currentDialNumber - targetNumber) < ANGLE_TOLERANCE / DEGREE_PER_NUMBER)
         {
-            if (combinationIndex == 0 || IsCorrectRotationDirection(rotationDirection))
+            if (combinationIndex < 2 || IsCorrectRotationDirection(rotationDirection))
             {
+                combinationIndex++;
                 StopTurningSound();
                 PlayClickSound();
                 isDialLocked = true;
-
-                combinationIndex++;
                 waitingForReverse = !waitingForReverse;
 
-                if (combinationIndex >= 2)
+                if (combinationIndex > 2)
                 {
                     isUnlocked = true;
                     Debug.Log("Safe Unlocked!");
@@ -141,6 +146,8 @@ public class SafeDial : MonoBehaviour
                         SafeUnlockedText.text = "Safe Unlocked!";
                         SafeUnlockedText.gameObject.SetActive(true);
                     }
+                    enabled = false;
+                    StartCoroutine(ReturnToGameScene());
                 }
             }
         }
@@ -181,10 +188,15 @@ public class SafeDial : MonoBehaviour
         }
     }
 
-    private int[] GetRandomPass()
+    private IEnumerator ReturnToGameScene()
     {
-        int[] pass = { Random.Range(0, 99), Random.Range(0, 99), Random.Range(0, 99) };
-
-        return pass;
+        yield return new WaitForSeconds(1f);
+        // Return to the main scene
+        SceneManager.UnloadSceneAsync("SafeDial");
+        Theif player = FindFirstObjectByType<Theif>();
+        if (player != null)
+        {
+            player.enabled = true;
+        }
     }
 }

@@ -997,7 +997,42 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TopDownHouse_FurnitureState2_0: 2492210224692145768
+      TopDownHouse_FurnitureState2_1: 807981452728694492
+      TopDownHouse_FurnitureState2_10: 3411658623193018523
+      TopDownHouse_FurnitureState2_11: -8845540715343557685
+      TopDownHouse_FurnitureState2_12: 2487396258413298203
+      TopDownHouse_FurnitureState2_13: -1910255626948614874
+      TopDownHouse_FurnitureState2_14: 2381591660152911610
+      TopDownHouse_FurnitureState2_15: -3549839095568008039
+      TopDownHouse_FurnitureState2_16: 6927396456807567928
+      TopDownHouse_FurnitureState2_17: -181951039052862311
+      TopDownHouse_FurnitureState2_18: 1895682495467128623
+      TopDownHouse_FurnitureState2_19: 9077579675889848370
+      TopDownHouse_FurnitureState2_2: 697597236043287590
+      TopDownHouse_FurnitureState2_20: 7678394247770279566
+      TopDownHouse_FurnitureState2_21: 3165919991677821792
+      TopDownHouse_FurnitureState2_22: -8378972298508074445
+      TopDownHouse_FurnitureState2_23: -6306131752417886778
+      TopDownHouse_FurnitureState2_24: -8607606736995592552
+      TopDownHouse_FurnitureState2_25: -3668151202994259593
+      TopDownHouse_FurnitureState2_26: 4431161517483847663
+      TopDownHouse_FurnitureState2_27: 264159191611288764
+      TopDownHouse_FurnitureState2_28: 4843306795386893179
+      TopDownHouse_FurnitureState2_29: -7914053905990980682
+      TopDownHouse_FurnitureState2_3: -7934646124544217497
+      TopDownHouse_FurnitureState2_30: 5281056883739077842
+      TopDownHouse_FurnitureState2_31: 221446603676674786
+      TopDownHouse_FurnitureState2_32: -4217774148151571837
+      TopDownHouse_FurnitureState2_33: -3401660290410426235
+      TopDownHouse_FurnitureState2_34: -8643914529133457745
+      TopDownHouse_FurnitureState2_4: 5082533475267559111
+      TopDownHouse_FurnitureState2_5: 394087919408422019
+      TopDownHouse_FurnitureState2_6: -3125665760964055732
+      TopDownHouse_FurnitureState2_7: 3300118265794722929
+      TopDownHouse_FurnitureState2_8: 7946180422358659586
+      TopDownHouse_FurnitureState2_9: 4699220720057953175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
