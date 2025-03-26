@@ -311,9 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightSprite: {fileID: 7844324960785888398}
   isInteractable: 0
-  InteractEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  _attachedGame: {fileID: 0}
   SuccessEvent:
     m_PersistentCalls:
       m_Calls: []

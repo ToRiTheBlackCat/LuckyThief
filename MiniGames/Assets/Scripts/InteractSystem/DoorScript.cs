@@ -21,15 +21,15 @@ public class DoorScript : InteractableScript
             return;
         }
 
-        if (InteractEvent == null)
+        if (_attachedGame == null)
         {
             Debug.Log("No attached event.");
             return;
         }
 
-        if (InteractEvent.GetPersistentEventCount() > 0)
+        if (_attachedGame != null)
         {
-            InteractEvent.Invoke(this);
+            _attachedGame.StartGame(this);
         }
         else
         {
@@ -39,7 +39,10 @@ public class DoorScript : InteractableScript
 
     public override void OnAttachedMinigameSuccess()
     {
-        _doorPanel.sprite = _openedSprite;
+        if (_openedSprite != null)
+        {
+            _doorPanel.sprite = _openedSprite;
+        }
         _collider.enabled = false;
         _opened = true;
     }
