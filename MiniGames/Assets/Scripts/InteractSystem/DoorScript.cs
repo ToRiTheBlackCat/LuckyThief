@@ -39,7 +39,10 @@ public class DoorScript : InteractableScript
 
     public override void OnAttachedMinigameSuccess()
     {
-        _doorPanel.sprite = _openedSprite;
+        if (_openedSprite != null)
+        {
+            _doorPanel.sprite = _openedSprite;
+        }
         _collider.enabled = false;
         _opened = true;
     }

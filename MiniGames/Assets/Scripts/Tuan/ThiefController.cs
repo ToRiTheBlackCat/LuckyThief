@@ -7,13 +7,13 @@ using UnityEngine.InputSystem;
 public class ThiefScript : MonoBehaviour
 {
     #region Components
-    public Rigidbody2D _rBody;
+    private Rigidbody2D _rBody;
     [SerializeField] private Camera _camera;
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-    [SerializeField] private SpriteRenderer _shadowRenderer;
+    private SpriteRenderer _spriteRenderer;
+    private SpriteRenderer _shadowRenderer;
     public Animator _animator { get; private set; }
-    [SerializeField] private NoiseController _noiseController;
-    [SerializeField] private InventoryController _inventory;
+    private NoiseController _noiseController;
+    private InventoryController _inventory;
     [SerializeField] private PlayerUIScript PlayerUI;
 
     private InteractCheckScript _interactCheck;
@@ -56,7 +56,11 @@ public class ThiefScript : MonoBehaviour
 
     private void Awake()
     {
+        _camera = Camera.main;
         _rBody = GetComponent<Rigidbody2D>();
+        _spriteRenderer = transform.Find("Model").GetComponent<SpriteRenderer>();
+        _shadowRenderer = transform.Find("Shadow").GetComponent<SpriteRenderer>();
+
         _animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
         _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
