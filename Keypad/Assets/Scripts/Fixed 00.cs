@@ -44,10 +44,16 @@ public class Fixed00 : MonoBehaviour
     public AudioClip jackpotAudioClip;
     public AudioClip sirenAudioClip;
     public AudioClip coinFailAudioClip;
+    public AudioClip buttonAudioClip;
+
+    public bool isSolved = false;
+    public bool isAlarm = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        isSolved = false;
+        isAlarm = false;
         buttonRotate = GameObject.Find("Rotate").GetComponent<GameObject>();
 
         int _Min = 0;
@@ -110,7 +116,8 @@ public class Fixed00 : MonoBehaviour
                 else if (currLn < 0) currLn = numGrid.GetLength(2) - 1;
             }
             getNumberToDisplay(currLnSq, currSq, currLn, currPos);
-        }
+			audioSource.PlayOneShot(buttonAudioClip, 1);
+		}
     }
     public void btnSmallHorizontal() 
     {
@@ -130,7 +137,8 @@ public class Fixed00 : MonoBehaviour
                 else if (currPos < 0) currPos = numGrid.GetLength(3) - 1;
             }
             getNumberToDisplay(currLnSq, currSq, currLn, currPos);
-        }
+			audioSource.PlayOneShot(buttonAudioClip, 1);
+		}
     }
     public void btnLargeVertical() 
     {
@@ -150,7 +158,8 @@ public class Fixed00 : MonoBehaviour
                 else if (currLnSq < 0) currLnSq = numGrid.GetLength(0) - 1;
             }
             getNumberToDisplay(currLnSq, currSq, currLn, currPos);
-        }
+			audioSource.PlayOneShot(buttonAudioClip, 1);
+		}
     }
     public void btnLargeHorizontal() 
     {
@@ -170,7 +179,8 @@ public class Fixed00 : MonoBehaviour
                 else if (currSq < 0) currSq = numGrid.GetLength(1) - 1;
             }
             getNumberToDisplay(currLnSq, currSq, currLn, currPos);
-        }
+			audioSource.PlayOneShot(buttonAudioClip, 1);
+		}
     }
 
     public async void btnSubmit() 
@@ -178,8 +188,10 @@ public class Fixed00 : MonoBehaviour
         int checkNumber = getNumberInt(currLnSq, currSq, currLn, currPos);
         if (!actionDisabled)
         {
-            if (checkNumber == 0)
+			audioSource.PlayOneShot(buttonAudioClip, 1);
+			if (checkNumber == 0)
             {
+                isSolved = true;
                 displayNumber.text = "<color=#00FF00>YES</color>";
                 audioSource.PlayOneShot(jackpotAudioClip, 1);
                 actionDisabled = true;
@@ -191,6 +203,8 @@ public class Fixed00 : MonoBehaviour
             }
             else if (checkNumber < 10 && checkNumber != 0)
             {
+                isSolved = false;
+                isAlarm = true;
                 displayNumber.text = "<color=#FF0000>NO</color>";
                 audioSource.PlayOneShot(sirenAudioClip, 1);
                 actionDisabled = true;
@@ -213,7 +227,8 @@ public class Fixed00 : MonoBehaviour
     }
     public void btnRotate() 
     {
-        if (!actionDisabled)
+		audioSource.PlayOneShot(buttonAudioClip, 1);
+		if (!actionDisabled)
         {
             svDefault = !svDefault;
             lvDefault = !lvDefault;
