@@ -14,7 +14,7 @@ public enum Difficulty
     Level3
 }
 
-public class SimonSaysScript : MonoBehaviour
+public class SimonSaysScript : MiniGameBase
 {
     [SerializeField] private SpriteRenderer _mainModel;
     [SerializeField] private SpriteRenderer _incorrectSprite;
@@ -305,7 +305,7 @@ public class SimonSaysScript : MonoBehaviour
     /// Function to start the mini-game
     /// ** Will be called by a parent Canvas class **
     /// </summary>
-    public void StartGame(InteractableScript attachedInteractable)
+    public override void StartGame(InteractableScript attachedInteractable = null)
     {
         _attachedInteractable = attachedInteractable;
 
@@ -327,7 +327,7 @@ public class SimonSaysScript : MonoBehaviour
     /// Function to stop and exit the mini-game
     /// ** Will be called by a parent Canvas class **
     /// </summary>
-    public void ExitGame(float delay = 0f)
+    public override void ExitGame(float delay = 0f)
     {
         if (ExitCoroutine != null)
         {

@@ -43,7 +43,7 @@ public class ThiefScript : MonoBehaviour
     #region States
     public ThiefStateMachine stateMachine;
 
-    public ThiefIdleState idleState {get; private set;}
+    public ThiefIdleState idleState { get; private set; }
     public ThiefWalkState walkState { get; private set; }
     public ThiefThrowState throwState { get; private set; }
     public ThiefTakeState takeState { get; private set; }
@@ -129,16 +129,18 @@ public class ThiefScript : MonoBehaviour
         _rBody.linearVelocity = Velocity * Time.fixedDeltaTime;
     }
 
+    [HideInInspector] public float SpeedMult = 1f;
     public void SetVelocity(float xAxis, float yAxis)
     {
         var direction = new Vector2(xAxis, yAxis);
         var speedPenalty = 0f;
         if (_inventory.WeightRatio >= .5f)
-           speedPenalty = (Mathf.Clamp(_inventory.WeightRatio, 0, 75f) - .5f) * Speed;
+            speedPenalty = (Mathf.Clamp(_inventory.WeightRatio, 0, 75f) - .5f) * Speed;
 
 
         //_rBody.linearVelocity = direction.normalized * (Speed - speedPenalty) * Time.fixedDeltaTime;
         Velocity = direction.normalized * (Speed - speedPenalty);
+        Velocity *= SpeedMult;
     }
 
     public void SetSprite(float xVel, float yVel)

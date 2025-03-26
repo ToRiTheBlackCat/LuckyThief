@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,7 +8,8 @@ public class InteractableScript : MonoBehaviour
 
     [SerializeField] protected bool isInteractable;
 
-    [SerializeField] protected UnityEvent<InteractableScript> InteractEvent;
+    //[SerializeField] protected UnityEvent<InteractableScript> InteractEvent;
+    [SerializeField] protected MiniGameBase _attachedGame;
     [SerializeField] protected UnityEvent SuccessEvent;
 
     public void SetHighLight(bool status = true)
@@ -24,13 +26,13 @@ public class InteractableScript : MonoBehaviour
             return;
         }
 
-        if (InteractEvent == null)
+        if (_attachedGame == null)
         {
             Debug.Log("No attached event.");
             return;
         }
 
-        InteractEvent?.Invoke(this);
+        _attachedGame?.StartGame(this);
     }
 
     private void Start()

@@ -21,15 +21,15 @@ public class DoorScript : InteractableScript
             return;
         }
 
-        if (InteractEvent == null)
+        if (_attachedGame == null)
         {
             Debug.Log("No attached event.");
             return;
         }
 
-        if (InteractEvent.GetPersistentEventCount() > 0)
+        if (_attachedGame != null)
         {
-            InteractEvent.Invoke(this);
+            _attachedGame.StartGame(this);
         }
         else
         {
