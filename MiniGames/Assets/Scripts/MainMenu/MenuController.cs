@@ -34,7 +34,7 @@ public class MenuController : MonoBehaviour
     public void LoadLevel()
     {
         Debug.Log("load scene:" + scenes[currentLevel]);
-        //SceneManager.LoadScene(scenes[currentLevel]);
+        SceneManager.LoadScene(scenes[currentLevel]);
     }
     public void QuitGame()
     {

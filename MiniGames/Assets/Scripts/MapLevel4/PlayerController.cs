@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isNearItem && Input.GetKeyDown(KeyCode.F))
             {
-                interactableController.LoadLockPickGame();
+                interactableController.LoadGame();
                 interactionHint.gameObject.SetActive(false);
             }
         }

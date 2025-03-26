@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d584d2bea27d7c840bc02adbb4fcae22, type: 3}
-  m_Name: Data 1
+  m_Name: Gem
   m_EditorClassIdentifier: 
-  itemName: Case
-  sprite: {fileID: -1489309018, guid: a3880efd57328c142b973f0df7f5c6f4, type: 3}
+  itemName: Gem
+  sprite: {fileID: 4029711752621264408, guid: 1bf408c51b7ce784288349826a179c95, type: 3}
   weight: 3
   type: 0

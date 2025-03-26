@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
         audioController.PlayUnlockSound();
         spin.gameObject.SetActive(false);
 
-        interactableController.CloseShootingKeyGame();
+        interactableController.CloseGame();
     }
 
     public void GameOver()
@@ -67,7 +67,7 @@ public class GameController : MonoBehaviour
 
         //Time.timeScale = 0f;
         Debug.Log("Game Over");
-        interactableController.CloseShootingKeyGame();
+        interactableController.CloseGame();
     }
 
     IEnumerator DisapearSpinAnimation()
@@ -83,7 +83,7 @@ public class GameController : MonoBehaviour
         }
 
         spin.gameObject.SetActive(false);
-        interactableController.CloseShootingKeyGame();
+        interactableController.CloseGame();
     }
     void CountDownTime()
     {

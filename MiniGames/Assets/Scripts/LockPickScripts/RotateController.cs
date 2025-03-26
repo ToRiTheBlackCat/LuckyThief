@@ -143,7 +143,7 @@ public class LockPickRotation : MonoBehaviour
                     lockPick.gameObject.SetActive(false); // Ẩn pick khi bị gãy
  
                     interactableController.isSuccess = true;
-                    interactableController.CloseLockPickGame();
+                    interactableController.CloseGame();
                 }
                 else
                 {
@@ -210,7 +210,7 @@ public class LockPickRotation : MonoBehaviour
         lockPick.gameObject.SetActive(false); // Ẩn pick khi bị gãy
         //Time.timeScale = 0f;
         interactableController.isSuccess = false;
-        interactableController.CloseLockPickGame();
+        interactableController.CloseGame();
 
     }
 
