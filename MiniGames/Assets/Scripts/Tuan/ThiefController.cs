@@ -1,5 +1,6 @@
 using Assets.Scripts;
 using Assets.Scripts.StateMachines;
+using Assets.Scripts.StateMachines.Thief;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -46,6 +47,7 @@ public class ThiefScript : MonoBehaviour
     public ThiefWalkState walkState { get; private set; }
     public ThiefThrowState throwState { get; private set; }
     public ThiefTakeState takeState { get; private set; }
+    public ThiefGrabbedState grabbedState { get; private set; }
     #endregion
 
     [Header("Camera Settings")]
@@ -68,6 +70,7 @@ public class ThiefScript : MonoBehaviour
         walkState = new ThiefWalkState(this, stateMachine, "Walk");
         throwState = new ThiefThrowState(this, stateMachine, "Throw");
         takeState = new ThiefTakeState(this, stateMachine, "TakeItem");
+        grabbedState = new ThiefGrabbedState(this, stateMachine, "isGrabbed");
 
         stateMachine.Initialize(idleState);
         #endregion

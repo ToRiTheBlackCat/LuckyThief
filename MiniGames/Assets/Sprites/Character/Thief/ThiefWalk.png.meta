@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: f99f8df92ac130b439a711d5991fe5ba
+guid: 6891cb2b5e6b11e4d894b3f4a76503ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6666593190643391358
-    second: TheifThrowing_0
+      213: 822007342508079067
+    second: ThiefWalk_0
   - first:
-      213: 4330133449136299100
-    second: TheifThrowing_1
+      213: -5671066047062106278
+    second: ThiefWalk_1
   - first:
-      213: -6164732874511502739
-    second: TheifThrowing_2
+      213: 8567180702393746731
+    second: ThiefWalk_2
   - first:
-      213: 2787258009056546260
-    second: TheifThrowing_3
+      213: -2750212125722978429
+    second: ThiefWalk_3
   - first:
-      213: 1209138670579256766
-    second: TheifThrowing_4
+      213: -5118241218471709345
+    second: ThiefWalk_4
   - first:
-      213: 8647780363245726638
-    second: TheifThrowing_5
+      213: 8356838079105484996
+    second: ThiefWalk_5
+  - first:
+      213: -1033379533810255837
+    second: ThiefWalk_6
+  - first:
+      213: -7398959676634731735
+    second: ThiefWalk_7
+  - first:
+      213: 6674268043205156582
+    second: ThiefWalk_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,137 +133,216 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TheifThrowing_0
+      name: ThiefWalk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 64
+        width: 54
         height: 64
       alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+      pivot: {x: 0.65, y: 0.21875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7b565e8f2f748c50800000000000000
-      internalID: 6666593190643391358
+      spriteID: bd7f4f4a25b586b00800000000000000
+      internalID: 822007342508079067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_1
+      name: ThiefWalk_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 70
         y: 0
-        width: 64
+        width: 57
         height: 64
       alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+      pivot: {x: 0.47368422, y: 0.21875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5c5ec11e69b71c30800000000000000
-      internalID: 4330133449136299100
+      spriteID: a5f951f0a735c41b0800000000000000
+      internalID: -5671066047062106278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_2
+      name: ThiefWalk_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 134
         y: 0
-        width: 64
+        width: 57
         height: 64
       alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+      pivot: {x: 0.47368422, y: 0.21875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d62b19fdc18727aa0800000000000000
-      internalID: -6164732874511502739
+      spriteID: b25c2cc357db4e670800000000000000
+      internalID: 8567180702393746731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_3
+      name: ThiefWalk_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 198
         y: 0
-        width: 64
+        width: 57
         height: 64
       alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+      pivot: {x: 0.47368422, y: 0.21875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dd8d2744645ea620800000000000000
-      internalID: 2787258009056546260
+      spriteID: 3875f4594a845d9d0800000000000000
+      internalID: -2750212125722978429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_4
+      name: ThiefWalk_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 262
         y: 0
-        width: 64
+        width: 57
         height: 64
       alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+      pivot: {x: 0.47368422, y: 0.21875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebd8010f639b7c010800000000000000
-      internalID: 1209138670579256766
+      spriteID: f553b3ababa58f8b0800000000000000
+      internalID: -5118241218471709345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TheifThrowing_5
+      name: ThiefWalk_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 326
         y: 0
-        width: 64
+        width: 57
         height: 64
       alignment: 9
-      pivot: {x: 0.65, y: 0.219}
+      pivot: {x: 0.47368422, y: 0.21875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eab2cd62c66130870800000000000000
-      internalID: 8647780363245726638
+      spriteID: 4c84a8ed4f379f370800000000000000
+      internalID: 8356838079105484996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefWalk_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328b4110ac2b8a1f0800000000000000
+      internalID: -1033379533810255837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefWalk_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b6fbe106d915990800000000000000
+      internalID: -7398959676634731735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThiefWalk_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee1cfa6c63cf9c50800000000000000
+      internalID: 6674268043205156582
       vertices: []
       indices: 
       edges: []
@@ -263,7 +351,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: daa5b4f4e23e2ea43873e29b9bd23f3f
+    spriteID: c3ef683a832c69f469fef64a50a6b222
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +361,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TheifThrowing_0: 6666593190643391358
-      TheifThrowing_1: 4330133449136299100
-      TheifThrowing_2: -6164732874511502739
-      TheifThrowing_3: 2787258009056546260
-      TheifThrowing_4: 1209138670579256766
-      TheifThrowing_5: 8647780363245726638
+      ThiefWalk_0: 822007342508079067
+      ThiefWalk_1: -5671066047062106278
+      ThiefWalk_2: 8567180702393746731
+      ThiefWalk_3: -2750212125722978429
+      ThiefWalk_4: -5118241218471709345
+      ThiefWalk_5: 8356838079105484996
+      ThiefWalk_6: -1033379533810255837
+      ThiefWalk_7: -7398959676634731735
+      ThiefWalk_8: 6674268043205156582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -180,23 +180,32 @@ public class UI_Inventory : MonoBehaviour
 
     private void DisplaySelected(int selectIndex)
     {
-        if (isColapsed)
-            return;
         selectIndex++;
 
-        for (int index = 1; index < itemSlotContainer.childCount; index++)
+        if (!isColapsed)
         {
-            var itemSlot = itemSlotContainer.GetChild(index);
-            Image backGround = itemSlot.Find("Background").GetComponent<Image>();
+            for (int index = 1; index < itemSlotContainer.childCount; index++)
+            {
+                var itemSlot = itemSlotContainer.GetChild(index);
+                Image backGround = itemSlot.Find("Background").GetComponent<Image>();
 
-            if (selectIndex == index)
-            {
-                backGround.color = itemSelectedColor;
+                if (selectIndex == index)
+                {
+                    backGround.color = itemSelectedColor;
+                }
+                else
+                {
+                    backGround.color = Color.white;
+                }
             }
-            else
-            {
-                backGround.color = Color.white;
-            }
+        }
+        else
+        {
+            var itemData = inventoryController.CurrentItem;
+            var itemSlot = itemSlotContainer.GetChild(1);
+
+            Image icon = itemSlot.Find("Icon").GetComponent<Image>();
+            icon.sprite = itemData.resource.sprite;
         }
     }
 
