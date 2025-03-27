@@ -50,10 +50,10 @@ public class PlayerUIScript : MonoBehaviour
         switch (level)
         {
             case LevelNames.Level1:
-                levelString = "";
+                levelString = "HouseLevel1";
                 break;
             case LevelNames.Level2:
-                levelString = "";
+                levelString = "Level";
                 break;
             case LevelNames.Level3:
                 levelString = "House3";

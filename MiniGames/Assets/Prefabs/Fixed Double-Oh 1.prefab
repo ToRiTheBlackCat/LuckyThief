@@ -487,7 +487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: f88677df267a41d6be1e7a6133e7d227, type: 3}
+  m_Texture: {fileID: 2800000, guid: 0e01469306e44d447826844409e20647, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -565,6 +565,8 @@ MonoBehaviour:
   sirenAudioClip: {fileID: 8300000, guid: 53da4a87f172e9e45808efcd8136e35a, type: 3}
   coinFailAudioClip: {fileID: 8300000, guid: da15d35bcfd6b4340a0b7a5b950c9bde, type: 3}
   buttonAudioClip: {fileID: 8300000, guid: 14408649da7af234788572d126c93546, type: 3}
+  isSolved: 0
+  isAlarm: 0
 --- !u!1 &2079487969040160628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,8 +1069,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2064,7 +2066,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2078,7 +2080,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1766431606989536956}
   m_TextViewport: {fileID: 8657586188311276497}
   m_TextComponent: {fileID: 1453921594386038037}
