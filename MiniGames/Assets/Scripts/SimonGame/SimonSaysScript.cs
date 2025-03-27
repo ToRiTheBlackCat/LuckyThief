@@ -307,6 +307,7 @@ public class SimonSaysScript : MiniGameBase
     /// </summary>
     public override void StartGame(InteractableScript attachedInteractable = null)
     {
+        Time.timeScale = 0f;
         _attachedInteractable = attachedInteractable;
 
         StopAllCoroutines();
@@ -337,6 +338,7 @@ public class SimonSaysScript : MiniGameBase
 
         IEnumerator StartExitGame()
         {
+            Time.timeScale = 1f;
             allowInput = false;
             yield return new WaitForSeconds(delay);
             gameObject.SetActive(false);
