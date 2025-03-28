@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Assets.Scripts;
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LockPickRotation : MonoBehaviour
+public class LockPickRotation : MiniGameBase
 {
     private LockPickAudioController audioController;
 
@@ -45,17 +46,18 @@ public class LockPickRotation : MonoBehaviour
     [SerializeField] TextMeshPro timer;
     [SerializeField] float remainingTime;
 
-    private InteractableController interactableController;
+    //private InteractableController interactableController;
+    [SerializeField] private float failPenalty;
 
     private void Awake()
     {
         audioController = FindAnyObjectByType<LockPickAudioController>();
-        interactableController = FindAnyObjectByType<InteractableController>();
+        //interactableController = FindAnyObjectByType<InteractableController>();
     }
     void Start()
     {
         StressValue.text = "0";
-        NewLock();
+        ResetGame();
     }
 
     void Update()
@@ -142,8 +144,11 @@ public class LockPickRotation : MonoBehaviour
                     audioController.PlayUnlockSound();
                     lockPick.gameObject.SetActive(false);
 
-                    interactableController.isSuccess = true;
-                    interactableController.CloseGame();
+                    _attachedInteractable?.OnAttachedMinigameSuccess();
+                    _attachedInteractable = null;
+                    ExitGame(1f);
+                    //interactableController.isSuccess = true;
+                    //interactableController.CloseGame();
                     //StartCoroutine(CloseGameWithDelay());
 
                 }
@@ -155,11 +160,7 @@ public class LockPickRotation : MonoBehaviour
             }
         }
     }
-    //IEnumerator CloseGameWithDelay()
-    //{
-    //    yield return new WaitForSeconds(0.5f);
-    //    interactableController.CloseGame();
-    //}
+ 
 
     void CheckPickStress()
     {
@@ -203,27 +204,38 @@ public class LockPickRotation : MonoBehaviour
     void GameOver()
     {
         audioController.PlayFailSound();
-        StartCoroutine(BreakPickAnimation());
+        StartCoroutine(CloseGameWithDelay());
+       
     }
-
-    IEnumerator BreakPickAnimation()
+    IEnumerator CloseGameWithDelay()
     {
-        float duration = 0.3f;
-        float elapsedTime = 0;
+        yield return new WaitForSeconds(0.5f);
 
-        while (elapsedTime < duration)
-        {
-            lockPick.localScale *= 0.9f; // Làm pick nhỏ dần như bị gãy
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        lockPick.gameObject.SetActive(false); // Ẩn pick khi bị gãy
-        //Time.timeScale = 0f;
-        interactableController.isSuccess = false;
-        interactableController.CloseGame();
-
+        GameManagerSingleton.NoiseController.AddNoise(failPenalty);
+        ExitGame(1f);
     }
+
+    //IEnumerator BreakPickAnimation()
+    //{
+    //    float duration = 0.3f;
+    //    float elapsedTime = 0;
+
+    //    //while (elapsedTime < duration)
+    //    //{
+    //    //    lockPick.localScale *= 0.9f; // Làm pick nhỏ dần như bị gãy
+    //    //    elapsedTime += Time.deltaTime;
+    //    //    yield return null;
+    //    //}
+
+    //   // lockPick.gameObject.SetActive(false); // Ẩn pick khi bị gãy
+    //    //Time.timeScale = 0f;
+    //    //interactableController.isSuccess = false;
+    //    //interactableController.CloseGame();
+    //    Invoke(nameof(ResetGame), 0.2f);
+    //    GameManagerSingleton.NoiseController.AddNoise(failPenalty);
+    //    ExitGame(1f);
+
+    //}
 
     IEnumerator ResetInnerLock()
     {
@@ -256,6 +268,49 @@ public class LockPickRotation : MonoBehaviour
 
         timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+    void ResetGame()
+    {
+        // Đặt lại góc quay về 0
+        eulerAngle = 0;
+        lockPick.rotation = Quaternion.Euler(0, 0, 0);
+        innerLock.rotation = Quaternion.Euler(0, 0, 0);
 
+        // Đặt lại trạng thái xoay và các biến khác
+        isRotating = false;
+        keyPressTime = 0;
+
+        // Đặt lại mức độ căng thẳng
+        stressLevel = 0;
+        StressValue.text = "0%";
+
+        // Đặt lại thời gian
+        remainingTime = 60f; // Hoặc bất kỳ giá trị nào bạn muốn
+        int minutes = Mathf.FloorToInt(remainingTime / 60);
+        int seconds = Mathf.FloorToInt(remainingTime % 60);
+        timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        // Tạo khóa mới (reset vị trí mở khóa)
+        NewLock();
+    }
+
+    public override void StartGame(InteractableScript attachedInteractable = null)
+    {
+        ResetGame();
+
+        GameManagerSingleton.Player.SpeedMult = 0f;
+
+        if (attachedInteractable != null)
+        {
+            _attachedInteractable = attachedInteractable;
+        }
+
+        gameObject.SetActive(true);
+    }
+
+    public override void ExitGame(float delay = 0)
+    {
+        gameObject.SetActive(false);
+        GameManagerSingleton.Player.SpeedMult = 1f;
+    }
 }
 

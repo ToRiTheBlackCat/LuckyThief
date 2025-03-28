@@ -3056,7 +3056,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7490669940370370633}
   - component: {fileID: 6876473619767137934}
-  - component: {fileID: 3676648614541021438}
   m_Layer: 0
   m_Name: CayLockPick_0
   m_TagString: Untagged
@@ -3134,29 +3133,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &3676648614541021438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3390554282133429580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f0d85097f3c8a4bb6a611dd025eab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockPick: {fileID: 7490669940370370633}
-  rotationSpeed: 35
-  innerLock: {fileID: 4120523289759671206}
-  maxAngle: 140
-  lockSpeed: 10
-  lockRange: 5
-  stressIncreaseRate: 55
-  stressDecreaseRate: 20
-  StressValue: {fileID: 3446667819848182112}
-  timer: {fileID: 6509528200858720402}
-  remainingTime: 30
 --- !u!1 &3803312984399176683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,13 +3464,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6775384911831383458}
+  - component: {fileID: 1127624486420932218}
   m_Layer: 0
   m_Name: LockPickGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6775384911831383458
 Transform:
   m_ObjectHideFlags: 0
@@ -3518,6 +3495,30 @@ Transform:
   - {fileID: 5173147265869506162}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1127624486420932218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4800559962273925512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f0d85097f3c8a4bb6a611dd025eab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockPick: {fileID: 7490669940370370633}
+  rotationSpeed: 35
+  innerLock: {fileID: 4120523289759671206}
+  maxAngle: 140
+  lockSpeed: 10
+  lockRange: 5
+  stressIncreaseRate: 55
+  stressDecreaseRate: 20
+  StressValue: {fileID: 3446667819848182112}
+  timer: {fileID: 6509528200858720402}
+  remainingTime: 30
+  failPenalty: 0.3
 --- !u!1 &5135411086560952236
 GameObject:
   m_ObjectHideFlags: 0

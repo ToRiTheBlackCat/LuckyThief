@@ -7,7 +7,7 @@ public class MenuController : MonoBehaviour
     public Image levelButtonImage;
     public Sprite[] levelSprites;
 
-    private string[] scenes = { "Level1", "Level2", "Level3", "MapLevel4", "level5" }; 
+    private string[] scenes = { "HouseLevel1", "Level2", "House3", "MapLevel4", "level5" }; 
     private int currentLevel = 0;
     public void NextLevel()
     {

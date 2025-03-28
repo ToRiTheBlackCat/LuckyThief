@@ -47,7 +47,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: distanceToPlayer
-    m_EventTreshold: 16
+    m_EventTreshold: 12
   - m_ConditionMode: 2
     m_ConditionEvent: isTrigger
     m_EventTreshold: 0
@@ -75,7 +75,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: distanceToPlayer
-    m_EventTreshold: 15
+    m_EventTreshold: 10
   - m_ConditionMode: 2
     m_ConditionEvent: isTrigger
     m_EventTreshold: 0
@@ -103,7 +103,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: distanceToPlayer
-    m_EventTreshold: 17
+    m_EventTreshold: 14
   - m_ConditionMode: 2
     m_ConditionEvent: isTrigger
     m_EventTreshold: 0
@@ -499,7 +499,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: distanceToPlayer
-    m_EventTreshold: 18
+    m_EventTreshold: 16
   - m_ConditionMode: 2
     m_ConditionEvent: isTrigger
     m_EventTreshold: 0
