@@ -12,6 +12,13 @@ TagManager:
   - Ground
   - Stair
   - PlayerBullet
+  - MegaBotAmmo
+  - MegaBotMissle
+  - Red
+  - Yellow
+  - Green
+  - Blue
+  - MinigameCamera
   layers:
   - Default
   - TransparentFX
@@ -25,7 +32,7 @@ TagManager:
   - Mid
   - Top
   - Enemy
-  - 
+  - Minigame
   - 
   - 
   - 
@@ -52,26 +59,20 @@ TagManager:
   - name: Ground
     uniqueID: 3193176575
     locked: 0
-  - name: Mid
-    uniqueID: 473020827
-    locked: 0
   - name: Wall
     uniqueID: 2168735273
     locked: 0
-  - name: Player
+  - name: Enviroment
     uniqueID: 3891778323
     locked: 0
-  - name: PlayerBullet
-    uniqueID: 3325631795
-    locked: 0
-  - name: Gun
-    uniqueID: 3050719795
-    locked: 0
-  - name: Enemy
-    uniqueID: 578776789
-    locked: 0
-  - name: Top
+  - name: Obscure Wall
     uniqueID: 2110132113
+    locked: 0
+  - name: UI
+    uniqueID: 4195358827
+    locked: 0
+  - name: Minigame
+    uniqueID: 2170099189
     locked: 0
   m_RenderingLayers:
   - Default
