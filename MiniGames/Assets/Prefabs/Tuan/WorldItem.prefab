@@ -221,11 +221,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 183470a952090b94ab55df3270356281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _highlightSprite: {fileID: 4085035210968703089}
+  isInteractable: 0
   InteractEvent:
     m_PersistentCalls:
       m_Calls: []
-  _highlightSprite: {fileID: 4085035210968703089}
-  interactable: 0
+  SuccessEvent:
+    m_PersistentCalls:
+      m_Calls: []
   isPrefab: 0
   model: {fileID: 0}
   highlight: {fileID: 0}

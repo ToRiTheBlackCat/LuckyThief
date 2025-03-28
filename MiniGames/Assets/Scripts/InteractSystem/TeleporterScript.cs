@@ -16,7 +16,7 @@ namespace Assets.Scripts
 
         public override void onHandleInteract()
         {
-            if (!interactable)
+            if (!isInteractable)
             {
                 return;
             }

@@ -42,14 +42,14 @@ public class ItemWorld : InteractableScript
 
     public override void onHandleInteract()
     {
-        if (interactable)
+        if (isInteractable)
         {
             var addItem = inventoryInstance.AddItem(GetItem());
 
             if (addItem)
             {
-                var thief = inventoryInstance._thief;
-                thief.stateMachine.EnterState(thief.takeState);
+                //var thief = inventoryInstance._thief;
+                //thief.stateMachine.EnterState(thief.takeState);
 
                 Debug.Log($"Inventory: Added {amount} {Resource.name} to Inventory.");
                 Destroy(gameObject);

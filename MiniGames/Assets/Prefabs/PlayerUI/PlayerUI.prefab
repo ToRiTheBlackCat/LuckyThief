@@ -460,6 +460,7 @@ MonoBehaviour:
   NoiseMeter: {fileID: 4266567039172013057}
   RetryButton: {fileID: 9170667630961253628}
   GameOverScreen: {fileID: 4974733416179983502}
+  selectedLevel: 0
 --- !u!1 &4974733416179983502
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +478,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &480462179731774092
 RectTransform:
   m_ObjectHideFlags: 0

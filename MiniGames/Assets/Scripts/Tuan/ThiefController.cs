@@ -1,22 +1,24 @@
 using Assets.Scripts;
 using Assets.Scripts.StateMachines;
+using Assets.Scripts.StateMachines.Thief;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class ThiefScript : MonoBehaviour
 {
     #region Components
-    public Rigidbody2D _rBody;
+    private Rigidbody2D _rBody;
     [SerializeField] private Camera _camera;
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-    [SerializeField] private SpriteRenderer _shadowRenderer;
+    private SpriteRenderer _spriteRenderer;
+    private SpriteRenderer _shadowRenderer;
     public Animator _animator { get; private set; }
-    [SerializeField] private NoiseController _noiseController;
-    [SerializeField] private InventoryController _inventory;
+    private NoiseController _noiseController;
+    private InventoryController _inventory;
     [SerializeField] private PlayerUIScript PlayerUI;
 
     private InteractCheckScript _interactCheck;
     public InteractCheckScript InteractCheck { get => _interactCheck; }
+    public InventoryController Inventory { get => _inventory; }
     #endregion
 
     #region Animation Info
@@ -41,10 +43,11 @@ public class ThiefScript : MonoBehaviour
     #region States
     public ThiefStateMachine stateMachine;
 
-    public ThiefIdleState idleState {get; private set;}
+    public ThiefIdleState idleState { get; private set; }
     public ThiefWalkState walkState { get; private set; }
     public ThiefThrowState throwState { get; private set; }
     public ThiefTakeState takeState { get; private set; }
+    public ThiefGrabbedState grabbedState { get; private set; }
     #endregion
 
     [Header("Camera Settings")]
@@ -53,7 +56,11 @@ public class ThiefScript : MonoBehaviour
 
     private void Awake()
     {
+        _camera = Camera.main;
         _rBody = GetComponent<Rigidbody2D>();
+        _spriteRenderer = transform.Find("Model").GetComponent<SpriteRenderer>();
+        _shadowRenderer = transform.Find("Shadow").GetComponent<SpriteRenderer>();
+
         _animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
         _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
@@ -67,10 +74,10 @@ public class ThiefScript : MonoBehaviour
         walkState = new ThiefWalkState(this, stateMachine, "Walk");
         throwState = new ThiefThrowState(this, stateMachine, "Throw");
         takeState = new ThiefTakeState(this, stateMachine, "TakeItem");
+        grabbedState = new ThiefGrabbedState(this, stateMachine, "isGrabbed");
 
         stateMachine.Initialize(idleState);
         #endregion
-
         _interactCheck = GetComponentInChildren<InteractCheckScript>();
         _inventory = GetComponentInChildren<InventoryController>();
         _inventory._thief = this;
@@ -126,16 +133,18 @@ public class ThiefScript : MonoBehaviour
         _rBody.linearVelocity = Velocity * Time.fixedDeltaTime;
     }
 
+    [HideInInspector] public float SpeedMult = 1f;
     public void SetVelocity(float xAxis, float yAxis)
     {
         var direction = new Vector2(xAxis, yAxis);
         var speedPenalty = 0f;
         if (_inventory.WeightRatio >= .5f)
-           speedPenalty = (Mathf.Clamp(_inventory.WeightRatio, 0, 75f) - .5f) * Speed;
+            speedPenalty = (Mathf.Clamp(_inventory.WeightRatio, 0, 75f) - .5f) * Speed;
 
 
         //_rBody.linearVelocity = direction.normalized * (Speed - speedPenalty) * Time.fixedDeltaTime;
         Velocity = direction.normalized * (Speed - speedPenalty);
+        Velocity *= SpeedMult;
     }
 
     public void SetSprite(float xVel, float yVel)

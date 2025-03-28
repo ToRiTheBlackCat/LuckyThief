@@ -1,49 +1,49 @@
+using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class InteractableScript : MonoBehaviour
 {
-    public UnityEvent InteractEvent;
-
     [SerializeField] SpriteRenderer _highlightSprite;
 
-    [SerializeField] protected bool interactable;
+    [SerializeField] protected bool isInteractable;
+
+    //[SerializeField] protected UnityEvent<InteractableScript> InteractEvent;
+    [SerializeField] protected MiniGameBase _attachedGame;
+    [SerializeField] protected UnityEvent SuccessEvent;
 
     public void SetHighLight(bool status = true)
     {
         if (_highlightSprite != null)
             _highlightSprite.enabled = status;
-        interactable = status;
+        isInteractable = status;
     }
 
     public virtual void onHandleInteract()
     {
-        if (!interactable)
+        if (!isInteractable)
         {
             return;
         }
 
-        if (InteractEvent == null)
+        if (_attachedGame == null)
         {
             Debug.Log("No attached event.");
             return;
         }
 
-        InteractEvent?.Invoke();
+        _attachedGame?.StartGame(this);
     }
 
     private void Start()
     {
         if (_highlightSprite != null)
             _highlightSprite.enabled = false;
-        interactable = false;
+        isInteractable = false;
     }
 
-    protected virtual void Update()
+    public virtual void OnAttachedMinigameSuccess()
     {
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    onHandleInteract();
-        //}
+        SuccessEvent?.Invoke();
     }
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5929778936099061292}
   - component: {fileID: 6354984899867641596}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4206834189321200095}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ThrowPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2865968058731906178}
   - component: {fileID: 6710044421671427692}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,9 +163,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -512873547
-  m_SortingLayer: 3
-  m_SortingOrder: -1
+  m_SortingLayerID: 1336415905
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2472637416616827165, guid: 854a2ba8cba92614a8de535941fcd1c5, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.41960785}
   m_FlipX: 0
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 2507030985388332268}
   - component: {fileID: 6152880949117294858}
   - component: {fileID: 7802065574492478254}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 5346097296958353833}
   - component: {fileID: 5983241179365758941}
   - component: {fileID: 3341307202166809833}
-  m_Layer: 6
+  m_Layer: 11
   m_Name: InteractCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 8787697781029113644}
   - component: {fileID: 4459544686013823721}
   - component: {fileID: 8119331534173665891}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Thief
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,12 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af5386632f9861742af7d5d375605ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rBody: {fileID: 0}
   _camera: {fileID: 0}
-  _spriteRenderer: {fileID: 2507030985388332268}
-  _shadowRenderer: {fileID: 6710044421671427692}
-  _noiseController: {fileID: 0}
-  _inventory: {fileID: 0}
   PlayerUI: {fileID: 0}
   xAxis: 0
   yAxis: 0
@@ -466,6 +461,7 @@ MonoBehaviour:
   interactDistance: 0.7
   followAccel: 0.03
   maxFollowDistance: 3
+  SpeedMult: 1
 --- !u!114 &8787697781029113644
 MonoBehaviour:
   m_ObjectHideFlags: 0

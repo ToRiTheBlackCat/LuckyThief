@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -863,9 +863,9 @@ RectTransform:
   - {fileID: 347133665105467890}
   m_Father: {fileID: 1610542257434594667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.14546973, y: 0.896}
-  m_AnchorMax: {x: 0.14546973, y: 0.896}
-  m_AnchoredPosition: {x: 6.9760437, y: -6.7695923}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -25}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3772137244495458636
@@ -1369,8 +1369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 58.853775, y: -56.604996}
-  m_SizeDelta: {x: 90, y: 90}
+  m_AnchoredPosition: {x: 52.975937, y: -50.910828}
+  m_SizeDelta: {x: 78.2443, y: 78.6117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6922447572756208055
 GameObject:
@@ -1667,6 +1667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1610542257434594667}
+  - component: {fileID: 8303667602642638057}
   m_Layer: 5
   m_Name: ItemSlotContainer
   m_TagString: Untagged
@@ -1691,9 +1692,33 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 127.23749, y: -150.99747}
-  m_SizeDelta: {x: 206.465, y: 252.5351}
+  m_AnchoredPosition: {x: 137.38312, y: -151.96}
+  m_SizeDelta: {x: 218.502, y: 250.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8303667602642638057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7995503645288653155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 50, y: 50}
+  m_Spacing: {x: 6.16, y: 6.41}
+  m_Constraint: 1
+  m_ConstraintCount: 4
 --- !u!1 &9036676203999069376
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public enum Difficulty
     Level3
 }
 
-public class SimonSaysScript : MonoBehaviour
+public class SimonSaysScript : MiniGameBase
 {
     [SerializeField] private SpriteRenderer _mainModel;
     [SerializeField] private SpriteRenderer _incorrectSprite;
@@ -24,6 +24,7 @@ public class SimonSaysScript : MonoBehaviour
     [SerializeField] private TextMeshPro _timeText;
     [SerializeField] private AudioSource _clickSound;
     [SerializeReference] private List<ResultLed> _resultLeds;
+    private InteractableScript _attachedInteractable;
 
     [Header("Game Info")]
     [SerializeField] private LayerMask inputLayerMask;
@@ -72,7 +73,7 @@ public class SimonSaysScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            StartGame();
+            StartGame(null);
         }
     }
 
@@ -105,6 +106,9 @@ public class SimonSaysScript : MonoBehaviour
                 ShowResultSprite(true, true);
                 allowInput = false;
                 print("Unlocked");
+
+                _attachedInteractable?.OnAttachedMinigameSuccess();
+                _attachedInteractable = null;
                 ExitGame(1f);
             }
         }
@@ -246,12 +250,6 @@ public class SimonSaysScript : MonoBehaviour
 
         IEnumerator StartShowResult()
         {
-            yield return new WaitForSeconds(.2f);
-            foreach (var led in _resultLeds)
-            {
-                led.TurnOff();
-            }
-
             _successSprite.enabled = result;
             _incorrectSprite.enabled = !result;
             yield return new WaitForSeconds(.3f);
@@ -307,8 +305,11 @@ public class SimonSaysScript : MonoBehaviour
     /// Function to start the mini-game
     /// ** Will be called by a parent Canvas class **
     /// </summary>
-    public void StartGame()
+    public override void StartGame(InteractableScript attachedInteractable = null)
     {
+        Time.timeScale = 0f;
+        _attachedInteractable = attachedInteractable;
+
         StopAllCoroutines();
         allowInput = true;
         gameObject.SetActive(true);
@@ -327,7 +328,7 @@ public class SimonSaysScript : MonoBehaviour
     /// Function to stop and exit the mini-game
     /// ** Will be called by a parent Canvas class **
     /// </summary>
-    public void ExitGame(float delay = 0f)
+    public override void ExitGame(float delay = 0f)
     {
         if (ExitCoroutine != null)
         {
@@ -337,9 +338,9 @@ public class SimonSaysScript : MonoBehaviour
 
         IEnumerator StartExitGame()
         {
-            yield return new WaitForSeconds(delay);
-
+            Time.timeScale = 1f;
             allowInput = false;
+            yield return new WaitForSeconds(delay);
             gameObject.SetActive(false);
         }
     }
