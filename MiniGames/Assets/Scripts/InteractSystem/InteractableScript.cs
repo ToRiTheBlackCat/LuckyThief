@@ -11,12 +11,14 @@ public class InteractableScript : MonoBehaviour
     //[SerializeField] protected UnityEvent<InteractableScript> InteractEvent;
     [SerializeField] protected MiniGameBase _attachedGame;
     [SerializeField] protected UnityEvent SuccessEvent;
+    [SerializeField] protected UnityEvent<bool> HoverEvent;
 
     public void SetHighLight(bool status = true)
     {
         if (_highlightSprite != null)
             _highlightSprite.enabled = status;
         isInteractable = status;
+        HoverEvent?.Invoke(status);
     }
 
     public virtual void onHandleInteract()
@@ -40,6 +42,7 @@ public class InteractableScript : MonoBehaviour
         if (_highlightSprite != null)
             _highlightSprite.enabled = false;
         isInteractable = false;
+
     }
 
     public virtual void OnAttachedMinigameSuccess()
