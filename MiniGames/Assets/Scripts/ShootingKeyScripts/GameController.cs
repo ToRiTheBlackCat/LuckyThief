@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject keyPrefab;
     public Transform keySpawnPoint;
 
-    [SerializeField] TextMeshProUGUI timer;
+    [SerializeField] TextMeshPro timer;
     [SerializeField] float remainingTime;
 
     private ShootingKeyAudioController audioController;
@@ -25,13 +25,13 @@ public class GameController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        StartCoroutine(CountDownTime());
     }
 
     // Update is called once per frame
     void Update()
     {
-        CountDownTime();
+
     }
 
     public void SpawnNewKey()
@@ -49,7 +49,9 @@ public class GameController : MonoBehaviour
         Debug.Log("You Win");
         audioController.PlayUnlockSound();
         spin.gameObject.SetActive(false);
+        StopAllCoroutines();
 
+        interactableController.isSuccess = true;
         interactableController.CloseGame();
     }
 
@@ -58,16 +60,14 @@ public class GameController : MonoBehaviour
         if (isGameOver) return; // Prevent multiple calls
 
         isGameOver = true;
-
+        Debug.Log("Game Over");
         // Stop all sounds
         audioController.StopAllSounds();
 
         audioController.PlayFailSound();
         StartCoroutine(DisapearSpinAnimation());
 
-        //Time.timeScale = 0f;
-        Debug.Log("Game Over");
-        interactableController.CloseGame();
+
     }
 
     IEnumerator DisapearSpinAnimation()
@@ -83,17 +83,21 @@ public class GameController : MonoBehaviour
         }
 
         spin.gameObject.SetActive(false);
+
+        StopAllCoroutines();
+        interactableController.isSuccess = false;
         interactableController.CloseGame();
+
     }
-    void CountDownTime()
+    IEnumerator CountDownTime()
     {
-        if (isGameOver) return;
+        if (isGameOver) yield return null;
 
         remainingTime -= Time.deltaTime;
         if (remainingTime <= 0.0f)
         {
             GameOver();
-            return;
+            yield return null;
         }
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);

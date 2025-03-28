@@ -58,9 +58,6 @@ public class KeyController : MonoBehaviour
                 // Notify GameController to create a new key
                 gameController.SpawnNewKey();
             }
-
-
-
         }
         // If it hits another key
         else if (collision.CompareTag("Key"))
@@ -71,6 +68,5 @@ public class KeyController : MonoBehaviour
             return;
         }
 
-        Debug.Log("AAAAA");
     }
 }

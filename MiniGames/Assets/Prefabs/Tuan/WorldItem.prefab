@@ -226,9 +226,10 @@ MonoBehaviour:
       m_Calls: []
   _highlightSprite: {fileID: 4085035210968703089}
   interactable: 0
+  isPrefab: 0
   model: {fileID: 0}
   highlight: {fileID: 0}
-  resource: {fileID: 11400000, guid: 369e6cbed6266cc4ab6d7326609b61b5, type: 2}
+  _resource: {fileID: 0}
   amount: 1
 --- !u!61 &8714304443596961131
 BoxCollider2D:

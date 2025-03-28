@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,11 +11,19 @@ public class InteractableController : MonoBehaviour
 
 
     public string minigameName;
+    private bool isMinigameLoaded;
+    [SerializeField] private GameObject RewardItem;
+    [SerializeField] private GameObject AnnimationCoin;
+
+    private void Awake()
+    {
+        RewardItem.SetActive(false);
+    }
 
     private void Update()
     {
         // Check if player is near the item and presses "F"
-        if (isNearItem && !isSuccess && Input.GetKeyDown(KeyCode.F))
+        if (isNearItem && !isMinigameLoaded && !isSuccess && Input.GetKeyDown(KeyCode.F))
         {
             LoadGame();
         }
@@ -41,10 +50,21 @@ public class InteractableController : MonoBehaviour
     public void LoadGame()
     {
         SceneManager.LoadSceneAsync(minigameName, LoadSceneMode.Additive);
+        isMinigameLoaded = true;
     }
 
     public void CloseGame()
-    {
+      {
+        isMinigameLoaded = false;
         SceneManager.UnloadSceneAsync(minigameName);
+
+
+        Debug.Log("CloseGame called!");
+
+        if (isSuccess)
+        {
+            RewardItem.SetActive(true);
+            AnnimationCoin.SetActive(false);
+        }
     }
 }

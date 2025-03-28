@@ -8,17 +8,17 @@ public class LockPickRotation : MonoBehaviour
 {
     private LockPickAudioController audioController;
 
-    
+
     //handle the stick
-    public Transform lockPick; 
-    public float rotationSpeed = 5f; 
+    public Transform lockPick;
+    public float rotationSpeed = 5f;
 
     private bool isRotating = false;
     private Vector3 lastMousePosition;
 
 
     //handle the spin lock
-    public Transform innerLock; 
+    public Transform innerLock;
 
     public float maxAngle = 140f;
     public float lockSpeed = 10f;
@@ -39,10 +39,10 @@ public class LockPickRotation : MonoBehaviour
     [SerializeField] private float stressDecreaseRate = 20f;
 
     // add stress bar
-    public Slider StressBar;
+    public TextMeshPro StressValue;
 
     // add countdown timer
-    [SerializeField] TextMeshProUGUI timer;
+    [SerializeField] TextMeshPro timer;
     [SerializeField] float remainingTime;
 
     private InteractableController interactableController;
@@ -54,7 +54,7 @@ public class LockPickRotation : MonoBehaviour
     }
     void Start()
     {
-        StressBar.value = 0;
+        StressValue.text = "0";
         NewLock();
     }
 
@@ -73,7 +73,7 @@ public class LockPickRotation : MonoBehaviour
     }
     void HandlePickRotation()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0))
         {
             isRotating = true;
             lastMousePosition = Input.mousePosition;
@@ -83,7 +83,7 @@ public class LockPickRotation : MonoBehaviour
         {
             Vector3 delta = Input.mousePosition - lastMousePosition;
             float rotationAmount = delta.x * rotationSpeed * Time.deltaTime; // Rotate based on X-axis movement
-  
+
             eulerAngle = Mathf.Clamp(eulerAngle + rotationAmount, -maxAngle, maxAngle);
 
             lockPick.rotation = Quaternion.Euler(0, 0, eulerAngle);
@@ -138,12 +138,14 @@ public class LockPickRotation : MonoBehaviour
             {
                 if (eulerAngle < unlockRange.y && eulerAngle > unlockRange.x)
                 {
-                    Debug.Log("Unlocked");
+                    Debug.Log("Unlocked - Closing Game...");
                     audioController.PlayUnlockSound();
-                    lockPick.gameObject.SetActive(false); // Ẩn pick khi bị gãy
- 
+                    lockPick.gameObject.SetActive(false);
+
                     interactableController.isSuccess = true;
                     interactableController.CloseGame();
+                    //StartCoroutine(CloseGameWithDelay());
+
                 }
                 else
                 {
@@ -153,6 +155,11 @@ public class LockPickRotation : MonoBehaviour
             }
         }
     }
+    //IEnumerator CloseGameWithDelay()
+    //{
+    //    yield return new WaitForSeconds(0.5f);
+    //    interactableController.CloseGame();
+    //}
 
     void CheckPickStress()
     {
@@ -162,20 +169,24 @@ public class LockPickRotation : MonoBehaviour
             if (eulerAngle < unlockRange.x - lockRange || eulerAngle > unlockRange.y + lockRange)
             {
                 stressLevel += stressIncreaseRate * Time.deltaTime;
-                StressBar.value = stressLevel;
+                StressValue.text = stressLevel.ToString("0") + "%";
             }
             else
             {
                 // Nếu đang ở gần đúng góc, giảm căng
                 stressLevel -= stressDecreaseRate * Time.deltaTime;
-                StressBar.value = stressLevel;
+                StressValue.text = stressLevel.ToString("0") + "%";
             }
         }
         else
         {
             // Nếu không nhấn, từ từ giảm căng
-            stressLevel -= stressDecreaseRate * Time.deltaTime * 0.5f;
-            StressBar.value = stressLevel;
+            while (stressLevel >= 0.0)
+            {
+                stressLevel -= stressDecreaseRate * Time.deltaTime * 0.5f;
+                StressValue.text = stressLevel.ToString("0") + "%";
+            }
+
         }
 
         stressLevel = Mathf.Clamp(stressLevel, 0, stressThreshold);
@@ -183,7 +194,7 @@ public class LockPickRotation : MonoBehaviour
         // Kiểm tra nếu pick bị gãy
         if (stressLevel >= stressThreshold)
         {
-            StressBar.value = stressLevel;
+            StressValue.text = stressLevel.ToString("0") + "%";
             Debug.Log("Game Over - You fail");
             GameOver();
         }
