@@ -14,7 +14,7 @@ public class ThiefScript : MonoBehaviour
     public Animator _animator { get; private set; }
     private NoiseController _noiseController;
     private InventoryController _inventory;
-    [SerializeField] private PlayerUIScript PlayerUI;
+    private PlayerUIScript _playerUI;
 
     private InteractCheckScript _interactCheck;
     public InteractCheckScript InteractCheck { get => _interactCheck; }
@@ -57,14 +57,15 @@ public class ThiefScript : MonoBehaviour
     private void Awake()
     {
         _camera = Camera.main;
+        _playerUI = GameObject.Find("PlayerUI").GetComponent<PlayerUIScript>();
         _rBody = GetComponent<Rigidbody2D>();
         _spriteRenderer = transform.Find("Model").GetComponent<SpriteRenderer>();
         _shadowRenderer = transform.Find("Shadow").GetComponent<SpriteRenderer>();
 
         _animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
-        _noiseController.onNoiseChange.AddListener(x => PlayerUI.OnNoiseControllerNoiseChange(x));
-        _noiseController.onThreshold.AddListener(PlayerUI.OnNoiseControllerThreshold);
+        _noiseController.onNoiseChange.AddListener(x => _playerUI.OnNoiseControllerNoiseChange(x));
+        _noiseController.onThreshold.AddListener(_playerUI.OnNoiseControllerThreshold);
 
 
         #region Init StateMachine
