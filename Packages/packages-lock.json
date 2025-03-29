@@ -2,7 +2,11 @@
   "dependencies": {
     "com.unity.2d.animation": {
       "version": "10.1.4",
+<<<<<<< Updated upstream:Packages/packages-lock.json
       "depth": 0,
+=======
+      "depth": 1,
+>>>>>>> Stashed changes:MiniGames/Packages/packages-lock.json
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "9.0.7",
@@ -27,7 +31,11 @@
     },
     "com.unity.2d.common": {
       "version": "9.0.7",
+<<<<<<< Updated upstream:Packages/packages-lock.json
       "depth": 1,
+=======
+      "depth": 2,
+>>>>>>> Stashed changes:MiniGames/Packages/packages-lock.json
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.4",
@@ -63,7 +71,11 @@
     },
     "com.unity.2d.spriteshape": {
       "version": "10.0.7",
+<<<<<<< Updated upstream:Packages/packages-lock.json
       "depth": 0,
+=======
+      "depth": 1,
+>>>>>>> Stashed changes:MiniGames/Packages/packages-lock.json
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "9.0.7",
@@ -258,6 +270,19 @@
         "com.unity.searcher": "4.9.2"
       }
     },
+<<<<<<< Updated upstream:Packages/packages-lock.json
+=======
+    "com.unity.splines": {
+      "version": "2.7.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> Stashed changes:MiniGames/Packages/packages-lock.json
     "com.unity.test-framework": {
       "version": "1.4.5",
       "depth": 0,
