@@ -1,27 +1,25 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-namespace LuckyThief.ThangScripts
+
+public class InteractiveController
 {
-    public class InteractiveController
+    public void PlayWireGame()
     {
-        public void PlayWireGame()
-        {
-            LoadWireGame();
-        }
+        LoadWireGame();
+    }
 
-        public void CloseMinigameGame()
-        {
+    public void CloseMinigameGame()
+    {
+            
+    }
 
-        }
+    public void LoadWireGame()
+    {
+        SceneManager.LoadSceneAsync("Wire", LoadSceneMode.Additive);
+    }
 
-        public void LoadWireGame()
-        {
-            SceneManager.LoadSceneAsync("Wire", LoadSceneMode.Additive);
-        }
-
-        public void CloseWireGame()
-        {
-            SceneManager.UnloadSceneAsync("Wire");
-        }
+    public void CloseWireGame()
+    {
+        SceneManager.UnloadSceneAsync("Wire");
     }
 }
