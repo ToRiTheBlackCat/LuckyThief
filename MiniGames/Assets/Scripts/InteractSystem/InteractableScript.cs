@@ -12,7 +12,6 @@ public class InteractableScript : MonoBehaviour
     [SerializeField] protected UnityEvent<bool> HoverEvent;
     [SerializeField] protected MiniGameBase _attachedGame;
     [SerializeField] protected UnityEvent SuccessEvent;
-    [SerializeField] protected UnityEvent<bool> HoverEvent;
 
     public virtual void SetHighLight(bool status = true)
     {
