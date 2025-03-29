@@ -6,7 +6,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [SelectionBase]
-[Serializable]
 public class ThiefScript : MonoBehaviour
 {
     #region Components
