@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -14,13 +15,16 @@ public class PlayerUIScript : MonoBehaviour
     public Slider NoiseMeter;
     public Slider ProfitMeter;
     public Button RetryButton;
+    public Button MenuButton;
     public TextMeshProUGUI KeyFoundText;
+    public TextMeshProUGUI TimeText;
     public GameObject GameOverScreen;
     [SerializeField] private Image _exitLabel;
     [SerializeField] private LevelNames selectedLevel;
 
     private bool isHoldingReset;
     private Color initColor;
+    [SerializeField] private float timeMult = 1f;
 
     // Coroutines
     private Coroutine ExitHoldCoroutine;
@@ -37,6 +41,7 @@ public class PlayerUIScript : MonoBehaviour
     private void Start()
     {
         GameOverScreen.SetActive(false);
+        _exitLabel.gameObject.SetActive(false);
         NoiseMeter.value = 0;
         ProfitMeter.value = 0;
         initColor = KeyFoundText.color;
@@ -48,6 +53,13 @@ public class PlayerUIScript : MonoBehaviour
             SceneManager.LoadScene($"Assets/Scenes/{levelString}.unity");
             Time.timeScale = 1f;
         });
+        MenuButton.onClick.AddListener(() =>
+        {
+            SceneManager.LoadScene($"Assets/Scenes/Menu.unity");
+            Time.timeScale = 1f;
+        });
+
+        CountDown();
     }
 
     private void Update()
@@ -154,7 +166,7 @@ public class PlayerUIScript : MonoBehaviour
             }
             SaveLevelResult();
 
-            SceneManager.LoadScene($"Assets/Scenes/House3.unity");
+            SceneManager.LoadScene($"Assets/Scenes/Menu.unity");
             yield return null;
         }
     }
@@ -176,6 +188,25 @@ public class PlayerUIScript : MonoBehaviour
     public void ItemValueUpdate(float normal)
     {
         ProfitMeter.value = normal;
+    }
+
+    private void CountDown()
+    {
+        StartCoroutine(StartCount());
+
+        IEnumerator StartCount()
+        {
+            DateTime dateTime = new DateTime(2025, 12, 12, 0, 0, 0);
+
+            while (dateTime.Hour != 4)
+            {
+                dateTime = dateTime.AddMinutes(1);
+                TimeText.text = $"{dateTime.Hour}".PadLeft(2, '0') + ":" + $"{dateTime.Minute}".PadLeft(2, '0');
+                yield return new WaitForSeconds(1f / timeMult);
+            }
+
+            OnNoiseControllerThreshold();
+        }
     }
 }
 

@@ -21,7 +21,6 @@ public class SafeDial : MiniGameBase
     public AudioClip SafeClick;
     public TMP_Text SafePassDisplay;
     public TMP_Text SafeUnlockedText;
-    private InteractableScript _attachedInteractable;
     private Transform DialKnob;
 
     public float RotationSpeed { get; set; } = 25f; // Further reduced rotation speed
