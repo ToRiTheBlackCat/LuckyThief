@@ -1,0 +1,1980 @@
+fileFormatVersion: 2
+guid: 553f686bbe0f0dd428101fbcd8657cb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5440045203568326357
+    second: '''90s vehicles_0'
+  - first:
+      213: 5472535834774007518
+    second: '''90s vehicles_1'
+  - first:
+      213: 1975468671596962132
+    second: '''90s vehicles_2'
+  - first:
+      213: 4784726814613626848
+    second: '''90s vehicles_3'
+  - first:
+      213: -2282441522405163418
+    second: '''90s vehicles_4'
+  - first:
+      213: -1833154105572938968
+    second: '''90s vehicles_5'
+  - first:
+      213: -8350719281989287824
+    second: '''90s vehicles_6'
+  - first:
+      213: 5283449919314404346
+    second: '''90s vehicles_7'
+  - first:
+      213: 2861800356965555843
+    second: '''90s vehicles_8'
+  - first:
+      213: -6601944261977915509
+    second: '''90s vehicles_9'
+  - first:
+      213: -7141472606465616336
+    second: '''90s vehicles_10'
+  - first:
+      213: -8438786371839280286
+    second: '''90s vehicles_11'
+  - first:
+      213: 3568671115457022098
+    second: '''90s vehicles_12'
+  - first:
+      213: -8762877474199209556
+    second: '''90s vehicles_13'
+  - first:
+      213: 8787252326034674459
+    second: '''90s vehicles_14'
+  - first:
+      213: 417809025934267936
+    second: '''90s vehicles_15'
+  - first:
+      213: 7685124076114779827
+    second: '''90s vehicles_16'
+  - first:
+      213: -990994580242943737
+    second: '''90s vehicles_17'
+  - first:
+      213: 2258258576672330803
+    second: '''90s vehicles_18'
+  - first:
+      213: 6565492407928788075
+    second: '''90s vehicles_19'
+  - first:
+      213: -9175475635045779275
+    second: '''90s vehicles_20'
+  - first:
+      213: 3251971899686528497
+    second: '''90s vehicles_21'
+  - first:
+      213: -6827242406451126835
+    second: '''90s vehicles_22'
+  - first:
+      213: 45765989058002036
+    second: '''90s vehicles_23'
+  - first:
+      213: -4068101525541897419
+    second: '''90s vehicles_24'
+  - first:
+      213: -3794233477763566843
+    second: '''90s vehicles_25'
+  - first:
+      213: 7224808333301377273
+    second: '''90s vehicles_26'
+  - first:
+      213: -8339534222911927967
+    second: '''90s vehicles_27'
+  - first:
+      213: -1282325573903951562
+    second: '''90s vehicles_28'
+  - first:
+      213: 6189923946960130207
+    second: '''90s vehicles_29'
+  - first:
+      213: -5239296135578635916
+    second: '''90s vehicles_30'
+  - first:
+      213: 4550177786576734667
+    second: '''90s vehicles_31'
+  - first:
+      213: -7739627427388421457
+    second: '''90s vehicles_32'
+  - first:
+      213: 2120092058934595815
+    second: '''90s vehicles_33'
+  - first:
+      213: 2521894921923055318
+    second: '''90s vehicles_34'
+  - first:
+      213: 1852088049913531980
+    second: '''90s vehicles_35'
+  - first:
+      213: -5731025219320310847
+    second: '''90s vehicles_36'
+  - first:
+      213: -1869678424805592523
+    second: '''90s vehicles_37'
+  - first:
+      213: 7558184686215768348
+    second: '''90s vehicles_38'
+  - first:
+      213: -2624099544849791913
+    second: '''90s vehicles_39'
+  - first:
+      213: -7020011167262963685
+    second: '''90s vehicles_40'
+  - first:
+      213: 37684555866357221
+    second: '''90s vehicles_41'
+  - first:
+      213: 3760352396590487044
+    second: '''90s vehicles_42'
+  - first:
+      213: 5634141115298808451
+    second: '''90s vehicles_43'
+  - first:
+      213: -3983413087856462115
+    second: '''90s vehicles_44'
+  - first:
+      213: 6049140796487480838
+    second: '''90s vehicles_45'
+  - first:
+      213: -8125675333641316435
+    second: '''90s vehicles_46'
+  - first:
+      213: -7961887584713354968
+    second: '''90s vehicles_47'
+  - first:
+      213: 1159217649948907239
+    second: '''90s vehicles_48'
+  - first:
+      213: 1187473683143635273
+    second: '''90s vehicles_49'
+  - first:
+      213: -2062358837073186969
+    second: '''90s vehicles_50'
+  - first:
+      213: -9220865422624408158
+    second: '''90s vehicles_51'
+  - first:
+      213: 1993064588957080072
+    second: '''90s vehicles_52'
+  - first:
+      213: -4509171077924839319
+    second: '''90s vehicles_53'
+  - first:
+      213: 1189316323157795531
+    second: '''90s vehicles_54'
+  - first:
+      213: 7745744748576957467
+    second: '''90s vehicles_55'
+  - first:
+      213: -1674551458406557484
+    second: '''90s vehicles_56'
+  - first:
+      213: 6969310380261086548
+    second: '''90s vehicles_57'
+  - first:
+      213: -6396474035386905440
+    second: '''90s vehicles_58'
+  - first:
+      213: 325045781345476186
+    second: '''90s vehicles_59'
+  - first:
+      213: -2775741922040783960
+    second: '''90s vehicles_60'
+  - first:
+      213: 1718467925423464973
+    second: '''90s vehicles_61'
+  - first:
+      213: 2353932784994043196
+    second: '''90s vehicles_62'
+  - first:
+      213: 4682204482925446350
+    second: '''90s vehicles_63'
+  - first:
+      213: -816488455759008818
+    second: '''90s vehicles_64'
+  - first:
+      213: -8889645014022780910
+    second: '''90s vehicles_65'
+  - first:
+      213: 5827280783074360413
+    second: '''90s vehicles_66'
+  - first:
+      213: 4248218433761019912
+    second: '''90s vehicles_67'
+  - first:
+      213: 7729701158062820956
+    second: '''90s vehicles_68'
+  - first:
+      213: -2497147449278823254
+    second: '''90s vehicles_69'
+  - first:
+      213: 2663073900356456619
+    second: '''90s vehicles_70'
+  - first:
+      213: -5555265355146128635
+    second: '''90s vehicles_71'
+  - first:
+      213: -321232218597762937
+    second: '''90s vehicles_72'
+  - first:
+      213: -2759732683972943192
+    second: '''90s vehicles_73'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '''90s vehicles_0'
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 917
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6f1c04a4cee7b40800000000000000
+      internalID: 5440045203568326357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_1'
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 917
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeec44d85a52fb40800000000000000
+      internalID: 5472535834774007518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_2'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 902
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45123735a464a6b10800000000000000
+      internalID: 1975468671596962132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_3'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 901
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efd454ffa3c66240800000000000000
+      internalID: 4784726814613626848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_4'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 895
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e307c37832350e0800000000000000
+      internalID: -2282441522405163418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_5'
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 853
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ba6cead045f86e0800000000000000
+      internalID: -1833154105572938968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_6'
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 853
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070060a9e094c1c80800000000000000
+      internalID: -8350719281989287824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_7'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 840
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af32d4d65b5925940800000000000000
+      internalID: 5283449919314404346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_8'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 837
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e940f134827b720800000000000000
+      internalID: 2861800356965555843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_9'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fb0ed1cae2164a0800000000000000
+      internalID: -6601944261977915509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_10'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 789
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0361f66608464ec90800000000000000
+      internalID: -7141472606465616336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_11'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 789
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bbc13618863ea80800000000000000
+      internalID: -8438786371839280286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_12'
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 773
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298430dc877768130800000000000000
+      internalID: 3568671115457022098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_13'
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 773
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9751c6d51046680800000000000000
+      internalID: -8762877474199209556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_14'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1395050f6792f970800000000000000
+      internalID: 8787252326034674459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_15'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 725
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02693ce681b5cc500800000000000000
+      internalID: 417809025934267936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_16'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 725
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be9f9331ab07aa60800000000000000
+      internalID: 7685124076114779827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_17'
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 711
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70138460ea74f32f0800000000000000
+      internalID: -990994580242943737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_18'
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 711
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3349881f532f65f10800000000000000
+      internalID: 2258258576672330803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_19'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b649e1e3f805d1b50800000000000000
+      internalID: 6565492407928788075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_20'
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 661
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b838df06892aa080800000000000000
+      internalID: -9175475635045779275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_21'
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 661
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f52e5c8633512d20800000000000000
+      internalID: 3251971899686528497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_22'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 648
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd5fff1433c041a0800000000000000
+      internalID: -6827242406451126835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_23'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 645
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cb890bce792a000800000000000000
+      internalID: 45765989058002036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_24'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bb9db57333b87c0800000000000000
+      internalID: -4068101525541897419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_25'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 597
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503f10331cc285bc0800000000000000
+      internalID: -3794233477763566843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_26'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 597
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e5b486eca34460800000000000000
+      internalID: 7224808333301377273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_27'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 584
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1690f1b1fc5044c80800000000000000
+      internalID: -8339534222911927967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_28'
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 581
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6395e014fa3443ee0800000000000000
+      internalID: -1282325573903951562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_29'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f901e3db80707e550800000000000000
+      internalID: 6189923946960130207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_30'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 533
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47132c57ce74a47b0800000000000000
+      internalID: -5239296135578635916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_31'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 533
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc987c9c69a752f30800000000000000
+      internalID: 4550177786576734667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_32'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 520
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa84a07cd1579490800000000000000
+      internalID: -7739627427388421457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_33'
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 517
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e05cefae741c6d10800000000000000
+      internalID: 2120092058934595815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_34'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dec516e1129ff220800000000000000
+      internalID: 2521894921923055318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_35'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 469
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e87d3c440f3b910800000000000000
+      internalID: 1852088049913531980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_36'
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 469
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c39b936dee4770b0800000000000000
+      internalID: -5731025219320310847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_37'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 456
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532304de0619d06e0800000000000000
+      internalID: -1869678424805592523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_38'
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 453
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1920b85de014e860800000000000000
+      internalID: 7558184686215768348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_39'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754c6f5fd53559bd0800000000000000
+      internalID: -2624099544849791913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_40'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 402
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1804087909e39e90800000000000000
+      internalID: -7020011167262963685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_41'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 402
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edbee567e1e58000800000000000000
+      internalID: 37684555866357221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_42'
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 396
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406901dd4947f2430800000000000000
+      internalID: 3760352396590487044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_43'
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 396
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3820fcf4e7d703e40800000000000000
+      internalID: 5634141115298808451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_44'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd67ca0d6e218b8c0800000000000000
+      internalID: -3983413087856462115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_45'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 338
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606b5f2318dd2f350800000000000000
+      internalID: 6049140796487480838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_46'
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 338
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7d722f55dcb3f80800000000000000
+      internalID: -8125675333641316435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_47'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 325
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8215193fc61b18190800000000000000
+      internalID: -7961887584713354968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_48'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 325
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e651929f4e561010800000000000000
+      internalID: 1159217649948907239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_49'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941b6e7f501ca7010800000000000000
+      internalID: 1187473683143635273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_50'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 274
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f6dd480970163e0800000000000000
+      internalID: -2062358837073186969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_51'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 274
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad3aca90c7e80080800000000000000
+      internalID: -9220865422624408158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_52'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 257
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a52371fa9c8ab10800000000000000
+      internalID: 1993064588957080072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_53'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 260
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96023d49bc43c61c0800000000000000
+      internalID: -4509171077924839319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_54'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2e46705ec418010800000000000000
+      internalID: 1189316323157795531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_55'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 210
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14e6c36fc96e7b60800000000000000
+      internalID: 7745744748576957467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_56'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 210
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8909b125cc2c8e0800000000000000
+      internalID: -1674551458406557484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_57'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 193
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45597e8add6f7b060800000000000000
+      internalID: 6969310380261086548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_58'
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 196
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac01c931c82b37a0800000000000000
+      internalID: -6396474035386905440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_59'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e16dc7a6bc28400800000000000000
+      internalID: 325045781345476186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_60'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 129
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab599cad659a79d0800000000000000
+      internalID: -2775741922040783960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_61'
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 132
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02a4cc297939d710800000000000000
+      internalID: 1718467925423464973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_62'
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 133
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3547b27569daa020800000000000000
+      internalID: 2353932784994043196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_63'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4438a7b288af040800000000000000
+      internalID: 4682204482925446350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_64'
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbe64f43104ba4f0800000000000000
+      internalID: -816488455759008818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_65'
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 82
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21889d785f2a1a480800000000000000
+      internalID: -8889645014022780910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_66'
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 72
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c7b997ff8aed050800000000000000
+      internalID: 5827280783074360413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_67'
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 69
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80887905824b4fa30800000000000000
+      internalID: 4248218433761019912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_68'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 129
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e8242ef3a654b60800000000000000
+      internalID: 7729701158062820956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_69'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa486f510a9585dd0800000000000000
+      internalID: -2497147449278823254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_70'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 18
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba05c515a9325f420800000000000000
+      internalID: 2663073900356456619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_71'
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 8
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5031b71b79bb7e2b0800000000000000
+      internalID: -5555265355146128635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_72'
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 6
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788d118cff0ca8bf0800000000000000
+      internalID: -321232218597762937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '''90s vehicles_73'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2e1c0eeb573b9d0800000000000000
+      internalID: -2759732683972943192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
