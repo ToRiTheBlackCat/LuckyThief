@@ -3405,11 +3405,11 @@ PrefabInstance:
       objectReference: {fileID: 1746443032}
     - target: {fileID: 4173560312922266376, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.8
+      value: 14.9
       objectReference: {fileID: 0}
     - target: {fileID: 4173560312922266376, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -35.9
+      value: -9.8
       objectReference: {fileID: 0}
     - target: {fileID: 4173560312922266376, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3446,6 +3446,10 @@ PrefabInstance:
     - target: {fileID: 8906061521013503390, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_Name
       value: Thief
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906061521013503390, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63518,12 +63522,16 @@ PrefabInstance:
       value: Dog
       objectReference: {fileID: 0}
     - target: {fileID: 1371207561981942204, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371207561981942204, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1904385400}
     - target: {fileID: 1371207561981942204, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: noiseValue
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4915355120890663420, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: m_LocalPosition.x
