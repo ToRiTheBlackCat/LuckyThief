@@ -53,6 +53,7 @@ public class ItemWorld : InteractableScript
 
                 Debug.Log($"Inventory: Added {amount} {Resource.name} to Inventory.");
                 Destroy(gameObject);
+                OnAttachedMinigameSuccess();
             }
         }
 
