@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.StateMachines.Dog
 {
-    [System.Serializable]
     public class DogStateMachine
     {
         public DogState CurrentState;

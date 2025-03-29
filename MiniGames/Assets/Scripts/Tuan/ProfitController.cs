@@ -35,6 +35,7 @@ namespace Assets.Scripts.Tuan
             if (thief != null)
             {
                 totalProfit += thief.Inventory.ClearInventory();
+                _playerUI.ItemValueUpdate(totalProfit * 1f / MaxProfit);
             }
         }
 
