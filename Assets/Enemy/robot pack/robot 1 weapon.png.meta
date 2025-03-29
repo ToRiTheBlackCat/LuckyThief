@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0b24dfd1a85798b488373034100a5d37
+guid: 4cf2792831e39f54bb8239e00313678f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      robot 1 weapon_0: 5241926076056845040
+      robot 1 weapon_1: 5165625739875306080
+      robot 1 weapon_10: -5389712057844245786
+      robot 1 weapon_11: -2663789880296799623
+      robot 1 weapon_12: -6603842469692791210
+      robot 1 weapon_2: -6498850941799513110
+      robot 1 weapon_3: -859224970961301455
+      robot 1 weapon_4: 493583472543048862
+      robot 1 weapon_5: -3632257993984480965
+      robot 1 weapon_6: -4746441891444757886
+      robot 1 weapon_7: 2459163221688937405
+      robot 1 weapon_8: -582385697945309008
+      robot 1 weapon_9: -7699288630453757849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 namespace LuckyThief.ThangScripts
 {
@@ -9,6 +10,7 @@ namespace LuckyThief.ThangScripts
         public Transform player;
         public Animator animator;
         public Rigidbody2D rb;
+        [SerializeField] public audioManager audioManager;
 
         private SpriteRenderer spriteRenderer;
 
@@ -34,18 +36,47 @@ namespace LuckyThief.ThangScripts
                 StopChasing();
             }
         }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.collider.CompareTag("Player"))
+            {
+                Player player = collision.collider.GetComponent<Player>();
+                if (player != null)
+                {
+                    player.TakeDamage(15);
+                }
+            }
+        }
+        protected void FlipEnemy()
+        {
+            Vector2 direction = (player.transform.position - transform.position).normalized;
+            Console.WriteLine(direction);
+            if (player != null)
+            {
+                if (direction.x > 0)
+                {
+                    spriteRenderer.flipX = false;
+                }
+                else
+                {
+                    spriteRenderer.flipX = true;
+                }
+            }
+        }
 
         void ChasePlayer()
         {
+            audioManager.Playrobot();
             animator.SetBool("isRunning", true);
             Vector2 direction = (player.position - transform.position).normalized;
             transform.Translate(direction * chaseSpeed * Time.deltaTime);
 
-            spriteRenderer.flipX = direction.x > 0;
+            FlipEnemy();
         }
 
         void StopChasing()
         {
+            //audioManager.StopEffect();
             animator.SetBool("isRunning", false);
 
         }

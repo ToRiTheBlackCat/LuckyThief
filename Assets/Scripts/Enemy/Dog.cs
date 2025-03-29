@@ -3,6 +3,7 @@ namespace LuckyThief.ThangScripts
 {
     public class Dog : MonoBehaviour
     {
+        [SerializeField] public audioManager audioManager;
         public float moveSpeed = 20f;
         public float chaseSpeed = 25f;
         public float chaseRange = 30f;
@@ -33,7 +34,17 @@ namespace LuckyThief.ThangScripts
                 Debug.LogError("Player not found! Ensure Player has the correct tag.");
             }
         }
-
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.collider.CompareTag("Player"))
+            {
+                Player player = collision.collider.GetComponent<Player>();
+                if (player != null)
+                {
+                    player.TakeDamage(15);
+                }
+            }
+        }
         void Update()
         {
             if (player == null) return;
@@ -68,6 +79,7 @@ namespace LuckyThief.ThangScripts
 
         private void StopChasing()
         {
+            //audioManager.StopEffect();
             isChasing = false;
             animator.SetBool("isRunning", false);
             animator.SetBool("isSleeping", true);
@@ -75,6 +87,7 @@ namespace LuckyThief.ThangScripts
 
         void ChasePlayer()
         {
+            audioManager.PlayDog();
             animator.SetBool("isWalking", false);
             Vector2 direction = (player.position - transform.position).normalized;
             transform.Translate(direction * chaseSpeed * Time.deltaTime);

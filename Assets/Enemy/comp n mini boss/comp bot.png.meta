@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1096198ef4ad954dba12a68f2272213
+guid: 837281bfce1246f49a3101121736ee98
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -697,7 +697,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      comp bot_0: 6264095394554436932
+      comp bot_1: -8698676689241162419
+      comp bot_10: -8714139804699787051
+      comp bot_11: -8071351479650995267
+      comp bot_12: 9011771681126100710
+      comp bot_13: 8973454972788950935
+      comp bot_14: -2808062813410712540
+      comp bot_15: 2314538302014531679
+      comp bot_16: -43362423422426796
+      comp bot_17: 4073513560751071035
+      comp bot_18: 3507881795601458897
+      comp bot_19: -7444335369697976467
+      comp bot_2: 629677504237309076
+      comp bot_20: -7757036453944315162
+      comp bot_21: 5780306638550181694
+      comp bot_22: 1870946159439554519
+      comp bot_3: 403280943339322582
+      comp bot_4: -5168492663567801183
+      comp bot_5: -2342477681093617823
+      comp bot_6: 6766868814481734219
+      comp bot_7: -3175509642789771298
+      comp bot_8: 3852140289793387023
+      comp bot_9: -3389218590237857694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

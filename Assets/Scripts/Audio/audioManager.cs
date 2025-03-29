@@ -5,23 +5,52 @@ namespace LuckyThief.ThangScripts
     public class audioManager : MonoBehaviour
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created
-        [SerializeField] private AudioSource background;
-        [SerializeField] private AudioClip backgroundClip;
-        void Start()
+        [SerializeField] private AudioSource defaultAudioSource;
+        [SerializeField] private AudioSource effectAudioSource;
+        [SerializeField] private AudioClip alertClip;
+        [SerializeField] private AudioClip robotClip;
+        [SerializeField] private AudioClip dogClip;
+        [SerializeField] private AudioClip takeDamageClip;
+        [SerializeField] private AudioClip dieClip;
+
+        public void PlayAlert()
         {
-            PlayBackgroundMusic();
+            effectAudioSource.clip = alertClip;
+            effectAudioSource.Play();
         }
-
-        // Update is called once per frame
-        void Update()
+        public void StopAlert()
         {
-
+            effectAudioSource.Stop();
         }
-
-        void PlayBackgroundMusic()
+        public void PlayBackgroundMusic()
         {
-            background.clip = backgroundClip;
-            background.Play();
+            //defaultAudioSource.clip = backgroundClip;
+            defaultAudioSource.Play();
+        }
+        public void StopMusic()
+        {
+            defaultAudioSource.Stop();
+            effectAudioSource.Stop();
+        }
+        public void Playrobot()
+        {
+            effectAudioSource.PlayOneShot(robotClip);
+        }
+        public void StopEffect()
+        {
+            effectAudioSource.Stop();           
+        }
+        public void PlayDog()
+        {
+            effectAudioSource.PlayOneShot(dogClip);
+        }
+        public void PlayTakeDamagePlayer()
+        {
+            effectAudioSource.PlayOneShot(takeDamageClip);
+        }
+        public void PlayDead()
+        {
+            effectAudioSource.PlayOneShot(dieClip);
         }
     }
 }

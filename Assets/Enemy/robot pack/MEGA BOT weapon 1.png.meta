@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e59096b4ae44014db2496da8064ec8f
+guid: 47ffd20867b06ee419eb0328bfdceeaf
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MEGA BOT weapon 1_0: 423193030620963561
+      MEGA BOT weapon 1_1: 2150444379176684247
+      MEGA BOT weapon 1_2: -9165283023001348032
+      MEGA BOT weapon 1_3: -5327830993599806999
+      MEGA BOT weapon 1_4: -844388979534653119
+      MEGA BOT weapon 1_5: -8047579531147899586
+      MEGA BOT weapon 1_6: 3012618995982191600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

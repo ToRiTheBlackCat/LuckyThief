@@ -8,15 +8,17 @@ namespace LuckyThief.ThangScripts
         // transform là 1 đối tượng thuộc lớp Transform
         // spriteRenderer là 1 đối tượng thuộc lớp SpriteRenderer
         public float moveSpeed = 10f;
-        public Vector3 moveInput;
+        //public Vector3 moveInput;
         private Animator animator;
         private Rigidbody2D rb;
         [SerializeField] private GameManager gameManager;
+        [SerializeField] private BossGameManager bossGameManager;
         private SpriteRenderer spriteRenderer;
         [SerializeField] protected float maxHP = 100f;
         protected float currentHP;
         [SerializeField] private Image HPBar;
         [SerializeField] private BossAudioManager audioManager;
+        [SerializeField] private audioManager mainLevelManager;
         // Start is called before the first frame update
         void Start()
         {
@@ -34,16 +36,26 @@ namespace LuckyThief.ThangScripts
             //{
             //    return;
             //}
-            UpdateAnimation();
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (gameManager != null)
             {
-                gameManager.PauseGame();
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    gameManager.PauseGame();
+                }
+            }
+            if (bossGameManager != null)
+            {
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    bossGameManager.PauseGame();
+                }
             }
         }
 
         private void FixedUpdate()
         {
             HandleMovement();
+            //UpdateAnimation();
         }
         void HandleMovement()
         {
@@ -57,22 +69,46 @@ namespace LuckyThief.ThangScripts
             {
                 spriteRenderer.flipX = false;
             }
+            if(playerInput != Vector2.zero)
+            {
+                animator.SetBool("IsRunning", true);
+            }
+            else
+            {
+                animator.SetBool("IsRunning", false);
+            }
         }
-        void UpdateAnimation()
-        {
-            bool isRunning = Mathf.Abs(moveInput.x) > 0.1f || Mathf.Abs(moveInput.y) > 0.1f;
-            animator.SetBool("IsRunning", isRunning);
-        }
+        //void UpdateAnimation()
+        //{
+        //    Vector2 playerInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        //    rb.linearVelocity = playerInput.normalized * moveSpeed;
+        //    if(playerInput)
+        //    animator.SetBool("IsRunning", isRunning);
+        //}
 
         public void TakeDamage(float damage)
         {
             currentHP -= damage;
             currentHP = Mathf.Max(currentHP, 0);
             UpdateHpBar();
-            audioManager.PlayTakeDamagePlayer();
+            if (audioManager != null)
+            {
+                audioManager.PlayTakeDamagePlayer();
+            }
+            if(mainLevelManager != null)
+            {
+                mainLevelManager.PlayTakeDamagePlayer();
+            }
             if (currentHP <= 0)
             {
-                audioManager.PlayDead();
+                if (audioManager != null)
+                {
+                    audioManager.PlayDead();
+                }
+                if (mainLevelManager != null)
+                {
+                    mainLevelManager.PlayDead();
+                }
                 Die();
 
             }
@@ -81,7 +117,14 @@ namespace LuckyThief.ThangScripts
         public void Die()
         {
             //Destroy(gameObject);
-            gameManager.GameOver();
+            if (gameManager != null)
+            {
+                gameManager.GameOver();
+            }
+            if(bossGameManager != null)
+            {
+                bossGameManager.GameOver();
+            }
         }
 
         private void UpdateHpBar()

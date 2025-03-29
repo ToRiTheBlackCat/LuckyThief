@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7462453cd2e2874396006dbd3513772
+guid: bb604290867d08d4aa052c860713e2ca
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      robot 2 lasers_0: 1217071592740439623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

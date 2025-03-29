@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 65d0b952f6c69c44aaecec1de45a80be
+guid: baa1225703c48f5409702e5b569cd4d2
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      robot 1 lasers_0: -4505809126703930686
+      robot 1 lasers_1: -3132672791516048084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

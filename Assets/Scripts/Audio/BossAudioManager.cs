@@ -5,6 +5,7 @@ namespace LuckyThief.ThangScripts
     {
         [SerializeField] private AudioSource effectAudioSource;
         [SerializeField] private AudioSource bossAudioSource;
+        //[SerializeField] private AudioSource defaultAudioSource;
         [SerializeField] private AudioClip shootClip;
         [SerializeField] private AudioClip reloadClip;
         [SerializeField] private AudioClip laserClip;
@@ -14,7 +15,7 @@ namespace LuckyThief.ThangScripts
         [SerializeField] private AudioClip takeDamageClip;
         [SerializeField] private AudioClip dieClip;
         [SerializeField] private AudioClip explosionClip;
-        [SerializeField] private AudioClip alertClip;
+        //[SerializeField] private AudioClip alertClip;
         [SerializeField] private AudioClip robotExplosion;
         public void PlayShootSound()
         {
@@ -52,22 +53,34 @@ namespace LuckyThief.ThangScripts
         {
             effectAudioSource.PlayOneShot(explosionClip);
         }
-        public void PlayAlert()
-        {
-            effectAudioSource.clip = alertClip;
-            effectAudioSource.Play();
-        }
-        public void StopAlert()
-        {
-            effectAudioSource.Stop();
-        }
+        //public void PlayAlert()
+        //{
+        //    effectAudioSource.clip = alertClip;
+        //    effectAudioSource.Play();
+        //}
+        //public void StopAlert()
+        //{
+        //    effectAudioSource.Stop();
+        //}
         public void PlayRobotExplosion()
         {
             effectAudioSource.PlayOneShot(robotExplosion);
         }
+        //public void PlayDefaultAudio()
+        //{
+        //    bossAudioSource.Stop();
+        //    defaultAudioSource.Play();
+        //}
         public void PlayBossAudio()
         {
+            //defaultAudioSource.Stop();
             bossAudioSource.Play();
+        }
+        public void StopAudioGame()
+        {
+            //defaultAudioSource.Stop();
+            bossAudioSource.Stop();
+            effectAudioSource.Stop();
         }
     }
 }

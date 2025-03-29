@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6acc71fa8c61ba74da4439285e396a7d
+guid: b6eb679f4e7609841b1ac40c8972f0ed
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      robot 3 ammo_0: 6536121682425073336
+      robot 3 ammo_1: -1619616882666710739
+      robot 3 ammo_2: 2733587695483819951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,7 @@ namespace LuckyThief.ThangScripts
         public static GameManager Instance;
         [SerializeField] private GameObject gameOverUI;
         [SerializeField] private GameObject pauseGame;
+        [SerializeField] private audioManager audioManager;
         private bool isGameOver = false;
         private Chest currentChest;
         private GameObject[] mainLevelObjects;
@@ -26,7 +27,8 @@ namespace LuckyThief.ThangScripts
         void Start()
         {
             gameOverUI.SetActive(false);
-            mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
+            audioManager.PlayBackgroundMusic();    
+            //mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
         }
 
         public void PauseGame()
@@ -44,6 +46,7 @@ namespace LuckyThief.ThangScripts
 
         public void GameOver()
         {
+            audioManager.StopMusic();
             isGameOver = true;
             Time.timeScale = 0;
             gameOverUI.SetActive(true);

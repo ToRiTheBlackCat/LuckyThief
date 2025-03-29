@@ -5,7 +5,7 @@ namespace LuckyThief.ThangScripts
     {
         [SerializeField] private float patrolDistance = 10f; // Khoảng cách tuần tra
         [SerializeField] private float detectionRange = 15f; // Phạm vi phát hiện player
-        [SerializeField] private BossAudioManager audioManager;
+        [SerializeField] private audioManager audioManager;
         private Vector3 startPos; // Vị trí ban đầu để tuần tra
         private bool movingRight = true; // Hướng tuần tra
         private bool isChasing = false; // Trạng thái đuổi theo player
@@ -34,16 +34,28 @@ namespace LuckyThief.ThangScripts
                 audioManager.StopAlert();
             }
 
-            // Thực hiện hành vi tương ứng
+            
             if (isChasing)
             {
-                MoveTowardsPlayer(); // Sử dụng phương thức từ Enemy để đuổi theo
+                MoveTowardsPlayer(); 
             }
             else
             {
-                Patrol(); // Tuần tra khi không phát hiện player
+                Patrol(); 
             }
         }
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.collider.CompareTag("Player"))
+            {
+                Player player = collision.collider.GetComponent<Player>();
+                if (player != null)
+                {
+                    player.TakeDamage(enterDamage);
+                }
+            }
+        }
+
 
         // Phương thức tuần tra từ code cũ
         private void Patrol()
