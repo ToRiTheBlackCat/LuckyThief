@@ -43,7 +43,7 @@ public class SafeDial : MiniGameBase
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             ExitGame();
             return;
@@ -105,13 +105,9 @@ public class SafeDial : MiniGameBase
 
         targetDialAngle += rotation * (FULL_ROTATION / 360f);
         targetDialAngle = (targetDialAngle + FULL_ROTATION) % FULL_ROTATION;
-        currentDialAngle = targetDialAngle; // remove Lerp for testing
+        currentDialAngle = targetDialAngle;
         DialKnob.localRotation = Quaternion.Euler(0, 0, -currentDialAngle * DEGREE_PER_NUMBER);
-
-
         PlayTurningSound();
-
-        // Debug: Display the current dial angle and number
         int currentDialNumber = GetDialNumberFromAngle(currentDialAngle);
         Debug.Log($"Current Dial Angle: {currentDialAngle}, Current Dial Number: {currentDialNumber}");
     }
@@ -122,8 +118,6 @@ public class SafeDial : MiniGameBase
 
         int currentDialNumber = GetDialNumberFromAngle(dialAngle);
         int targetNumber = combination[combinationIndex];
-
-        // Debug: Display the target number and current dial number
         Debug.Log($"Target Number: {targetNumber}, Current Dial Number: {currentDialNumber}");
 
         if (Mathf.Abs(currentDialNumber - targetNumber) < ANGLE_TOLERANCE / DEGREE_PER_NUMBER)
@@ -202,12 +196,37 @@ public class SafeDial : MiniGameBase
 
         gameObject.SetActive(true);
         SafeUnlockedText.gameObject.SetActive(false);
+        DialKnob.localRotation = Quaternion.Euler(0, 0, 0);
     }
 
     public override void ExitGame(float delay = 0)
-    {
+    {        
         gameObject.SetActive(false);
         GameManagerSingleton.Player.SpeedMult = 1f;
+        ResetGameState();
+    }
+
+    private void ResetGameState()
+    {
+        enabled = true;
+        combinationIndex = 0;
+        isUnlocked = false;
+        waitingForReverse = false;
+        isDialLocked = false;
+        currentDialAngle = 0f;
+        targetDialAngle = 0f;
+
+        // Reset the dial position
+        DialKnob.localRotation = Quaternion.Euler(0, 0, 0);
+
+        // Reinitialize the combination
+        InitializeCombination();
+
+        // Hide UI text
+        SafeUnlockedText.gameObject.SetActive(false);
+
+        // Stop any playing audio
+        StopTurningSound();
     }
 
     //private IEnumerator ReturnToGameScene()
