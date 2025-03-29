@@ -1,67 +1,59 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class Chest : MonoBehaviour
+namespace LuckyThief.ThangScripts
 {
-    public InteractiveController interactiveController;
-    public static Chest Instance;
-    private Animator animator;
-    private bool isOpened = false;
-    private bool isMinigameCompleted = false;
-    private bool isCollision = false;
-
-    void Start()
+    public class Chest : MonoBehaviour
     {
-        animator = GetComponent<Animator>();
-    }
+        public InteractiveController interactiveController;
+        public static Chest Instance;
+        private Animator animator;
+        private bool isOpened = false;
+        //private bool isMinigameCompleted = false;
+        //private bool isCollision = false;
+        private bool isImpact = false;
+        private bool isTrigger = false;
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Player"))
+        void Start()
         {
-            isCollision = true;
+            animator = GetComponent<Animator>();
         }
-    }
-
-    //private void OnCollisionExit(Collision collision)
-    //{
-    //    if (collision.collider.CompareTag("Player"))
-    //    {
-    //        isCollision = false;
-    //    }
-    //}
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (isCollision == true && Input.GetKeyDown(KeyCode.E))
+        private void Update()
         {
-            interactiveController.PlayWireGame();
-            //GameManager.Instance.SetMainLevelActive(false);
-            Debug.Log("Ïmpact");
+            if (isImpact == true && isTrigger == true && Input.GetKeyUp(KeyCode.E))
+            {
+                LoadMinigame();
+            }
+        }
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            isTrigger = true;
+            isImpact = true;
+        }
+        public void LoadMinigame()
+        {
+            SceneManager.LoadSceneAsync("Wire", LoadSceneMode.Additive);
             GameManager.Instance.SetCurrentChest(this);
+            isTrigger = false;
         }
-        else
+
+
+        public void OpenChest()
         {
-            Debug.Log("Not impact");
+            Debug.Log("Chest open");
+            isOpened = true;
+            animator.SetBool("isOpened", isOpened);
+            GiveReward();
+            Destroy(gameObject, 1f);
         }
-    }
 
-    public void OpenChest()
-    {
-        Debug.Log("Chest open");
-        isOpened = true;
-        animator.SetBool("isOpened", isOpened);
-        GiveReward();
-        Destroy(gameObject, 1f);
-    }
-
-    void GiveReward()
-    {
-        Debug.Log("Bạn đã nhận được phần thưởng!");
-    }
-    public void SetMinigameCompleted(bool value)
-    {
-        isMinigameCompleted = value;
+        void GiveReward()
+        {
+            Debug.Log("Bạn đã nhận được phần thưởng!");
+        }
+        //public void SetMinigameCompleted(bool value)
+        //{
+        //    isMinigameCompleted = value;
+        //}
     }
 }

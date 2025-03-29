@@ -1,58 +1,77 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class GameManager : MonoBehaviour
+namespace LuckyThief.ThangScripts
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public static GameManager Instance;
-    [SerializeField] private GameObject gameOverUI;
-    private bool isGameOver = false;
-    private Chest currentChest;
-    private GameObject[] mainLevelObjects;
-    private void Awake()
+    public class GameManager : MonoBehaviour
     {
-        if (Instance == null)
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        public static GameManager Instance;
+        [SerializeField] private GameObject gameOverUI;
+        [SerializeField] private GameObject pauseGame;
+        [SerializeField] private audioManager audioManager;
+        private bool isGameOver = false;
+        private Chest currentChest;
+        private GameObject[] mainLevelObjects;
+        private void Awake()
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Giữ GameManager qua các scene
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject); // Giữ GameManager qua các scene
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
-        else
+        void Start()
         {
-            Destroy(gameObject);
+            gameOverUI.SetActive(false);
+            audioManager.PlayBackgroundMusic();    
+            //mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
         }
-    }
-    void Start()
-    {
-        gameOverUI.SetActive(false);
-        mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
-    }
 
-    public void GameOver()
-    {
-        isGameOver = true;
-        Time.timeScale = 0;
-        gameOverUI.SetActive(true);
-    }
+        public void PauseGame()
+        {
+            Time.timeScale = 0;
+            pauseGame.SetActive(true);
+            gameOverUI.SetActive(false);
+        }
+        public void ResumeGame()
+        {
+            Time.timeScale = 1;
+            pauseGame.SetActive(false);
+            gameObject.SetActive(false);
+        }
 
-    public void RestartGame()
-    {
-        isGameOver = false;
-        Time.timeScale = 1;
-        SceneManager.LoadScene("MainLevel");
-    }
+        public void GameOver()
+        {
+            audioManager.StopMusic();
+            isGameOver = true;
+            Time.timeScale = 0;
+            gameOverUI.SetActive(true);
+        }
 
-    public bool IsGameOver()
-    {
-        return isGameOver;
-    }
-    public void SetCurrentChest(Chest chest)
-    {
-        currentChest = chest;
-    }
+        public void RestartGame()
+        {
+            isGameOver = false;
+            Time.timeScale = 1;
+            SceneManager.LoadScene("MainLevel");
+        }
 
-    // Lấy rương hiện tại (dùng trong minigame)
-    public Chest GetCurrentChest()
-    {
-        return currentChest;
+        public bool IsGameOver()
+        {
+            return isGameOver;
+        }
+        public void SetCurrentChest(Chest chest)
+        {
+            currentChest = chest;
+        }
+
+        // Lấy rương hiện tại (dùng trong minigame)
+        public Chest GetCurrentChest()
+        {
+            return currentChest;
+        }
     }
 }

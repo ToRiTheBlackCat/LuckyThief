@@ -1,0 +1,2067 @@
+fileFormatVersion: 2
+guid: 05e32c795706cdd4f9d646ae180655a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6081960449169103296
+    second: MEGA BOT_0
+  - first:
+      213: -422834482667506133
+    second: MEGA BOT_1
+  - first:
+      213: -6680708902611803473
+    second: MEGA BOT_2
+  - first:
+      213: 3167915959057142025
+    second: MEGA BOT_3
+  - first:
+      213: -725971498992367570
+    second: MEGA BOT_4
+  - first:
+      213: -8332189245491288549
+    second: MEGA BOT_5
+  - first:
+      213: -5040392586656681374
+    second: MEGA BOT_6
+  - first:
+      213: 2336104796680580153
+    second: MEGA BOT_7
+  - first:
+      213: 4174899983961819311
+    second: MEGA BOT_8
+  - first:
+      213: 2670173065103243206
+    second: MEGA BOT_9
+  - first:
+      213: -699328901498006316
+    second: MEGA BOT_10
+  - first:
+      213: 7995020582879132064
+    second: MEGA BOT_11
+  - first:
+      213: -5979493343823401981
+    second: MEGA BOT_12
+  - first:
+      213: 8802597478838604311
+    second: MEGA BOT_13
+  - first:
+      213: 7833074716952025051
+    second: MEGA BOT_14
+  - first:
+      213: -7557292760355335693
+    second: MEGA BOT_15
+  - first:
+      213: 4319018764818158434
+    second: MEGA BOT_16
+  - first:
+      213: -563638582044082344
+    second: MEGA BOT_17
+  - first:
+      213: -8282364170484730460
+    second: MEGA BOT_18
+  - first:
+      213: -814993748769561214
+    second: MEGA BOT_19
+  - first:
+      213: 7603277177810678029
+    second: MEGA BOT_20
+  - first:
+      213: -4871968244432694597
+    second: MEGA BOT_21
+  - first:
+      213: -5528092698880212444
+    second: MEGA BOT_22
+  - first:
+      213: 6312619917808972673
+    second: MEGA BOT_23
+  - first:
+      213: -1629818142793678412
+    second: MEGA BOT_24
+  - first:
+      213: 6395068765263877431
+    second: MEGA BOT_25
+  - first:
+      213: 2509522798544355851
+    second: MEGA BOT_26
+  - first:
+      213: -9122675679285248976
+    second: MEGA BOT_27
+  - first:
+      213: 8042387310563701909
+    second: MEGA BOT_28
+  - first:
+      213: 7049421591689394432
+    second: MEGA BOT_29
+  - first:
+      213: -7865374574380526131
+    second: MEGA BOT_30
+  - first:
+      213: 5580296523135926898
+    second: MEGA BOT_31
+  - first:
+      213: -4764649052206805841
+    second: MEGA BOT_32
+  - first:
+      213: 8387479311679554375
+    second: MEGA BOT_33
+  - first:
+      213: -5034922978489865991
+    second: MEGA BOT_34
+  - first:
+      213: -6186580236969802124
+    second: MEGA BOT_35
+  - first:
+      213: 3287589062322116528
+    second: MEGA BOT_36
+  - first:
+      213: 5291946689629733238
+    second: MEGA BOT_37
+  - first:
+      213: 4171519267256121390
+    second: MEGA BOT_38
+  - first:
+      213: 9194972863619583960
+    second: MEGA BOT_39
+  - first:
+      213: -6349015016959052884
+    second: MEGA BOT_40
+  - first:
+      213: -7132752884511223268
+    second: MEGA BOT_41
+  - first:
+      213: -6885971837413213787
+    second: MEGA BOT_42
+  - first:
+      213: 8089253259099733958
+    second: MEGA BOT_43
+  - first:
+      213: -691693400597160507
+    second: MEGA BOT_44
+  - first:
+      213: 6152942133049807147
+    second: MEGA BOT_45
+  - first:
+      213: 4050023720550947301
+    second: MEGA BOT_46
+  - first:
+      213: -2431501959161273546
+    second: MEGA BOT_47
+  - first:
+      213: 8352497854512413968
+    second: MEGA BOT_48
+  - first:
+      213: -8246574532682943194
+    second: MEGA BOT_49
+  - first:
+      213: -3661804730980439091
+    second: MEGA BOT_50
+  - first:
+      213: -8485397817414533629
+    second: MEGA BOT_51
+  - first:
+      213: 3747507040028867621
+    second: MEGA BOT_52
+  - first:
+      213: -217200013221896835
+    second: MEGA BOT_53
+  - first:
+      213: -2311642477329577023
+    second: MEGA BOT_54
+  - first:
+      213: 2727759820802208898
+    second: MEGA BOT_55
+  - first:
+      213: -4908084805460019675
+    second: MEGA BOT_56
+  - first:
+      213: 4424360845421994113
+    second: MEGA BOT_57
+  - first:
+      213: 6139066591473447942
+    second: MEGA BOT_58
+  - first:
+      213: 722819127826900325
+    second: MEGA BOT_59
+  - first:
+      213: -375085909460102052
+    second: MEGA BOT_60
+  - first:
+      213: 5999682642423371390
+    second: MEGA BOT_61
+  - first:
+      213: -2904028569420074648
+    second: MEGA BOT_62
+  - first:
+      213: -6230119529584768637
+    second: MEGA BOT_63
+  - first:
+      213: 7206504994812525708
+    second: MEGA BOT_64
+  - first:
+      213: -1669974984736268632
+    second: MEGA BOT_65
+  - first:
+      213: 2315048635129977835
+    second: MEGA BOT_66
+  - first:
+      213: 1295245507484878557
+    second: MEGA BOT_67
+  - first:
+      213: -1002340460812301316
+    second: MEGA BOT_68
+  - first:
+      213: -4529828613392719572
+    second: MEGA BOT_69
+  - first:
+      213: 4842255957363643476
+    second: MEGA BOT_70
+  - first:
+      213: 1839232589547780989
+    second: MEGA BOT_71
+  - first:
+      213: 7047017613727421909
+    second: MEGA BOT_72
+  - first:
+      213: 3522618198382044247
+    second: MEGA BOT_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MEGA BOT_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046ec41f139889ba0800000000000000
+      internalID: -6081960449169103296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2631dd374ac12af0800000000000000
+      internalID: -422834482667506133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a80426aa5943a0800000000000000
+      internalID: -6680708902611803473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90154e9c7c2b6fb20800000000000000
+      internalID: 3167915959057142025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28808d94c4dce5f0800000000000000
+      internalID: -725971498992367570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16692de60e1e5c80800000000000000
+      internalID: -8332189245491288549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262f0d7c5adec0ab0800000000000000
+      internalID: -5040392586656681374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c6b347fe28b6020800000000000000
+      internalID: 2336104796680580153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_8
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 599
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa804d47a6930f930800000000000000
+      internalID: 4174899983961819311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_9
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 680
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c77b4a614c5e0520800000000000000
+      internalID: 2670173065103243206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_10
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 599
+        width: 63
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d41c0db11c7b46f0800000000000000
+      internalID: -699328901498006316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_11
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 680
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a972765cd404fe60800000000000000
+      internalID: 7995020582879132064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_12
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 635
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ce7980c72940da0800000000000000
+      internalID: -5979493343823401981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_13
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 680
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7129ce2d4cb192a70800000000000000
+      internalID: 8802597478838604311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 635
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7d40324fba4bc60800000000000000
+      internalID: 7833074716952025051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_15
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 680
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f19363564a1f1790800000000000000
+      internalID: -7557292760355335693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_16
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 635
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2639b37feac30fb30800000000000000
+      internalID: 4319018764818158434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_17
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 599
+        width: 76
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fbe8722bd8d28f0800000000000000
+      internalID: -563638582044082344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_18
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 599
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b5d53ba12f0d80800000000000000
+      internalID: -8282364170484730460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_19
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 599
+        width: 82
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2852d66e08f80b4f0800000000000000
+      internalID: -814993748769561214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_20
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 599
+        width: 82
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d017d303f44448960800000000000000
+      internalID: 7603277177810678029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_21
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 599
+        width: 82
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb21b99c1ba436cb0800000000000000
+      internalID: -4871968244432694597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_22
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 626
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42280ddbaf44843b0800000000000000
+      internalID: -5528092698880212444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_23
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 599
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1833f0b9e5eea9750800000000000000
+      internalID: 6312619917808972673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_24
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 583
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1cb46c809b169e0800000000000000
+      internalID: -1629818142793678412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_25
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 599
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735dfb3d829dfb850800000000000000
+      internalID: 6395068765263877431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b020bf270bd93d220800000000000000
+      internalID: 2509522798544355851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c7b1fbdceb56180800000000000000
+      internalID: -9122675679285248976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594324806ac4c9f60800000000000000
+      internalID: 8042387310563701909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0097d94969394d160800000000000000
+      internalID: 7049421591689394432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5d8a44f7398d290800000000000000
+      internalID: -7865374574380526131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_31
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2724dd24f12317d40800000000000000
+      internalID: 5580296523135926898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_32
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faccfc36ee090edb0800000000000000
+      internalID: -4764649052206805841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_33
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7430995ceff466470800000000000000
+      internalID: 8387479311679554375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_34
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e8ab2a3c502ab0800000000000000
+      internalID: -5034922978489865991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_35
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 479
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47686f86d0ad42aa0800000000000000
+      internalID: -6186580236969802124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_36
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 479
+        width: 91
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b75b2375dcdf9d20800000000000000
+      internalID: 3287589062322116528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 359
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6714fade975c07940800000000000000
+      internalID: 5291946689629733238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 359
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28bf720ca634e930800000000000000
+      internalID: 4171519267256121390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 359
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfc6673a1b1b9f70800000000000000
+      internalID: 9194972863619583960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_40
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 359
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3f8880b74c3e7a0800000000000000
+      internalID: -6349015016959052884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 359
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12d010ea0f530d90800000000000000
+      internalID: -7132752884511223268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_42
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 359
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a934a9e81d1070a0800000000000000
+      internalID: -6885971837413213787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_43
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 359
+        width: 73
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf7fcefafcc24070800000000000000
+      internalID: 8089253259099733958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_44
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 462
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd9ce3548c9666f0800000000000000
+      internalID: -691693400597160507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_45
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 462
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21d7f33544a36550800000000000000
+      internalID: 6152942133049807147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9585bad13943830800000000000000
+      internalID: 4050023720550947301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633a68dc9d1914ed0800000000000000
+      internalID: -2431501959161273546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_48
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dbc659b880ae370800000000000000
+      internalID: 8352497854512413968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_49
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62576ad97284e8d80800000000000000
+      internalID: -8246574532682943194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_50
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbe01d8ff7ae2dc0800000000000000
+      internalID: -3661804730980439091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_51
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eb12384afcd3a80800000000000000
+      internalID: -8485397817414533629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_52
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c323a3cc1d10430800000000000000
+      internalID: 3747507040028867621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_53
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dd2be1db95cfcf0800000000000000
+      internalID: -217200013221896835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_54
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb011b1a656befd0800000000000000
+      internalID: -2311642477329577023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_55
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284bf7fca13fad520800000000000000
+      internalID: 2727759820802208898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_56
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5263013afdaf2ebb0800000000000000
+      internalID: -4908084805460019675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_57
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18066856fbc766d30800000000000000
+      internalID: 4424360845421994113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_58
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6043e3de988523550800000000000000
+      internalID: 6139066591473447942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_59
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565eaf6ca28f70a00800000000000000
+      internalID: 722819127826900325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_60
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5450664a5d6bcaf0800000000000000
+      internalID: -375085909460102052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_61
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 239
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76d8ba5397234350800000000000000
+      internalID: 5999682642423371390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_62
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 344
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861712ef661d2b7d0800000000000000
+      internalID: -2904028569420074648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 119
+        width: 73
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38940e2eb4b2a89a0800000000000000
+      internalID: -6230119529584768637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_64
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 119
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cf0ef6c16a20460800000000000000
+      internalID: 7206504994812525708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_65
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 119
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae910b699e03d8e0800000000000000
+      internalID: -1669974984736268632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_66
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 119
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebdcaec774b02020800000000000000
+      internalID: 2315048635129977835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_67
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 119
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd68e823de2a9f110800000000000000
+      internalID: 1295245507484878557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb084959a8f612f0800000000000000
+      internalID: -1002340460812301316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_69
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 75
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21a35d40e0d221c0800000000000000
+      internalID: -4529828613392719572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_70
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454dd2a4326233340800000000000000
+      internalID: 4842255957363643476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_71
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b3157ab44468910800000000000000
+      internalID: 1839232589547780989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_72
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5d428de290cc160800000000000000
+      internalID: 7047017613727421909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MEGA BOT_73
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75463e9769ad2e030800000000000000
+      internalID: 3522618198382044247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MEGA BOT_0: -6081960449169103296
+      MEGA BOT_1: -422834482667506133
+      MEGA BOT_10: -699328901498006316
+      MEGA BOT_11: 7995020582879132064
+      MEGA BOT_12: -5979493343823401981
+      MEGA BOT_13: 8802597478838604311
+      MEGA BOT_14: 7833074716952025051
+      MEGA BOT_15: -7557292760355335693
+      MEGA BOT_16: 4319018764818158434
+      MEGA BOT_17: -563638582044082344
+      MEGA BOT_18: -8282364170484730460
+      MEGA BOT_19: -814993748769561214
+      MEGA BOT_2: -6680708902611803473
+      MEGA BOT_20: 7603277177810678029
+      MEGA BOT_21: -4871968244432694597
+      MEGA BOT_22: -5528092698880212444
+      MEGA BOT_23: 6312619917808972673
+      MEGA BOT_24: -1629818142793678412
+      MEGA BOT_25: 6395068765263877431
+      MEGA BOT_26: 2509522798544355851
+      MEGA BOT_27: -9122675679285248976
+      MEGA BOT_28: 8042387310563701909
+      MEGA BOT_29: 7049421591689394432
+      MEGA BOT_3: 3167915959057142025
+      MEGA BOT_30: -7865374574380526131
+      MEGA BOT_31: 5580296523135926898
+      MEGA BOT_32: -4764649052206805841
+      MEGA BOT_33: 8387479311679554375
+      MEGA BOT_34: -5034922978489865991
+      MEGA BOT_35: -6186580236969802124
+      MEGA BOT_36: 3287589062322116528
+      MEGA BOT_37: 5291946689629733238
+      MEGA BOT_38: 4171519267256121390
+      MEGA BOT_39: 9194972863619583960
+      MEGA BOT_4: -725971498992367570
+      MEGA BOT_40: -6349015016959052884
+      MEGA BOT_41: -7132752884511223268
+      MEGA BOT_42: -6885971837413213787
+      MEGA BOT_43: 8089253259099733958
+      MEGA BOT_44: -691693400597160507
+      MEGA BOT_45: 6152942133049807147
+      MEGA BOT_46: 4050023720550947301
+      MEGA BOT_47: -2431501959161273546
+      MEGA BOT_48: 8352497854512413968
+      MEGA BOT_49: -8246574532682943194
+      MEGA BOT_5: -8332189245491288549
+      MEGA BOT_50: -3661804730980439091
+      MEGA BOT_51: -8485397817414533629
+      MEGA BOT_52: 3747507040028867621
+      MEGA BOT_53: -217200013221896835
+      MEGA BOT_54: -2311642477329577023
+      MEGA BOT_55: 2727759820802208898
+      MEGA BOT_56: -4908084805460019675
+      MEGA BOT_57: 4424360845421994113
+      MEGA BOT_58: 6139066591473447942
+      MEGA BOT_59: 722819127826900325
+      MEGA BOT_6: -5040392586656681374
+      MEGA BOT_60: -375085909460102052
+      MEGA BOT_61: 5999682642423371390
+      MEGA BOT_62: -2904028569420074648
+      MEGA BOT_63: -6230119529584768637
+      MEGA BOT_64: 7206504994812525708
+      MEGA BOT_65: -1669974984736268632
+      MEGA BOT_66: 2315048635129977835
+      MEGA BOT_67: 1295245507484878557
+      MEGA BOT_68: -1002340460812301316
+      MEGA BOT_69: -4529828613392719572
+      MEGA BOT_7: 2336104796680580153
+      MEGA BOT_70: 4842255957363643476
+      MEGA BOT_71: 1839232589547780989
+      MEGA BOT_72: 7047017613727421909
+      MEGA BOT_73: 3522618198382044247
+      MEGA BOT_8: 4174899983961819311
+      MEGA BOT_9: 2670173065103243206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

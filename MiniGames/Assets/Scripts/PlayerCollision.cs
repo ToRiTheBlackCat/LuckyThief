@@ -1,34 +1,47 @@
-﻿using UnityEngine;
-
-public class PlayerCollision : MonoBehaviour
+﻿using System.Security.Cryptography.X509Certificates;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+namespace LuckyThief.ThangScripts
 {
-    private GameObject nearbyChest;
-    private GameManager gameManager;
+    public class PlayerCollision : MonoBehaviour
+    {
 
-    private void Start()
-    {
-        gameManager = FindFirstObjectByType<GameManager>(); // Tìm GameManager trong scene
-        if (gameManager == null)
+        private void Start()
         {
-            Debug.LogError("GameManager không tìm thấy trong scene!");
-        }
-    }
-    private void Update()
-    {
- 
-    }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Chest") && Input.GetKeyDown(KeyCode.E)) // Kiểm tra nếu va chạm với rương
-        {
-            //Destroy(collision.gameObject);
-            nearbyChest = collision.gameObject; // Lưu rương gần nhất
-            Debug.Log("Nhấn E để mở rương");
         }
-        if (collision.collider.CompareTag("Enemy"))
+        private void Update()
         {
-            gameManager.GameOver();
+            //if (isImpact == true && isTrigger == true && Input.GetKeyUp(KeyCode.E))
+            //{
+            //    OpenChest();    
+            //}
         }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("MegaBotAmmo"))
+            {
+                Player player = GetComponent<Player>();
+                player.TakeDamage(10f);
+            }
+            if (collision.CompareTag("MegaBotMissle"))
+            {
+                Player player = GetComponent<Player>();
+                player.TakeDamage(20f);
+            }
+            //if (collision.CompareTag("Chest"))
+            //{
+            //    isTrigger = true;
+            //    isImpact = true;
+            //}
+        }
+        //public void OpenChest()
+        //{
+
+        //    SceneManager.LoadSceneAsync("Wire", LoadSceneMode.Additive);
+        //    isTrigger = false;
+        //    Debug.Log("Nhấn E để mở rương");
+        //}
     }
 }
