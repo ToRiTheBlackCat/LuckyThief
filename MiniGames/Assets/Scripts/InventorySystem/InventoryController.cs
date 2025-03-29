@@ -284,7 +284,7 @@ public class InventoryController : MonoBehaviour
         int totalValue = 0;
         toolBelt.ForEach(item =>
         {
-            totalValue += item.value;
+            totalValue += item.value * item.amount;
         });
         toolBelt.Clear();
         _inventoryUI.SetInventory(this);
