@@ -1,16 +1,18 @@
 using UnityEngine;
-
-public class RandomChildren : MonoBehaviour
+namespace LuckyThief.ThangScripts
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Awake()
+    public class RandomChildren : MonoBehaviour
     {
-        for(int i = 0; i < transform.childCount; i++)
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        private void Awake()
         {
-            int newSpot = Random.Range(0, transform.childCount);
-            Vector3 temp = transform.GetChild(i).position;
-            transform.GetChild(i).position = transform.GetChild(newSpot).position;
-            transform.GetChild(newSpot).position = temp;
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                int newSpot = Random.Range(0, transform.childCount);
+                Vector3 temp = transform.GetChild(i).position;
+                transform.GetChild(i).position = transform.GetChild(newSpot).position;
+                transform.GetChild(newSpot).position = temp;
+            }
         }
     }
 }
