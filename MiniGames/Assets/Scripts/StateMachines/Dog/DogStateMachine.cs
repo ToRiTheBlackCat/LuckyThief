@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.StateMachines.Dog
 {
-    [Serializable]
+    [System.Serializable]
     public class DogStateMachine
     {
-        public DogState currentState { get; set; }
+        public DogState CurrentState;
 
         public void Initialize(DogState state)
         {
-            currentState = state;
+            CurrentState = state;
         }
 
         public void EnterState(DogState newState)
         {
-            currentState.Exit();
-            currentState = newState;
-            currentState.Enter();
+            CurrentState.Exit();
+            CurrentState = newState;
+            CurrentState.Enter();
         }
     }
 }

@@ -24,7 +24,6 @@ public class SimonSaysScript : MiniGameBase
     [SerializeField] private TextMeshPro _timeText;
     [SerializeField] private AudioSource _clickSound;
     [SerializeReference] private List<ResultLed> _resultLeds;
-    private InteractableScript _attachedInteractable;
 
     [Header("Game Info")]
     [SerializeField] private LayerMask inputLayerMask;
@@ -307,7 +306,6 @@ public class SimonSaysScript : MiniGameBase
     /// </summary>
     public override void StartGame(InteractableScript attachedInteractable = null)
     {
-        Time.timeScale = 0f;
         _attachedInteractable = attachedInteractable;
 
         StopAllCoroutines();
@@ -338,7 +336,6 @@ public class SimonSaysScript : MiniGameBase
 
         IEnumerator StartExitGame()
         {
-            Time.timeScale = 1f;
             allowInput = false;
             yield return new WaitForSeconds(delay);
             gameObject.SetActive(false);

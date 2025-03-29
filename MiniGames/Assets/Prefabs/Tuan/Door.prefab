@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1280742365760915414}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.046, y: -0.29, z: 0}
+  m_LocalPosition: {x: 0, y: 0.051, z: 0}
   m_LocalScale: {x: 1.6099999, y: 1.41, z: 1.6099999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -113,7 +113,7 @@ Transform:
   m_GameObject: {fileID: 4195990471701849139}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.045999795, y: -0.289999, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.6099999, y: 1.41, z: 1.6099999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -200,7 +200,7 @@ Transform:
   m_GameObject: {fileID: 4402134114561575803}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.045999795, y: -0.289999, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.61, y: 1.41, z: 1.61}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -311,11 +311,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightSprite: {fileID: 7844324960785888398}
   isInteractable: 0
+  HoverEvent:
+    m_PersistentCalls:
+      m_Calls: []
   _attachedGame: {fileID: 0}
   SuccessEvent:
     m_PersistentCalls:
       m_Calls: []
   _openedSprite: {fileID: 0}
+  _opened: 0
 --- !u!61 &6751197264103049716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -346,7 +350,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

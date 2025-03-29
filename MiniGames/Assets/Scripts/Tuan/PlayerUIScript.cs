@@ -1,3 +1,5 @@
+using System.Collections;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -9,7 +11,13 @@ public class PlayerUIScript : MonoBehaviour
     public Slider NoiseMeter;
     public Button RetryButton;
     public GameObject GameOverScreen;
+    [SerializeField] private Image _exitLabel;
     [SerializeField] private LevelNames selectedLevel;
+
+    private bool isHoldingReset;
+
+    // Coroutines
+    private Coroutine ExitHoldCoroutine;
 
     private enum LevelNames
     {
@@ -30,6 +38,25 @@ public class PlayerUIScript : MonoBehaviour
             SceneManager.LoadScene($"Assets/Scenes/{levelString}.unity");
             Time.timeScale = 1f;
         });
+    }
+
+    private void Update()
+    {
+        if (_exitLabel.isActiveAndEnabled)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                isHoldingReset = true;
+                exitHold();
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.E) && isHoldingReset)
+        {
+            StopCoroutine(ExitHoldCoroutine ?? null);
+            _exitLabel.fillAmount = 0f;
+            isHoldingReset = false;
+        }
     }
 
     public void OnNoiseControllerNoiseChange(float normal)
@@ -67,6 +94,38 @@ public class PlayerUIScript : MonoBehaviour
         }
 
         return levelString;
+    }
+
+    private void exitHold()
+    {
+        var exitDuration = 3f;
+        var timePassed = 0f;
+
+        if (ExitHoldCoroutine != null)
+        {
+            StopCoroutine(ExitHoldCoroutine);
+        }
+        ExitHoldCoroutine = StartCoroutine(StartExitHold());
+        
+        IEnumerator StartExitHold()
+        {
+            while (timePassed < exitDuration)
+            {
+                var t = timePassed / exitDuration;
+                _exitLabel.fillAmount = t;
+
+                yield return new WaitForSeconds(0.05f);
+                timePassed += 0.05f; 
+            }
+
+            SceneManager.LoadScene($"Assets/Scenes/House3.unity");
+            yield return null;
+        }
+    }
+
+    public void ItemValueUpdate(float normal)
+    {
+
     }
 }
 

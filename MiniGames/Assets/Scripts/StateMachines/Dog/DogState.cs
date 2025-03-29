@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.StateMachines.Dog
 {
+    [System.Serializable]
     public abstract class DogState
     {
         protected readonly DogScript _dog;

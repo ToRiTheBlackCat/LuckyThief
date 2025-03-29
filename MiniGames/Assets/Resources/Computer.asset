@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d584d2bea27d7c840bc02adbb4fcae22, type: 3}
-  m_Name: MusicPlayer
+  m_Name: Computer
   m_EditorClassIdentifier: 
   itemName: musicPlayer
-  sprite: {fileID: -7665433400332691820, guid: 689ca819107d7c840bb364e04e197ebb, type: 3}
-  weight: 2
+  sprite: {fileID: -1255217664399373725, guid: 71fa43a9b220444458fdaa7ba0a7a8d1, type: 3}
+  weight: 3
   type: 0
-  value: 400
+  value: 200
