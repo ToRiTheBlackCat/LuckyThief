@@ -13,6 +13,7 @@ namespace LuckyThief.VinhScripts
         public TMP_Text messageText;
         public bool toggleCollected;
         public string itemName;
+        public GameObject reward;
 
         public Collider2D objectCollider;
         [SerializeField] //expose private fields
@@ -31,6 +32,7 @@ namespace LuckyThief.VinhScripts
 
             messageObject.SetActive(false);
             interactUI.SetActive(false);
+            reward.SetActive(false);
 
             toggleCollected = false;
         }
@@ -42,7 +44,7 @@ namespace LuckyThief.VinhScripts
                 if (objectCollider != null)
                 {
                     objectCollider.Overlap(filter, collidedObjects);
-                    if (collidedObjects.Count > 0)
+                    if (collidedObjects.Count > 0 && collidedObjects[0].CompareTag("PlayerUI"))
                     {
                         foreach (var o in collidedObjects)
                         {
@@ -80,6 +82,7 @@ namespace LuckyThief.VinhScripts
             toggleCollected = true;
             messageText.text = $"Found {itemName}";
             messageObject.SetActive(true);
+            reward.SetActive(true);
             await Task.Delay(3000);
             messageObject.SetActive(false);
             interactUI.SetActive(false);

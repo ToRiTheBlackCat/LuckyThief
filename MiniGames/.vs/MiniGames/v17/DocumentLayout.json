@@ -3,88 +3,36 @@
   "WorkspaceRootPath": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\tuan\\thiefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tuan\\thiefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\keypadinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\keypadinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\resourcescript\\inventoryitemresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcescript\\inventoryitemresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\secretcabinetinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\secretcabinetinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\inventorysystem\\itemworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorysystem\\itemworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\keypadpasswordinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\keypadpasswordinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\vinhscripts\\interactable\\fixed00interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\interactable\\fixed00interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\keypad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\keypad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\vinhscripts\\interactable\\keypadinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\interactable\\keypadinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\fixed 00.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\fixed 00.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\vinhscripts\\interactable\\collectableinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\interactable\\collectableinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\collectableinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\collectableinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\interactsystem\\teleporterscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactsystem\\teleporterscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\vinhscripts\\fixed00interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\fixed00interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\interactsystem\\doorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactsystem\\doorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\interactsystem\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactsystem\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\interactsystem\\interactcheckscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactsystem\\interactcheckscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\interactsystem\\interactablescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactsystem\\interactablescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\simongame\\simonsaysscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simongame\\simonsaysscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\simongame\\simonbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simongame\\simonbuttonscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\tuan\\minigamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tuan\\minigamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\shootingkeyscripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shootingkeyscripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\lockpickscripts\\rotatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockpickscripts\\rotatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\tuan\\playeruiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tuan\\playeruiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\safe\\safedial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\safe\\safedial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\vinhscripts\\fixed00\\fixed 00.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\fixed00\\fixed 00.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\vinhscripts\\interactable\\keypadpasswordinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\interactable\\keypadpasswordinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\assets\\scripts\\vinhscripts\\interactable\\secretcabinetinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vinhscripts\\interactable\\secretcabinetinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|d:\\unity\\unity project\\rethief\\luckythief\\minigames\\assets\\scripts\\statemachines\\thief\\thiefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9091EBB-8636-D10E-F335-73DC6085CA9F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachines\\thief\\thiefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 35,
+          "SelectedChildIndex": 37,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,257 +178,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InventoryItemResource.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\ResourceScript\\InventoryItemResource.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ResourceScript\\InventoryItemResource.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\ResourceScript\\InventoryItemResource.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ResourceScript\\InventoryItemResource.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAABBwAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Fixed 00.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Fixed 00.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Fixed 00.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Fixed 00.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Fixed 00.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAgwPIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:59:03.829Z",
+              "WhenOpened": "2025-03-29T09:39:38.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Keypad.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Keypad.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Keypad.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Keypad.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Keypad.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAgwLMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T09:39:25.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ItemWorld.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InventorySystem\\ItemWorld.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InventorySystem\\ItemWorld.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InventorySystem\\ItemWorld.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InventorySystem\\ItemWorld.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "KeypadPasswordInteraction.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\KeypadPasswordInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\KeypadPasswordInteraction.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\KeypadPasswordInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\KeypadPasswordInteraction.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAMwCkAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:52:18.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThiefController.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Tuan\\ThiefController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tuan\\ThiefController.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Tuan\\ThiefController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tuan\\ThiefController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAArwEIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:37:45.856Z",
+              "WhenOpened": "2025-03-29T09:37:24.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TeleporterScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\TeleporterScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractSystem\\TeleporterScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\TeleporterScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractSystem\\TeleporterScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:37:04.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemSlot.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\ItemSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractSystem\\ItemSlot.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\ItemSlot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractSystem\\ItemSlot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:37:03.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DoorScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\DoorScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractSystem\\DoorScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\DoorScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractSystem\\DoorScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:37:02.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InteractCheckScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\InteractCheckScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractSystem\\InteractCheckScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\InteractCheckScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractSystem\\InteractCheckScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:47:40.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InteractableScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\InteractableScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractSystem\\InteractableScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\InteractSystem\\InteractableScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractSystem\\InteractableScript.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:35:25.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SimonSaysScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\SimonGame\\SimonSaysScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SimonGame\\SimonSaysScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\SimonGame\\SimonSaysScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SimonGame\\SimonSaysScript.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:39:26.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SimonButtonScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\SimonGame\\SimonButtonScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SimonGame\\SimonButtonScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\SimonGame\\SimonButtonScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SimonGame\\SimonButtonScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:39:24.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameController.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\ShootingKeyScripts\\GameController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ShootingKeyScripts\\GameController.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\ShootingKeyScripts\\GameController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ShootingKeyScripts\\GameController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:35:53.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RotateController.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\LockPickScripts\\RotateController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LockPickScripts\\RotateController.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\LockPickScripts\\RotateController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LockPickScripts\\RotateController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:35:15.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PlayerUIScript.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Tuan\\PlayerUIScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tuan\\PlayerUIScript.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Tuan\\PlayerUIScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tuan\\PlayerUIScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:35:02.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MiniGameBase.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Tuan\\MiniGameBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tuan\\MiniGameBase.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Tuan\\MiniGameBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tuan\\MiniGameBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:34:34.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SafeDial.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Safe\\SafeDial.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Safe\\SafeDial.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\Safe\\SafeDial.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Safe\\SafeDial.cs",
-              "ViewState": "AQIAALkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:33:43.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Fixed 00.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Fixed00\\Fixed 00.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Fixed00\\Fixed 00.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Fixed00\\Fixed 00.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Fixed00\\Fixed 00.cs",
-              "ViewState": "AQIAANEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:33:11.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "SecretCabinetInteractable.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\SecretCabinetInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Interactable\\SecretCabinetInteractable.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\SecretCabinetInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Interactable\\SecretCabinetInteractable.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAABcAAAA",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\SecretCabinetInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\SecretCabinetInteractable.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\SecretCabinetInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\SecretCabinetInteractable.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAMwCsAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:53:18.88Z"
+              "WhenOpened": "2025-03-29T09:37:23.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "KeypadPasswordInteraction.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\KeypadPasswordInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Interactable\\KeypadPasswordInteraction.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\KeypadPasswordInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Interactable\\KeypadPasswordInteraction.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:53:15.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "KeypadInteractable.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\KeypadInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Interactable\\KeypadInteractable.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\KeypadInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Interactable\\KeypadInteractable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAVAAAA",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\KeypadInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\KeypadInteractable.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\KeypadInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\KeypadInteractable.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAcwIkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:53:09.961Z"
+              "WhenOpened": "2025-03-29T09:37:22.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CollectableInteractable.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\CollectableInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Interactable\\CollectableInteractable.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\CollectableInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Interactable\\CollectableInteractable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAABcAAAA",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\CollectableInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\CollectableInteractable.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\CollectableInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\CollectableInteractable.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAswFgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:53:05.147Z"
+              "WhenOpened": "2025-03-29T09:37:21.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Fixed00Interactable.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\Fixed00Interactable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Interactable\\Fixed00Interactable.cs",
-              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Interactable\\Fixed00Interactable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Interactable\\Fixed00Interactable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAOAAAA",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Fixed00Interactable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VinhScripts\\Fixed00Interactable.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\VinhScripts\\Fixed00Interactable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VinhScripts\\Fixed00Interactable.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwDQAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:44:58.182Z"
+              "WhenOpened": "2025-03-29T09:35:36.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThiefController.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\StateMachines\\Thief\\ThiefController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachines\\Thief\\ThiefController.cs",
+              "ToolTip": "D:\\Unity\\Unity Project\\ReThief\\LuckyThief\\MiniGames\\Assets\\Scripts\\StateMachines\\Thief\\ThiefController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachines\\Thief\\ThiefController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAD0AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T09:33:02.247Z",
+              "EditorCaption": ""
             }
           ]
         },
