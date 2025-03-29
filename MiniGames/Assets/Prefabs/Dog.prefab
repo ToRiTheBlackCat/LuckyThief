@@ -55,6 +55,7 @@ MonoBehaviour:
   speed: 3
   maxDistance: 10
   minDistance: 3
+  noiseValue: 0
 --- !u!212 &1035440467995644780
 SpriteRenderer:
   m_ObjectHideFlags: 0
