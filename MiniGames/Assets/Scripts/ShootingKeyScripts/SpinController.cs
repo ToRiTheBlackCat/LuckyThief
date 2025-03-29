@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class SpinController : MonoBehaviour
 {
-    [SerializeField] private float rotationSpeed = 1f;
+    public float rotationSpeed = 1f;
     private bool isRight = true;
 
     public int minSpeed;
