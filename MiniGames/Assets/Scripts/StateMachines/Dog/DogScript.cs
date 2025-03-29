@@ -1,6 +1,7 @@
 using Assets.Scripts.StateMachines.Dog;
 using UnityEngine;
 
+[System.Serializable]
 public class DogScript : MonoBehaviour
 {
     #region Components
@@ -10,7 +11,7 @@ public class DogScript : MonoBehaviour
     #endregion
 
     #region State Machine
-    private DogStateMachine _stateMachine;
+    [SerializeField] private DogStateMachine _stateMachine;
 
     public DogIdleState IdleState { get; private set; }
     public DogWalkState WalkState { get; private set; }
@@ -53,7 +54,7 @@ public class DogScript : MonoBehaviour
 
     private void Update()
     {
-        _stateMachine.currentState.Update();
+        _stateMachine.CurrentState.Update();
 
         if (Input.GetKeyDown(KeyCode.M))
         {
@@ -82,11 +83,11 @@ public class DogScript : MonoBehaviour
         }
     }
 
-    public void AnimationFinishTrigger() => _stateMachine.currentState.AnimationFinishTrigger();
+    public void AnimationFinishTrigger() => _stateMachine.CurrentState.AnimationFinishTrigger();
 
     public void ExitGrabState()
     {
-        if (_stateMachine.currentState is DogGrabState)
+        if (_stateMachine.CurrentState is DogGrabState)
         {
             _stateMachine.EnterState(IdleState);
         }

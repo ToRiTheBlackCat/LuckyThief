@@ -26,8 +26,10 @@ public class InventoryItemResource : ScriptableObject
     public Sprite sprite;
     [SerializeField] private WeightClass weight;
     [SerializeField] private ItemType type;
+    [SerializeField] private int value;
 
     public WeightClass Weight => weight;
     public ItemType Type => type;
+    public int Value => value;
 }
 

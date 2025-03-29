@@ -1,3 +1,4 @@
+using Assets.Scripts;
 using UnityEngine;
 
 public class DogController : MonoBehaviour
@@ -13,12 +14,15 @@ public class DogController : MonoBehaviour
     private float distanceToPlayer = 0f;
 
     private bool isTriggered = false;
-    private bool isBarking = false; 
+    private bool isBarking = false;
 
+    private Map4AudioController audioController;
+    [SerializeField] private float noiseValue;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRD = GetComponent<SpriteRenderer>();
+        audioController = FindAnyObjectByType<Map4AudioController>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -80,5 +84,7 @@ public class DogController : MonoBehaviour
         Debug.Log("Dog Stopping and barking!");
 
         //Add barking audio for the dog
+        audioController.PlayDogBarkingSound();
+        GameManagerSingleton.NoiseController.AddNoise(noiseValue);
     }
 }

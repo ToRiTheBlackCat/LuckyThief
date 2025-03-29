@@ -2,22 +2,24 @@ using Assets.Scripts;
 using UnityEngine;
 using UnityEngine.Events;
 
+[SelectionBase]
 public class InteractableScript : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer _highlightSprite;
+    [SerializeField] protected SpriteRenderer _highlightSprite;
 
     [SerializeField] protected bool isInteractable;
 
-    //[SerializeField] protected UnityEvent<InteractableScript> InteractEvent;
+    [SerializeField] protected UnityEvent<bool> HoverEvent;
     [SerializeField] protected MiniGameBase _attachedGame;
     [SerializeField] protected UnityEvent SuccessEvent;
     [SerializeField] protected UnityEvent<bool> HoverEvent;
 
-    public void SetHighLight(bool status = true)
+    public virtual void SetHighLight(bool status = true)
     {
         if (_highlightSprite != null)
             _highlightSprite.enabled = status;
         isInteractable = status;
+
         HoverEvent?.Invoke(status);
     }
 
@@ -31,6 +33,7 @@ public class InteractableScript : MonoBehaviour
         if (_attachedGame == null)
         {
             Debug.Log("No attached event.");
+            OnAttachedMinigameSuccess();
             return;
         }
 
@@ -47,6 +50,11 @@ public class InteractableScript : MonoBehaviour
 
     public virtual void OnAttachedMinigameSuccess()
     {
+        if (_highlightSprite != null)
+            _highlightSprite.enabled = false;
+        isInteractable = false;
+        HoverEvent?.Invoke(false);
+
         SuccessEvent?.Invoke();
     }
 }
