@@ -3400,16 +3400,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2810914188454446517, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
+      propertyPath: Speed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810914188454446517, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: _camera
       value: 
       objectReference: {fileID: 1746443032}
     - target: {fileID: 4173560312922266376, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.9
+      value: -12.4
       objectReference: {fileID: 0}
     - target: {fileID: 4173560312922266376, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.8
+      value: -29.19
       objectReference: {fileID: 0}
     - target: {fileID: 4173560312922266376, guid: cd6e3392d4af7d746942a84e23f9c8a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -63523,7 +63527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1371207561981942204, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: speed
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1371207561981942204, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: player
@@ -63531,7 +63535,7 @@ PrefabInstance:
       objectReference: {fileID: 1904385400}
     - target: {fileID: 1371207561981942204, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: noiseValue
-      value: 0.01
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4915355120890663420, guid: 15df4ec696930184e8b77e6958a0690e, type: 3}
       propertyPath: m_LocalPosition.x

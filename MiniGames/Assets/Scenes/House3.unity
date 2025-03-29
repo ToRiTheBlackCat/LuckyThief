@@ -2773,6 +2773,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5579332733076621097, guid: fc4cdeb36d755a040a312b0d12e1c935, type: 3}
+      propertyPath: _attachedGame
+      value: 
+      objectReference: {fileID: 1751115903}
+    - target: {fileID: 5579332733076621097, guid: fc4cdeb36d755a040a312b0d12e1c935, type: 3}
       propertyPath: _openedSprite
       value: 
       objectReference: {fileID: 705981371509797793, guid: 689ca819107d7c840bb364e04e197ebb, type: 3}
