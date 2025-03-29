@@ -1,9 +1,12 @@
 using Assets.Scripts;
 using Assets.Scripts.StateMachines;
 using Assets.Scripts.StateMachines.Thief;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[SelectionBase]
+[Serializable]
 public class ThiefScript : MonoBehaviour
 {
     #region Components
@@ -35,7 +38,7 @@ public class ThiefScript : MonoBehaviour
 
     #region Interact area Settings
     [Header("Interact area Settings")]
-    [SerializeField] private LayerMask _interactCheckMask;
+    //[SerializeField] private LayerMask _interactCheckMask;
     [SerializeField] private float interactDistance;
     #endregion
 
@@ -64,8 +67,8 @@ public class ThiefScript : MonoBehaviour
 
         _animator = GetComponentInChildren<Animator>();
         _noiseController = GetComponent<NoiseController>();
-        _noiseController.onNoiseChange.AddListener(x => _playerUI.OnNoiseControllerNoiseChange(x));
         _noiseController.onThreshold.AddListener(_playerUI.OnNoiseControllerThreshold);
+        _noiseController.onNoiseChange.AddListener(x => _playerUI.OnNoiseControllerNoiseChange(x));
 
 
         #region Init StateMachine
@@ -146,6 +149,8 @@ public class ThiefScript : MonoBehaviour
         //_rBody.linearVelocity = direction.normalized * (Speed - speedPenalty) * Time.fixedDeltaTime;
         Velocity = direction.normalized * (Speed - speedPenalty);
         Velocity *= SpeedMult;
+        if (Velocity.x != 0)
+            SetSprite(xAxis, yAxis);
     }
 
     public void SetSprite(float xVel, float yVel)
