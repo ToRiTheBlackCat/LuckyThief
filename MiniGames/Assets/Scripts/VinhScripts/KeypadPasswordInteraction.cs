@@ -39,7 +39,7 @@ namespace LuckyThief.VinhScripts
                 if (objectCollider != null)
                 {
                     objectCollider.Overlap(filter, collidedObjects);
-                    if (collidedObjects.Count > 0)
+                    if (collidedObjects.Count > 0 && collidedObjects[0].CompareTag("PlayerUI"))
                     {
                         foreach (var o in collidedObjects)
                         {
@@ -81,5 +81,5 @@ namespace LuckyThief.VinhScripts
             messageObject.SetActive(false);
             interactUI.SetActive(false);
         }
-    } 
+    }
 }

@@ -12,6 +12,7 @@ namespace LuckyThief.VinhScripts
         public GameObject interactUI;
         public GameObject messageObject;
         public GameObject noteUI;
+        public GameObject reward;
         public TMP_Text messageText;
         Keypad keypadScript;
         KeypadPasswordInteractable keypadNoteScript;
@@ -43,6 +44,7 @@ namespace LuckyThief.VinhScripts
             interactUI.SetActive(false);
             minigameUI.SetActive(false);
             noteUI.SetActive(false);
+            reward.SetActive(false);
 
             state2 = false;
             minigameCleared = false;
@@ -54,7 +56,7 @@ namespace LuckyThief.VinhScripts
             if (objectCollider != null)
             {
                 objectCollider.Overlap(filter, collidedObjects);
-                if (collidedObjects.Count > 0)
+                if (collidedObjects.Count > 0 && collidedObjects[0].CompareTag("PlayerUI"))
                 {
                     foreach (var o in collidedObjects)
                     {
@@ -99,6 +101,7 @@ namespace LuckyThief.VinhScripts
             messageObject.SetActive(true);
             messageText.text = "YOU SOLVED THE MINIGAME!";
             await Task.Delay(5000);
+            reward.SetActive(true);
             OnEscapeInteract();
         }
 
@@ -131,5 +134,5 @@ namespace LuckyThief.VinhScripts
             minigameUI.SetActive(false);
             state2 = false;
         }
-    } 
+    }
 }
