@@ -30,6 +30,11 @@ namespace LuckyThief.ThangScripts
             isTrigger = true;
             isImpact = true;
         }
+        //private void OnTriggerExit2D(Collider2D collision)
+        //{
+        //    isTrigger = true;
+        //    isImpact = true;
+        //}
         public void LoadMinigame()
         {
             SceneManager.LoadSceneAsync("Wire", LoadSceneMode.Additive);

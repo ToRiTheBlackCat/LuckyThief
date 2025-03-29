@@ -112,7 +112,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: -6081960449169103296, guid: 05e32c795706cdd4f9d646ae180655a4, type: 3}
@@ -238,11 +238,11 @@ MonoBehaviour:
   HPBar: {fileID: 2879134205224909183}
   enterDamage: 10
   stayDamage: 5
-  laserLine: {fileID: 0}
   animator: {fileID: 0}
   bulletPrefabs: {fileID: 6024441433839725953, guid: 1252378a7c6477c48b4ce5d8b1161715, type: 3}
   misslePrefabs: {fileID: 5023966839793532321, guid: 1eb3de4745709074c9c32c3eb5e60f7b, type: 3}
   lazerPrefabs: {fileID: 1903683960623681204, guid: c41711e35dd212a42a3b5edb5c74dde1, type: 3}
+  minionPrefabs: {fileID: 0}
   firePoint: {fileID: 6179796070562918948}
   misslePoint: {fileID: 1594805812624941917}
   lazerPoint: {fileID: 3335227038353273805}
@@ -250,8 +250,7 @@ MonoBehaviour:
   missleSpeed: 20
   skillCooldown: 5
   hpHeal: 100
-  laserRange: 20
-  laserDuration: 1.5
+  audioManager: {fileID: 0}
 --- !u!1 &7331028688620403787
 GameObject:
   m_ObjectHideFlags: 0

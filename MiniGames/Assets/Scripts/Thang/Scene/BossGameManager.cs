@@ -9,6 +9,7 @@ namespace LuckyThief.ThangScripts
         public static GameManager Instance;
         [SerializeField] private GameObject gameOverUI;
         [SerializeField] private GameObject pauseGame;
+        [SerializeField] private GameObject winGame;
         [SerializeField] private BossAudioManager audioManager;
         private bool isGameOver = false;
         private GameObject[] mainLevelObjects;
@@ -30,7 +31,13 @@ namespace LuckyThief.ThangScripts
             audioManager.PlayBossAudio();
             //mainLevelObjects = SceneManager.GetSceneByName("MainLevel").GetRootGameObjects();
         }
-
+        public void WinGame()
+        {
+            Time.timeScale = 0;
+            winGame.SetActive(true);
+            gameOverUI.SetActive(false);
+            audioManager.StopAudioGame();
+        }
         public void PauseGame()
         {
             Time.timeScale = 0;

@@ -15,6 +15,7 @@ namespace LuckyThief.ThangScripts
         [SerializeField] private float skillCooldown = 4f;
         [SerializeField] private float hpHeal = 100f;
         [SerializeField] private BossAudioManager audioManager;
+        [SerializeField] private GameUI gameUI;
         private float nextSkillTime = 0f;
 
 
@@ -156,6 +157,7 @@ namespace LuckyThief.ThangScripts
             animator.SetBool("isLazer", false);
             animator.SetBool("isHeal", false);
             audioManager.PlayRobotExplosion();
+            gameUI.WinGame();
             base.Die();
         }
         private void UseSkill()

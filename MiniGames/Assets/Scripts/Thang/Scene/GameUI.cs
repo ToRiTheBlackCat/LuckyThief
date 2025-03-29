@@ -13,5 +13,8 @@ public class GameUI : MonoBehaviour
     {
         gameManager.ResumeGame();
     }
-
+    public void WinGame()
+    {
+        gameManager.WinGame();                                                                                                          
+    }
 }
