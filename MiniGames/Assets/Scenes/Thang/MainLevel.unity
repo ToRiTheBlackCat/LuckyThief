@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 15718327}
   - component: {fileID: 15718328}
   - component: {fileID: 15718329}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (6)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -193,9 +193,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -332,9 +332,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -8772402230492278635, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 134352756}
   - component: {fileID: 134352757}
   - component: {fileID: 134352758}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: kitchen (2)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -466,9 +466,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1179363866, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 186581838}
   - component: {fileID: 186581837}
   - component: {fileID: 186581836}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: Building1
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2126232023
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.03125, y: 1, z: 0}
@@ -1741,8 +1741,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8061669323145995208, guid: 4da7b300eb4a7db4d86a30edb85127cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061669323145995208, guid: 4da7b300eb4a7db4d86a30edb85127cb, type: 3}
       propertyPath: m_SortingLayerID
-      value: -403188973
+      value: -512873547
       objectReference: {fileID: 0}
     - target: {fileID: 8617780310601334648, guid: 4da7b300eb4a7db4d86a30edb85127cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1800,7 +1804,7 @@ GameObject:
   - component: {fileID: 260898649}
   - component: {fileID: 260898650}
   - component: {fileID: 260898651}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (2)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -1863,9 +1867,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1950,7 +1954,7 @@ GameObject:
   - component: {fileID: 315824490}
   - component: {fileID: 315824491}
   - component: {fileID: 315824492}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: desk (1)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -2013,7 +2017,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -379922967, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -2148,7 +2152,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2218,7 +2222,7 @@ GameObject:
   - component: {fileID: 324544186}
   - component: {fileID: 324544187}
   - component: {fileID: 324544188}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (4)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -2281,9 +2285,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2416,7 +2420,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -6841847542321950069, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2594,9 +2598,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2110132113
-  m_SortingLayer: 4
-  m_SortingOrder: 1
+  m_SortingLayerID: -512873547
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1720962175, guid: 98730f395b7737e4690c9e60fa16af9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2704,7 +2708,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2774,7 +2778,7 @@ GameObject:
   - component: {fileID: 387166650}
   - component: {fileID: 387166651}
   - component: {fileID: 387166652}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (8)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -2837,9 +2841,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2972,7 +2976,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3249,7 +3253,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3383,7 +3387,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3517,9 +3521,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1324827006, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3642,8 +3646,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
       propertyPath: m_SortingLayerID
-      value: -403188973
+      value: -512873547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3725,7 +3733,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3859,7 +3867,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -1411099129, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4104,7 +4112,7 @@ GameObject:
   - component: {fileID: 786380298}
   - component: {fileID: 786380299}
   - component: {fileID: 786380300}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair2 (3)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -4167,7 +4175,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 87072739, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -4238,7 +4246,7 @@ GameObject:
   - component: {fileID: 829068957}
   - component: {fileID: 829068958}
   - component: {fileID: 829068959}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: box3
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -4301,9 +4309,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 140851713, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4491,7 +4499,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1101790721
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -9272,7 +9280,7 @@ GameObject:
   - component: {fileID: 1020208731}
   - component: {fileID: 1020208732}
   - component: {fileID: 1020208733}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (1)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -9335,9 +9343,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9406,7 +9414,7 @@ GameObject:
   - component: {fileID: 1069172099}
   - component: {fileID: 1069172100}
   - component: {fileID: 1069172101}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: gas (1)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -9469,7 +9477,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 1929126978, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -9606,7 +9614,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -1411099129, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9676,7 +9684,7 @@ GameObject:
   - component: {fileID: 1102352583}
   - component: {fileID: 1102352584}
   - component: {fileID: 1102352585}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: bin (1)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -9739,7 +9747,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 317487505, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -9954,7 +9962,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -8080908287387524148, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10024,7 +10032,7 @@ GameObject:
   - component: {fileID: 1122173971}
   - component: {fileID: 1122173972}
   - component: {fileID: 1122173973}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -10099,9 +10107,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10235,7 +10243,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -1132091173, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10369,7 +10377,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -352281430, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10440,7 +10448,7 @@ GameObject:
   - component: {fileID: 1181988391}
   - component: {fileID: 1181988390}
   - component: {fileID: 1181988392}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Top
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -10504,7 +10512,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2110132113
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -11649,7 +11657,7 @@ GameObject:
   - component: {fileID: 1192175097}
   - component: {fileID: 1192175096}
   - component: {fileID: 1192175098}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: Buiding2
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -11713,7 +11721,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2126232023
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.03125, y: 1, z: 0}
@@ -12556,7 +12564,7 @@ GameObject:
   - component: {fileID: 1267248415}
   - component: {fileID: 1267248416}
   - component: {fileID: 1267248417}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: desk
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -12620,9 +12628,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -379922967, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12691,7 +12699,7 @@ GameObject:
   - component: {fileID: 1298017087}
   - component: {fileID: 1298017088}
   - component: {fileID: 1298017089}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: box2
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -12754,9 +12762,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1271149587, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12825,7 +12833,7 @@ GameObject:
   - component: {fileID: 1380996349}
   - component: {fileID: 1380996350}
   - component: {fileID: 1380996351}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (5)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -12888,9 +12896,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12976,6 +12984,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3933485985450379092, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933485985450379092, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -512873547
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913824471692605766, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913824471692605766, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913824471692605766, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -512873547
+      objectReference: {fileID: 0}
     - target: {fileID: 7513361902997747096, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
       propertyPath: m_LocalScale.x
       value: 20.064838
@@ -13054,8 +13082,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8061669323145995208, guid: 4da7b300eb4a7db4d86a30edb85127cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061669323145995208, guid: 4da7b300eb4a7db4d86a30edb85127cb, type: 3}
       propertyPath: m_SortingLayerID
-      value: -403188973
+      value: -512873547
       objectReference: {fileID: 0}
     - target: {fileID: 8617780310601334648, guid: 4da7b300eb4a7db4d86a30edb85127cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13113,7 +13145,7 @@ GameObject:
   - component: {fileID: 1457148594}
   - component: {fileID: 1457148595}
   - component: {fileID: 1457148596}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair2 (1)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -13176,9 +13208,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 87072739, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13247,7 +13279,7 @@ GameObject:
   - component: {fileID: 1460308296}
   - component: {fileID: 1460308297}
   - component: {fileID: 1460308298}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: box
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -13312,9 +13344,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 373392439, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13383,7 +13415,7 @@ GameObject:
   - component: {fileID: 1479865642}
   - component: {fileID: 1479865643}
   - component: {fileID: 1479865644}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair2
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -13446,9 +13478,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 87072739, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13517,7 +13549,7 @@ GameObject:
   - component: {fileID: 1480894839}
   - component: {fileID: 1480894840}
   - component: {fileID: 1480894841}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (3)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -13580,9 +13612,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13758,7 +13790,7 @@ GameObject:
   - component: {fileID: 1507157525}
   - component: {fileID: 1507157526}
   - component: {fileID: 1507157527}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: bin
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -13823,9 +13855,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 317487505, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13894,7 +13926,7 @@ GameObject:
   - component: {fileID: 1510079136}
   - component: {fileID: 1510079137}
   - component: {fileID: 1510079138}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: gas
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -13958,7 +13990,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 1929126978, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -14039,7 +14071,7 @@ GameObject:
   - component: {fileID: 1548226561}
   - component: {fileID: 1548226562}
   - component: {fileID: 1548226563}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair2 (2)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -14102,9 +14134,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 87072739, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14172,7 +14204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560467951}
   - component: {fileID: 1560467952}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: kitchen
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -14237,9 +14269,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1179363866, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14461,9 +14493,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2110132113
-  m_SortingLayer: 4
-  m_SortingOrder: 2
+  m_SortingLayerID: -512873547
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1324827006, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14532,7 +14564,7 @@ GameObject:
   - component: {fileID: 1710866460}
   - component: {fileID: 1710866461}
   - component: {fileID: 1710866462}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: kitchen (1)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -14595,7 +14627,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 1179363866, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -14666,7 +14698,7 @@ GameObject:
   - component: {fileID: 1760662480}
   - component: {fileID: 1760662481}
   - component: {fileID: 1760662482}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: longChair (7)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -14729,9 +14761,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2022565073, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14854,8 +14886,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
       propertyPath: m_SortingLayerID
-      value: -403188973
+      value: -512873547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14920,9 +14956,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1101790721
+  m_SortingLayerID: 1336415905
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1585781414, guid: c0c7293be6a6bc0429fc65ffb514ebe1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14960,7 +14996,7 @@ GameObject:
   - component: {fileID: 1793490074}
   - component: {fileID: 1793490075}
   - component: {fileID: 1793490076}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: bin (2)
   m_TagString: Prop
   m_Icon: {fileID: 0}
@@ -15023,7 +15059,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -403188973
+  m_SortingLayerID: -512873547
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 317487505, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
@@ -15414,8 +15450,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
       propertyPath: m_SortingLayerID
-      value: -403188973
+      value: -512873547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15497,7 +15537,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 57017779, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15710,6 +15750,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Chest
       objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -512873547
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15727,7 +15779,7 @@ GameObject:
   - component: {fileID: 2064455395}
   - component: {fileID: 2064455394}
   - component: {fileID: 2064455393}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -15838,7 +15890,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2126232023
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1, y: 1.96875, z: 0}
@@ -16444,6 +16496,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 522070660157321434, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 522070660157321434, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 522070660157321434, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -512873547
+      objectReference: {fileID: 0}
     - target: {fileID: 3356247548239207670, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
       propertyPath: audioManager
       value: 
@@ -16562,8 +16626,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820112412012160278, guid: 2dca4e6f361774141851d000725fea74, type: 3}
       propertyPath: m_SortingLayerID
-      value: -403188973
+      value: -512873547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16645,7 +16713,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -403188973
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -6841847542321950069, guid: 9ae67b437313f2d4990175242528bb50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16769,6 +16837,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 147168239}
     m_Modifications:
+    - target: {fileID: 522070660157321434, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 522070660157321434, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 522070660157321434, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -512873547
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356247548239207670, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 5191333362647966098}
     - target: {fileID: 6611617726798997389, guid: a12e5ff931b0c6e44a27ce9ef44fbd82, type: 3}
       propertyPath: m_Name
       value: comp bot_0
@@ -16916,6 +17000,8 @@ MonoBehaviour:
   alertClip: {fileID: 8300000, guid: 34259528190efcc43ad997f6dfd37bd9, type: 3}
   robotClip: {fileID: 8300000, guid: 2ce88ffb7785cec4fa8980c054925ddb, type: 3}
   dogClip: {fileID: 8300000, guid: 454e8daa81e6cac40b98be5a0525d13c, type: 3}
+  takeDamageClip: {fileID: 0}
+  dieClip: {fileID: 0}
 --- !u!1001 &6329713758869431157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17050,6 +17136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2941946831745196812, guid: d08150a32de9aea408b4a98158569fa8, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8079706645340105914, guid: d08150a32de9aea408b4a98158569fa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 135.8
@@ -17089,6 +17179,18 @@ PrefabInstance:
     - target: {fileID: 8079706645340105914, guid: d08150a32de9aea408b4a98158569fa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327255466131672455, guid: d08150a32de9aea408b4a98158569fa8, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327255466131672455, guid: d08150a32de9aea408b4a98158569fa8, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327255466131672455, guid: d08150a32de9aea408b4a98158569fa8, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -512873547
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
