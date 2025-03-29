@@ -1,25 +1,56 @@
 using System;
 using UnityEngine;
-
-public class audioManager : MonoBehaviour
+namespace LuckyThief.ThangScripts
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] private AudioSource background;
-    [SerializeField] private AudioClip backgroundClip;
-    void Start()
+    public class audioManager : MonoBehaviour
     {
-        PlayBackgroundMusic();
-    }
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        [SerializeField] private AudioSource defaultAudioSource;
+        [SerializeField] private AudioSource effectAudioSource;
+        [SerializeField] private AudioClip alertClip;
+        [SerializeField] private AudioClip robotClip;
+        [SerializeField] private AudioClip dogClip;
+        [SerializeField] private AudioClip takeDamageClip;
+        [SerializeField] private AudioClip dieClip;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void PlayBackgroundMusic()
-    {
-        background.clip = backgroundClip;
-        background.Play();
+        public void PlayAlert()
+        {
+            effectAudioSource.clip = alertClip;
+            effectAudioSource.Play();
+        }
+        public void StopAlert()
+        {
+            effectAudioSource.Stop();
+        }
+        public void PlayBackgroundMusic()
+        {
+            //defaultAudioSource.clip = backgroundClip;
+            defaultAudioSource.Play();
+        }
+        public void StopMusic()
+        {
+            defaultAudioSource.Stop();
+            effectAudioSource.Stop();
+        }
+        public void Playrobot()
+        {
+            effectAudioSource.PlayOneShot(robotClip);
+        }
+        public void StopEffect()
+        {
+            effectAudioSource.Stop();           
+        }
+        public void PlayDog()
+        {
+            effectAudioSource.PlayOneShot(dogClip);
+        }
+        public void PlayTakeDamagePlayer()
+        {
+            effectAudioSource.PlayOneShot(takeDamageClip);
+        }
+        public void PlayDead()
+        {
+            effectAudioSource.PlayOneShot(dieClip);
+        }
     }
 }
