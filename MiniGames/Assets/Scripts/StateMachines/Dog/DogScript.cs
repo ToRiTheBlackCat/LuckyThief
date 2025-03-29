@@ -46,10 +46,15 @@ public class DogScript : MonoBehaviour
         SleepState = new DogSleepState(this, _stateMachine, "");
         GrabState = new DogGrabState(this, _stateMachine, "isAttack");
 
-        _stateMachine.Initialize(SleepState);
+        
 
         AttackCheck = transform.Find("AttackCheck");
         attackCheckDir = AttackCheck.position - transform.position;
+    }
+
+    private void Start()
+    {
+        _stateMachine.Initialize(SleepState);
     }
 
     private void Update()
@@ -60,6 +65,7 @@ public class DogScript : MonoBehaviour
         {
             Debug.Log("");
         }
+        
     }
 
     private void FixedUpdate()
