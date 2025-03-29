@@ -17,7 +17,8 @@ public class KeyController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        isShooting = false;
+        isAttached = false;
     }
 
     // Update is called once per frame
@@ -57,9 +58,6 @@ public class KeyController : MonoBehaviour
                 // Notify GameController to create a new key
                 gameController.SpawnNewKey();
             }
-
-
-
         }
         // If it hits another key
         else if (collision.CompareTag("Key"))
@@ -70,6 +68,5 @@ public class KeyController : MonoBehaviour
             return;
         }
 
-        Debug.Log("AAAAA");
     }
 }

@@ -110,7 +110,7 @@ public class UI_Inventory : MonoBehaviour
 
         if (isColapsed)
         {
-            var itemData = inventoryController.CurrentItem;
+            var itemData = inventoryController?.CurrentItem;
             if (itemData != null)
             {
                 RectTransform itemSlot = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();

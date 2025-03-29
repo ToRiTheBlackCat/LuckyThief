@@ -40,7 +40,6 @@ namespace Assets.Scripts.StateMachines.Dog
                     _dog.transform.position = _dog.HomePosition;
                 }
             }
-            
 
             base.Update();
         }

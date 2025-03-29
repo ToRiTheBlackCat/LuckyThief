@@ -17,6 +17,7 @@ namespace Assets.Scripts.InventorySystem
 
         public WeightClass weight => resource.Weight;
         public ItemType type => resource.Type;
+        public int value => resource.Value;
         public string Name => resource.name.ToString();
 
         public bool IsStackable()

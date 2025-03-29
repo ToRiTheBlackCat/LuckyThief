@@ -446,19 +446,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 8906061521013503390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af5386632f9861742af7d5d375605ba5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b187b4570afc2d4182e84767a3bfeba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 0}
-  PlayerUI: {fileID: 0}
   xAxis: 0
   yAxis: 0
-  Speed: 150
+  Speed: 100
   Velocity: {x: 0, y: 0}
   _interactCheckMask:
     serializedVersion: 2
     m_Bits: 0
-  interactDistance: 0.7
+  interactDistance: 1
   followAccel: 0.03
   maxFollowDistance: 3
   SpeedMult: 1

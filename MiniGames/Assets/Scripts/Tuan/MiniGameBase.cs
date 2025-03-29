@@ -10,6 +10,7 @@ namespace Assets.Scripts
     #nullable enable
     public abstract class MiniGameBase: MonoBehaviour
     {
+        protected InteractableScript _attachedInteractable;
         public abstract void StartGame(InteractableScript? attachedInteractable);
         public abstract void ExitGame(float delay = 0);
     }

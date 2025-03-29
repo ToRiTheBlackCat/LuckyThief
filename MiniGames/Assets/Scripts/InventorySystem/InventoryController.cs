@@ -268,6 +268,29 @@ public class InventoryController : MonoBehaviour
         return false;
     }
     #endregion
+    
+    /// <summary>
+    /// Clear all items in Inventory controller and returns the
+    /// total value of all items
+    /// </summary>
+    public int ClearInventory()
+    {
+        if (toolBelt.FirstOrDefault() == null)
+        {
+            return 0;
+        }
+
+        
+        int totalValue = 0;
+        toolBelt.ForEach(item =>
+        {
+            totalValue += item.value * item.amount;
+        });
+        toolBelt.Clear();
+        _inventoryUI.SetInventory(this);
+
+        return totalValue;
+    }
 
     private void ProcessThrowDirection()
     {
