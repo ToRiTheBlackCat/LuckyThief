@@ -1600,6 +1600,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1858355522358620141, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 206136786}
+    - target: {fileID: 1858355522358620141, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858355522358620141, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainLevelUi, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1978899140722790920, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1683,6 +1695,18 @@ PrefabInstance:
     - target: {fileID: 2256820033003790422, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433039414916837043, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 206136786}
+    - target: {fileID: 7433039414916837043, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433039414916837043, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainLevelUi, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7648396561511356339, guid: 055e5e0f312ddcb4c92c7d3f5431a481, type: 3}
       propertyPath: m_Name
@@ -2487,7 +2511,7 @@ GameObject:
   - component: {fileID: 339469820}
   - component: {fileID: 339469819}
   - component: {fileID: 339469818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NextPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2596,7 +2620,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2110132113
   m_SortingLayer: 4
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1720962175, guid: 98730f395b7737e4690c9e60fa16af9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12972,6 +12996,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 261360045}
+    - target: {fileID: 3300969659089802076, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
+      propertyPath: mainLevelManager
+      value: 
+      objectReference: {fileID: 5191333362647966098}
     - target: {fileID: 3450374776748734705, guid: c77f00be1850dbf45ac463e2bde026bd, type: 3}
       propertyPath: m_Name
       value: Player (1)
@@ -16914,8 +16942,10 @@ MonoBehaviour:
   defaultAudioSource: {fileID: 5191333362647966097}
   effectAudioSource: {fileID: 5191333362647966096}
   alertClip: {fileID: 8300000, guid: 34259528190efcc43ad997f6dfd37bd9, type: 3}
-  robotClip: {fileID: 8300000, guid: 2ce88ffb7785cec4fa8980c054925ddb, type: 3}
+  robotClip: {fileID: 8300000, guid: 3d4336f697fd2c843852739c3ae9d4b5, type: 3}
   dogClip: {fileID: 8300000, guid: 454e8daa81e6cac40b98be5a0525d13c, type: 3}
+  takeDamageClip: {fileID: 8300000, guid: ab2d9a3140a72de4a84e09775de4bf88, type: 3}
+  dieClip: {fileID: 8300000, guid: f91dc82bdcf34924cb8c19eba309d040, type: 3}
 --- !u!1001 &6329713758869431157
 PrefabInstance:
   m_ObjectHideFlags: 0

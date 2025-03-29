@@ -3,22 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Enemy
-  - Prop
-  - Building
-  - Wall
-  - Chest
-  - Ground
-  - Stair
-  - PlayerBullet
-  - MegaBotAmmo
-  - MegaBotMissle
-  - Red
-  - Yellow
-  - Green
-  - Blue
-  - MinigameCamera
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -26,13 +11,13 @@ TagManager:
   - 
   - Water
   - UI
-  - Wall
-  - Ground
-  - Player
-  - Mid
-  - Top
-  - Enemy
-  - Minigame
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -55,24 +40,6 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ground
-    uniqueID: 3193176575
-    locked: 0
-  - name: Wall
-    uniqueID: 2168735273
-    locked: 0
-  - name: Enviroment
-    uniqueID: 3891778323
-    locked: 0
-  - name: Obscure Wall
-    uniqueID: 2110132113
-    locked: 0
-  - name: UI
-    uniqueID: 4195358827
-    locked: 0
-  - name: Minigame
-    uniqueID: 2170099189
     locked: 0
   m_RenderingLayers:
   - Default

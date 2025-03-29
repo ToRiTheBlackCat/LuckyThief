@@ -4,13 +4,26 @@ namespace LuckyThief.ThangScripts {
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         [SerializeField] public audioManager audioManager;
+        private bool isTrigger;
+
+        private void Update()
+        {
+            if (isTrigger == true && Input.GetKeyUp(KeyCode.E))
+            {
+                LoadBossScene();
+            }
+        }
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.CompareTag("Player"))
+            if (collision.CompareTag("Player") )
             {
-                SceneController.instance.NextLevel();
-                audioManager.StopMusic();
+                isTrigger = true;
             }
+        }
+        private void LoadBossScene()
+        {
+            SceneController.instance.NextLevel();
+            audioManager.StopMusic();
         }
     }
 }

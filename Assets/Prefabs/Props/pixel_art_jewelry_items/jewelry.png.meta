@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jewelry_0: 1308046227283845693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TheifWalk - Enhanced_0: -9005434289407940824
+      TheifWalk - Enhanced_1: -6245683045576419025
+      TheifWalk - Enhanced_2: 2976986345496599372
+      TheifWalk - Enhanced_3: 583752217218983087
+      TheifWalk - Enhanced_4: 7499516262143854149
+      TheifWalk - Enhanced_5: 3233256468383338530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -116,15 +116,16 @@ namespace LuckyThief.ThangScripts
 
         public void Die()
         {
+            //if(bossGameManager != null)
+            //{
+            bossGameManager.GameOver();
+            //}
             //Destroy(gameObject);
             if (gameManager != null)
             {
                 gameManager.GameOver();
             }
-            if(bossGameManager != null)
-            {
-                bossGameManager.GameOver();
-            }
+            
         }
 
         private void UpdateHpBar()
