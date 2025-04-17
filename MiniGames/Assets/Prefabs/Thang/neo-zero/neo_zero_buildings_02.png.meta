@@ -1,0 +1,777 @@
+fileFormatVersion: 2
+guid: 2489e9947c1682045b967c3190a7a87a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9188201876158564364
+    second: neo_zero_buildings_02_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7bdf62313fc7080800000000000000
+      internalID: -9188201876158564364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a63797b3c5b74eb07699d4af71b42
+      internalID: -1567948741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1f3d5a05e98fc4ea3f156e3071c586
+      internalID: 27492976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b89568d56235a142b322c416cccb719
+      internalID: -1267949055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c1a44e153e84d49975ab10438859b1
+      internalID: 882985481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 64
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d12fd309e28ada4b816cc468c2ddab0
+      internalID: -116182933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ccbe8e2ce14894cbe7eb707c27f622
+      internalID: 328642427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33aab8d270492844d91f8a06ce86908b
+      internalID: 349271941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632f8a67f8d2d7943a589467068263f0
+      internalID: 513220518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d98b146b9a480f4e8a230b81f88d713
+      internalID: 1215463676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966102d94ea865849abd695ac697d8e7
+      internalID: 926161192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab80d3c057293a4fbd2b39a35fc45da
+      internalID: -1150531441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e949b8d4a53479f4e817da33bf3b8b18
+      internalID: -1180548543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbd9281bf916654298ff1edd4c23f17
+      internalID: -911723133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e20484884fa7844d8e3f8944d9c0283
+      internalID: -43593886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358cc11432712ec4c8590ecd05291b90
+      internalID: -2080495816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_113
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f03a96c55d30442ac05c1070381d9d
+      internalID: -1667477448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ca178be0a715740ab5295c1c0c122c
+      internalID: -820933495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e03c017f2ca614aa12b497c5c550c4
+      internalID: 843484981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4694bfa1bd4a37438d4167a6fd8ddcb
+      internalID: 1370861455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d151c0469eb25c04988c4fb016dfabfb
+      internalID: -1203368313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neo_zero_buildings_02_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 32
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b4f137be7308045819a2a9551ea6a3
+      internalID: 850229509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2addbc7e7c79ca9478a2bc40d0b3b2ae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      neo_zero_buildings_02_0: -9188201876158564364
+      neo_zero_buildings_02_1: -1567948741
+      neo_zero_buildings_02_10: -1203368313
+      neo_zero_buildings_02_100: 1145564119
+      neo_zero_buildings_02_101: 1015764574
+      neo_zero_buildings_02_102: 530898427
+      neo_zero_buildings_02_103: 1336135003
+      neo_zero_buildings_02_104: 1396825742
+      neo_zero_buildings_02_105: 513220518
+      neo_zero_buildings_02_106: 1215463676
+      neo_zero_buildings_02_107: 926161192
+      neo_zero_buildings_02_108: -1150531441
+      neo_zero_buildings_02_109: -1180548543
+      neo_zero_buildings_02_11: 850229509
+      neo_zero_buildings_02_110: -911723133
+      neo_zero_buildings_02_111: -43593886
+      neo_zero_buildings_02_112: -2080495816
+      neo_zero_buildings_02_113: -1667477448
+      neo_zero_buildings_02_114: 1399130129
+      neo_zero_buildings_02_115: 1525721039
+      neo_zero_buildings_02_116: -425255966
+      neo_zero_buildings_02_117: 999881367
+      neo_zero_buildings_02_118: 628488684
+      neo_zero_buildings_02_119: -1726478346
+      neo_zero_buildings_02_12: -986939968
+      neo_zero_buildings_02_120: 705400244
+      neo_zero_buildings_02_121: 265545656
+      neo_zero_buildings_02_122: -1622096111
+      neo_zero_buildings_02_123: 619872588
+      neo_zero_buildings_02_124: -1450047116
+      neo_zero_buildings_02_125: 923914011
+      neo_zero_buildings_02_126: -1800188135
+      neo_zero_buildings_02_127: 306144122
+      neo_zero_buildings_02_128: -833903352
+      neo_zero_buildings_02_129: -1286320296
+      neo_zero_buildings_02_13: 1763282693
+      neo_zero_buildings_02_130: -1740102074
+      neo_zero_buildings_02_131: 1079220316
+      neo_zero_buildings_02_132: 41578584
+      neo_zero_buildings_02_133: 1077166671
+      neo_zero_buildings_02_134: 1261607195
+      neo_zero_buildings_02_135: -1964822758
+      neo_zero_buildings_02_136: -123810934
+      neo_zero_buildings_02_137: 1564992612
+      neo_zero_buildings_02_138: 1361519495
+      neo_zero_buildings_02_139: -1941844869
+      neo_zero_buildings_02_14: -2080585901
+      neo_zero_buildings_02_140: -1175399793
+      neo_zero_buildings_02_141: -613698767
+      neo_zero_buildings_02_142: -306993973
+      neo_zero_buildings_02_143: -971402135
+      neo_zero_buildings_02_144: -1179314858
+      neo_zero_buildings_02_145: 107523303
+      neo_zero_buildings_02_146: 671339181
+      neo_zero_buildings_02_15: 234491817
+      neo_zero_buildings_02_16: 499664232
+      neo_zero_buildings_02_17: -283150435
+      neo_zero_buildings_02_18: 76750773
+      neo_zero_buildings_02_19: 1770119073
+      neo_zero_buildings_02_2: 27492976
+      neo_zero_buildings_02_20: 1513672788
+      neo_zero_buildings_02_21: -1093812022
+      neo_zero_buildings_02_22: 1286488377
+      neo_zero_buildings_02_23: 437668572
+      neo_zero_buildings_02_24: -1366935423
+      neo_zero_buildings_02_25: -395302266
+      neo_zero_buildings_02_26: 826680531
+      neo_zero_buildings_02_27: 1497827258
+      neo_zero_buildings_02_28: -1420404199
+      neo_zero_buildings_02_29: -1266596106
+      neo_zero_buildings_02_3: -1267949055
+      neo_zero_buildings_02_30: 160785570
+      neo_zero_buildings_02_31: 1523831997
+      neo_zero_buildings_02_32: 654998472
+      neo_zero_buildings_02_33: 1709746937
+      neo_zero_buildings_02_34: 443749065
+      neo_zero_buildings_02_35: 610819244
+      neo_zero_buildings_02_36: 1438763761
+      neo_zero_buildings_02_37: 1535791566
+      neo_zero_buildings_02_38: 209528221
+      neo_zero_buildings_02_39: -70626914
+      neo_zero_buildings_02_4: 882985481
+      neo_zero_buildings_02_40: 1189803759
+      neo_zero_buildings_02_41: 132343284
+      neo_zero_buildings_02_42: 252379321
+      neo_zero_buildings_02_43: -1835534113
+      neo_zero_buildings_02_44: -1068461913
+      neo_zero_buildings_02_45: -1532268800
+      neo_zero_buildings_02_46: 1199559240
+      neo_zero_buildings_02_47: -1521330268
+      neo_zero_buildings_02_48: 1254848972
+      neo_zero_buildings_02_49: -325265133
+      neo_zero_buildings_02_5: -116182933
+      neo_zero_buildings_02_50: 883230978
+      neo_zero_buildings_02_51: 1154754309
+      neo_zero_buildings_02_52: 733080430
+      neo_zero_buildings_02_53: -397702687
+      neo_zero_buildings_02_54: 844144677
+      neo_zero_buildings_02_55: -1261441769
+      neo_zero_buildings_02_56: 1529152855
+      neo_zero_buildings_02_57: 1306850267
+      neo_zero_buildings_02_58: 1195675065
+      neo_zero_buildings_02_59: 1082859841
+      neo_zero_buildings_02_6: 328642427
+      neo_zero_buildings_02_60: -1933084218
+      neo_zero_buildings_02_61: 691580867
+      neo_zero_buildings_02_62: 525524030
+      neo_zero_buildings_02_63: 349271941
+      neo_zero_buildings_02_64: -139748372
+      neo_zero_buildings_02_65: -2048765188
+      neo_zero_buildings_02_66: -1042318599
+      neo_zero_buildings_02_67: -901956872
+      neo_zero_buildings_02_68: -334629250
+      neo_zero_buildings_02_69: -102941398
+      neo_zero_buildings_02_7: -820933495
+      neo_zero_buildings_02_70: 239411735
+      neo_zero_buildings_02_71: -1449961023
+      neo_zero_buildings_02_72: 1095833178
+      neo_zero_buildings_02_73: 438312549
+      neo_zero_buildings_02_74: -1872495594
+      neo_zero_buildings_02_75: 1061643494
+      neo_zero_buildings_02_76: -2136346232
+      neo_zero_buildings_02_77: -377089635
+      neo_zero_buildings_02_78: 44293140
+      neo_zero_buildings_02_79: -1762939416
+      neo_zero_buildings_02_8: 843484981
+      neo_zero_buildings_02_80: 410011310
+      neo_zero_buildings_02_81: -616072125
+      neo_zero_buildings_02_82: 1202930537
+      neo_zero_buildings_02_83: 280943416
+      neo_zero_buildings_02_84: -352318578
+      neo_zero_buildings_02_85: 472848338
+      neo_zero_buildings_02_86: 817328678
+      neo_zero_buildings_02_87: -1191979373
+      neo_zero_buildings_02_88: -2085847177
+      neo_zero_buildings_02_89: 1662857977
+      neo_zero_buildings_02_9: 1370861455
+      neo_zero_buildings_02_90: 1817373205
+      neo_zero_buildings_02_91: 742708106
+      neo_zero_buildings_02_92: -1402665937
+      neo_zero_buildings_02_93: 1748540793
+      neo_zero_buildings_02_94: -1580105719
+      neo_zero_buildings_02_95: 768440554
+      neo_zero_buildings_02_96: 1072281139
+      neo_zero_buildings_02_97: 170963732
+      neo_zero_buildings_02_98: -1098574086
+      neo_zero_buildings_02_99: 955695263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 9b735c4b34859b948b5ade43eef39dfe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6124899677521787981
+    second: 2D_TOPDOWN_PIXELART_CARS_0
+  - first:
+      213: 5684828093975958014
+    second: 2D_TOPDOWN_PIXELART_CARS_1
+  - first:
+      213: 165802893019753692
+    second: 2D_TOPDOWN_PIXELART_CARS_2
+  - first:
+      213: -8969465210265996145
+    second: 2D_TOPDOWN_PIXELART_CARS_3
+  - first:
+      213: 7640542186677791536
+    second: 2D_TOPDOWN_PIXELART_CARS_4
+  - first:
+      213: -5165779936217341339
+    second: 2D_TOPDOWN_PIXELART_CARS_5
+  - first:
+      213: -4689939142656803970
+    second: 2D_TOPDOWN_PIXELART_CARS_6
+  - first:
+      213: 3724533007939156746
+    second: 2D_TOPDOWN_PIXELART_CARS_7
+  - first:
+      213: 1051168586393025194
+    second: 2D_TOPDOWN_PIXELART_CARS_8
+  - first:
+      213: 310903252235291031
+    second: 2D_TOPDOWN_PIXELART_CARS_9
+  - first:
+      213: -1686345011272848681
+    second: 2D_TOPDOWN_PIXELART_CARS_10
+  - first:
+      213: -6214803757219569290
+    second: 2D_TOPDOWN_PIXELART_CARS_11
+  - first:
+      213: 3179048444899733758
+    second: 2D_TOPDOWN_PIXELART_CARS_12
+  - first:
+      213: -4760204193007225772
+    second: 2D_TOPDOWN_PIXELART_CARS_13
+  - first:
+      213: -6616717546250844328
+    second: 2D_TOPDOWN_PIXELART_CARS_14
+  - first:
+      213: 5087881102270269651
+    second: 2D_TOPDOWN_PIXELART_CARS_15
+  - first:
+      213: -1740737868197184239
+    second: 2D_TOPDOWN_PIXELART_CARS_16
+  - first:
+      213: 1106443969993157992
+    second: 2D_TOPDOWN_PIXELART_CARS_17
+  - first:
+      213: -62225334406001915
+    second: 2D_TOPDOWN_PIXELART_CARS_18
+  - first:
+      213: -4069868000543503413
+    second: 2D_TOPDOWN_PIXELART_CARS_19
+  - first:
+      213: 7954915296795608671
+    second: 2D_TOPDOWN_PIXELART_CARS_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c379b3ec3000550800000000000000
+      internalID: 6124899677521787981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 292
+        width: 31
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1199e280194ee40800000000000000
+      internalID: 5684828093975958014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 289
+        width: 32
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcac2d4adc0d4200800000000000000
+      internalID: 165802893019753692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 296
+        width: 33
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84fedcd9ee068380800000000000000
+      internalID: -8969465210265996145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03be05033a8a80a60800000000000000
+      internalID: 7640542186677791536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 205
+        width: 37
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562ece974867f48b0800000000000000
+      internalID: -5165779936217341339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bbdb7b23df9eeb0800000000000000
+      internalID: -4689939142656803970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 196
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b3e6c890330b330800000000000000
+      internalID: 3724533007939156746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 193
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa710f8240869e00800000000000000
+      internalID: 1051168586393025194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 200
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7998ff45cdc805400800000000000000
+      internalID: 310903252235291031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da645a9526e898e0800000000000000
+      internalID: -1686345011272848681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6712a2609e490c9a0800000000000000
+      internalID: -6214803757219569290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_12
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 100
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0b102a7bf3e1c20800000000000000
+      internalID: 3179048444899733758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 97
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454ba71d18b50fdb0800000000000000
+      internalID: -4760204193007225772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857cf94d272bc24a0800000000000000
+      internalID: -6616717546250844328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d80e30e7e8cb9640800000000000000
+      internalID: 5087881102270269651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d3907b128a7d7e0800000000000000
+      internalID: -1740737868197184239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86da053bde0ea5f00800000000000000
+      internalID: 1106443969993157992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b43b6536ee22ff0800000000000000
+      internalID: -62225334406001915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb00e8dd9ce487c0800000000000000
+      internalID: -4069868000543503413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_TOPDOWN_PIXELART_CARS_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56c2d3c059856e60800000000000000
+      internalID: 7954915296795608671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      2D_TOPDOWN_PIXELART_CARS_0: 6124899677521787981
+      2D_TOPDOWN_PIXELART_CARS_1: 5684828093975958014
+      2D_TOPDOWN_PIXELART_CARS_10: -1686345011272848681
+      2D_TOPDOWN_PIXELART_CARS_11: -6214803757219569290
+      2D_TOPDOWN_PIXELART_CARS_12: 3179048444899733758
+      2D_TOPDOWN_PIXELART_CARS_13: -4760204193007225772
+      2D_TOPDOWN_PIXELART_CARS_14: -6616717546250844328
+      2D_TOPDOWN_PIXELART_CARS_15: 5087881102270269651
+      2D_TOPDOWN_PIXELART_CARS_16: -1740737868197184239
+      2D_TOPDOWN_PIXELART_CARS_17: 1106443969993157992
+      2D_TOPDOWN_PIXELART_CARS_18: -62225334406001915
+      2D_TOPDOWN_PIXELART_CARS_19: -4069868000543503413
+      2D_TOPDOWN_PIXELART_CARS_2: 165802893019753692
+      2D_TOPDOWN_PIXELART_CARS_20: 7954915296795608671
+      2D_TOPDOWN_PIXELART_CARS_3: -8969465210265996145
+      2D_TOPDOWN_PIXELART_CARS_4: 7640542186677791536
+      2D_TOPDOWN_PIXELART_CARS_5: -5165779936217341339
+      2D_TOPDOWN_PIXELART_CARS_6: -4689939142656803970
+      2D_TOPDOWN_PIXELART_CARS_7: 3724533007939156746
+      2D_TOPDOWN_PIXELART_CARS_8: 1051168586393025194
+      2D_TOPDOWN_PIXELART_CARS_9: 310903252235291031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

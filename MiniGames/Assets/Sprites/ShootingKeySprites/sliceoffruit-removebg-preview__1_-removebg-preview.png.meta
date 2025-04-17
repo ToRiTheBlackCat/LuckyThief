@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: f192748519366834cab583869280cdd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8635140096443003443
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_0
+  - first:
+      213: 7252658568213017472
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_1
+  - first:
+      213: 438976622717060931
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_2
+  - first:
+      213: -6783081103099767106
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_3
+  - first:
+      213: -9116442720427934504
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_4
+  - first:
+      213: 3819424342832715538
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_5
+  - first:
+      213: -3083269776132350
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_6
+  - first:
+      213: 8723203146239118219
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_7
+  - first:
+      213: -82157261181793025
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_8
+  - first:
+      213: -1913046483778689630
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_9
+  - first:
+      213: -1237600221520186530
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_10
+  - first:
+      213: 1979828206705622284
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_11
+  - first:
+      213: 7740504713530450827
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_12
+  - first:
+      213: 3827693305762169410
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_13
+  - first:
+      213: 3088413878339579256
+    second: sliceoffruit-removebg-preview__1_-removebg-preview_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 554
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd48cd45d1d92880800000000000000
+      internalID: -8635140096443003443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 554
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b783aa8e96a460800000000000000
+      internalID: 7252658568213017472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 549
+        width: 113
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34740cd99ee871600800000000000000
+      internalID: 438976622717060931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 418
+        width: 116
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6d21fcca7add1a0800000000000000
+      internalID: -6783081103099767106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 411
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc72b195a3eb7180800000000000000
+      internalID: -9116442720427934504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 418
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21716012432510530800000000000000
+      internalID: 3819424342832715538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 284
+        width: 121
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2073f3058cb05fff0800000000000000
+      internalID: -3083269776132350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 286
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b07234b0b0f0970800000000000000
+      internalID: 8723203146239118219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 284
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc4a8ff76e1cdef0800000000000000
+      internalID: -82157261181793025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 164
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5af87db5e7375e0800000000000000
+      internalID: -1913046483778689630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e533856d72923dee0800000000000000
+      internalID: -1237600221520186530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 165
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dbcf0b343c97b10800000000000000
+      internalID: 1979828206705622284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 35
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b832838a60ccb6b60800000000000000
+      internalID: 7740504713530450827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 37
+        width: 118
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242481718c2be1530800000000000000
+      internalID: 3827693305762169410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliceoffruit-removebg-preview__1_-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 38
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d21d92f004cda20800000000000000
+      internalID: 3088413878339579256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sliceoffruit-removebg-preview__1_-removebg-preview_0: -8635140096443003443
+      sliceoffruit-removebg-preview__1_-removebg-preview_1: 7252658568213017472
+      sliceoffruit-removebg-preview__1_-removebg-preview_10: -1237600221520186530
+      sliceoffruit-removebg-preview__1_-removebg-preview_11: 1979828206705622284
+      sliceoffruit-removebg-preview__1_-removebg-preview_12: 7740504713530450827
+      sliceoffruit-removebg-preview__1_-removebg-preview_13: 3827693305762169410
+      sliceoffruit-removebg-preview__1_-removebg-preview_14: 3088413878339579256
+      sliceoffruit-removebg-preview__1_-removebg-preview_2: 438976622717060931
+      sliceoffruit-removebg-preview__1_-removebg-preview_3: -6783081103099767106
+      sliceoffruit-removebg-preview__1_-removebg-preview_4: -9116442720427934504
+      sliceoffruit-removebg-preview__1_-removebg-preview_5: 3819424342832715538
+      sliceoffruit-removebg-preview__1_-removebg-preview_6: -3083269776132350
+      sliceoffruit-removebg-preview__1_-removebg-preview_7: 8723203146239118219
+      sliceoffruit-removebg-preview__1_-removebg-preview_8: -82157261181793025
+      sliceoffruit-removebg-preview__1_-removebg-preview_9: -1913046483778689630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

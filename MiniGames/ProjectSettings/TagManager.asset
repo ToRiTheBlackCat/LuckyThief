@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - ExternalItem
+  - PlayerUI
+  - GameOver
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - CheckArea
+  - Wall
+  - Furniture
+  - Interactable
+  - MiniGame
+  - Character
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1336415905
+    locked: 0
+  - name: Wall
+    uniqueID: 2767087279
+    locked: 0
+  - name: Environment
+    uniqueID: 3782093749
+    locked: 0
+  - name: Obscure Wall
+    uniqueID: 979887111
+    locked: 0
+  - name: UI
+    uniqueID: 3192595265
+    locked: 0
+  m_RenderingLayers:
+  - Default
