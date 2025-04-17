@@ -16,3 +16,4 @@ MonoBehaviour:
   sprite: {fileID: 0}
   weight: 0
   type: 0
+  value: 50
